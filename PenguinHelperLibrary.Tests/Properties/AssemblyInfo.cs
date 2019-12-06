@@ -1,5 +1,20 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿#region Title Header
+
+// Name: Phillip Smith
+// 
+// Solution: PenguinHelperLibrary
+// Project: PenguinHelperLibrary.Tests
+// File Name: AssemblyInfo.cs
+// 
+// Current Data:
+// 2019-12-07 1:10 AM
+// 
+// Creation Date:
+// 2019-12-06 4:13 PM
+
+#endregion
+
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following

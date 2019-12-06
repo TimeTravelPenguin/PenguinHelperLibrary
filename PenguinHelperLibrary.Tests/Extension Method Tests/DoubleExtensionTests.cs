@@ -1,4 +1,20 @@
-﻿using System;
+﻿#region Title Header
+
+// Name: Phillip Smith
+// 
+// Solution: PenguinHelperLibrary
+// Project: PenguinHelperLibrary.Tests
+// File Name: DoubleExtensionTests.cs
+// 
+// Current Data:
+// 2019-12-07 1:10 AM
+// 
+// Creation Date:
+// 2019-12-06 4:14 PM
+
+#endregion
+
+using System;
 using AllOverIt.Fixture;
 using FluentAssertions;
 using JetBrains.Annotations;

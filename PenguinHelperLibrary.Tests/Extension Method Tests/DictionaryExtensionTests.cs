@@ -1,4 +1,20 @@
-﻿using System.Collections.Generic;
+﻿#region Title Header
+
+// Name: Phillip Smith
+// 
+// Solution: PenguinHelperLibrary
+// Project: PenguinHelperLibrary.Tests
+// File Name: DictionaryExtensionTests.cs
+// 
+// Current Data:
+// 2019-12-07 1:10 AM
+// 
+// Creation Date:
+// 2019-12-06 6:32 PM
+
+#endregion
+
+using System.Collections.Generic;
 using System.Linq;
 using AllOverIt.Fixture;
 using FluentAssertions;

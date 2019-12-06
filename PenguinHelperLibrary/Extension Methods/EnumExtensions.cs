@@ -1,4 +1,20 @@
-﻿using System;
+﻿#region Title Header
+
+// Name: Phillip Smith
+// 
+// Solution: PenguinHelperLibrary
+// Project: PenguinHelperLibrary
+// File Name: EnumExtensions.cs
+// 
+// Current Data:
+// 2019-12-07 1:10 AM
+// 
+// Creation Date:
+// 2019-12-07 12:59 AM
+
+#endregion
+
+using System;
 
 namespace PenguinHelperLibrary.Extension_Methods
 {
