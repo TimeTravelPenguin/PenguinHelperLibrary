@@ -97,7 +97,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             }
 
             [Fact]
-            public void IsGreaterTan_False()
+            public void IsGreaterThan_False()
             {
                 var small = Create<double>();
                 var big = small + Math.Abs(CreateExcluding(0));
@@ -112,6 +112,48 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                 var big = small + Math.Abs(CreateExcluding(0));
 
                 big.IsGreaterThan(small).Should().BeTrue();
+            }
+        }
+
+        public class IsGreaterThanOrEqual : AoiFixtureBase
+        {
+            [Theory]
+            [InlineData(double.Epsilon, 0, true)]
+            [InlineData(double.Epsilon, double.Epsilon, true)]
+            [InlineData(0, double.NegativeInfinity, true)]
+            [InlineData(double.PositiveInfinity, 0, true)]
+            public void IsGreaterThanOrEqual_True_EdgeCases(double lhs, double rhs, bool expected)
+            {
+                lhs.IsGreaterThanOrEqual(rhs).Should().Be(expected);
+            }
+
+            [Theory]
+            [InlineData(double.NegativeInfinity, double.NegativeInfinity, false)]
+            [InlineData(double.PositiveInfinity, double.PositiveInfinity, false)]
+            [InlineData(double.NaN, double.NaN, false)]
+            public void IsGreaterThanOrEqual_False_EdgeCases(double lhs, double rhs, bool expected)
+            {
+                lhs.IsGreaterThanOrEqual(rhs).Should().Be(expected);
+            }
+
+            [Fact]
+            public void IsGreaterThanOrEqual_False()
+            {
+                var small = Create<double>();
+                var big = small + Math.Abs(CreateExcluding(0));
+
+                small.IsGreaterThanOrEqual(big).Should().BeFalse();
+            }
+
+            [Fact]
+            public void IsGreaterThanOrEqual_True()
+            {
+                var small = Create<double>();
+                var big = small + Math.Abs(CreateExcluding(0));
+
+                big.IsGreaterThanOrEqual(small).Should().BeTrue();
+                small.IsGreaterThanOrEqual(small).Should().BeTrue();
+                big.IsGreaterThanOrEqual(big).Should().BeTrue();
             }
         }
     }
