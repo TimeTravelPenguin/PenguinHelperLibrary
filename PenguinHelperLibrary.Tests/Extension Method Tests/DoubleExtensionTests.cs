@@ -3,6 +3,7 @@ using AllOverIt.Fixture;
 using FluentAssertions;
 using PenguinHelperLibrary.Extension_Methods;
 using Xunit;
+using Xunit.Sdk;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
