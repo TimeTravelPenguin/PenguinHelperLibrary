@@ -15,6 +15,7 @@
 #endregion
 
 using System;
+using Humanizer;
 
 namespace PenguinHelperLibrary.Extension_Methods
 {
@@ -37,35 +38,9 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// <returns>
         ///     Returns a <see cref="string" />.
         /// </returns>
-        /// <exception cref="ArgumentOutOfRangeException">
-        ///     Thrown when the <see cref="int" /> value is less than or equal to zero.
-        /// </exception>
         public static string AddOrdinal(this int num)
         {
-            if (num <= 0)
-            {
-                throw new ArgumentOutOfRangeException("Value must be greater than zero");
-            }
-
-            switch (num % 100)
-            {
-                case 11:
-                case 12:
-                case 13:
-                    return num + "th";
-            }
-
-            switch (num % 10)
-            {
-                case 1:
-                    return num + "st";
-                case 2:
-                    return num + "nd";
-                case 3:
-                    return num + "rd";
-                default:
-                    return num + "th";
-            }
+            return num.Ordinalize();
         }
     }
 }
