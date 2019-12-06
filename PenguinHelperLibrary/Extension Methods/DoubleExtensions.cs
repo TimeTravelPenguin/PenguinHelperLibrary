@@ -21,7 +21,7 @@ namespace PenguinHelperLibrary.Extension_Methods
 
         public static bool IsGreaterThanOrEqual(this double lhs, double rhs)
         {
-            return lhs.IsGreaterThan(rhs) || lhs.Equals(rhs);
+            return lhs.IsGreaterThan(rhs) || lhs.IsEqualTo(rhs);
         }
     }
 }
