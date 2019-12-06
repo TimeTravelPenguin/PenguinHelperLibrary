@@ -1,28 +1,31 @@
-﻿using System;
-using AllOverIt.Fixture;
+﻿using AllOverIt.Fixture;
 using FluentAssertions;
+using JetBrains.Annotations;
 using PenguinHelperLibrary.Extension_Methods;
 using Xunit;
-using Xunit.Sdk;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
+    [UsedImplicitly]
     public class DoubleExtensionTests
     {
-        public class IsZeroTests
+        public class IsZeroTests : AoiFixtureBase
         {
             [Theory]
-            [InlineData(-1)]
-            [InlineData(-5.5)]
-            [InlineData(-3)]
-            [InlineData(3.5)]
             [InlineData(double.Epsilon)]
             [InlineData(double.MinValue)]
             [InlineData(double.MaxValue)]
             [InlineData(double.PositiveInfinity)]
             [InlineData(double.NegativeInfinity)]
-            public void IsZeroTest_False(double expected)
+            public void IsZeroTest_False_EdgeCases(double expected)
             {
+                expected.IsZero().Should().BeFalse();
+            }
+
+            [Fact]
+            public void IsZeroTest_False_Double()
+            {
+                var expected = CreateExcluding(0d);
                 expected.IsZero().Should().BeFalse();
             }
 
@@ -36,13 +39,6 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 
         public class IsEqualToTests : AoiFixtureBase
         {
-            [Fact]
-            public void IsEqualTo_True_double()
-            {
-                var actual = Create<double>();
-                actual.IsEqualTo(actual).Should().BeTrue();
-            }
-
             [Theory]
             [InlineData(double.Epsilon)]
             [InlineData(double.MaxValue)]
@@ -64,17 +60,21 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             public void IsEqualTo_False()
             {
                 var lhs = Create<double>();
-
-                double notZero;
-                do
-                {
-                    notZero = Create<double>();
-                } while (Math.Abs(notZero) <= double.Epsilon);
-
-                var rhs = lhs + notZero;
+                var rhs = CreateExcluding(lhs);
 
                 lhs.IsEqualTo(rhs).Should().BeFalse();
             }
+
+            [Fact]
+            public void IsEqualTo_True_double()
+            {
+                var actual = Create<double>();
+                actual.IsEqualTo(actual).Should().BeTrue();
+            }
+        }
+
+        public class IsGreaterThan
+        {
         }
     }
 }
