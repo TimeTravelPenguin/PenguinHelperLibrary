@@ -9,8 +9,10 @@ namespace PenguinHelperLibrary.Extension_Methods
     public static class DictionaryExtensions
     {
         /// <summary>
-        ///     Gets a value with an <see cref="IDictionary{TKey,TValue}" />, given a key. If the key does not exist, the returned
-        ///     value is the default value of <typeparamref name="TValue" />.
+        ///     Returns a <typeparamref name="TValue" /> within an <see cref="IDictionary{TKey,TValue}" />, given a
+        ///     <typeparamref name="TKey" /> <paramref name="key" />. If the <typeparamref name="TKey" /> does not exist, the
+        ///     returned
+        ///     value is the <see langword="default" /> value of <typeparamref name="TValue" />.
         /// </summary>
         /// <typeparam name="TKey"></typeparam>
         /// <typeparam name="TValue"></typeparam>
@@ -30,6 +32,27 @@ namespace PenguinHelperLibrary.Extension_Methods
             return result;
         }
 
+        /// <summary>
+        ///     Returns a <typeparamref name="TValue" /> within an <see cref="IDictionary{TKey,TValue}" />, given a
+        ///     <typeparamref name="TKey" /> <paramref name="key" />. If the <typeparamref name="TKey" /> does not exist, the
+        ///     returned
+        ///     value is <paramref name="defaultValue" />.
+        /// </summary>
+        /// <typeparam name="TKey"></typeparam>
+        /// <typeparam name="TValue"></typeparam>
+        /// <param name="dictionary">The <see cref="IDictionary" /> value to get a value.</param>
+        /// <param name="key">
+        ///     The <typeparamref name="TKey" /> key value of a <see cref="KeyValuePair{TKey,TValue}" /> within
+        ///     <paramref name="dictionary" />.
+        /// </param>
+        /// <param name="defaultValue">
+        ///     The <typeparamref name="TValue" /> to return if the <see cref="IDictionary" /> does not contain the
+        ///     <paramref name="TKey" /> <paramref name="key" />.
+        /// </param>
+        /// <returns>
+        ///     Returns a <typeparamref name="TValue" /> value paired with <paramref name="key" />, if <paramref name="key" />
+        ///     exists. Otherwise, returns <paramref name="defaultValue" />.
+        /// </returns>
         public static TValue GetValueOrDefault<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key,
             TValue defaultValue)
         {
@@ -41,6 +64,17 @@ namespace PenguinHelperLibrary.Extension_Methods
             return result;
         }
 
+        /// <summary>
+        ///     Adds a <see cref="KeyValuePair{TKey,TValue}" /> to an <see cref="IDictionary{TKey, TValue}" />.
+        /// </summary>
+        /// <typeparam name="TKey"></typeparam>
+        /// <typeparam name="TValue"></typeparam>
+        /// <param name="dictionary">
+        ///     The <see cref="IDictionary{TKey,TValue}" /> to add to.
+        /// </param>
+        /// <param name="keyValuePair">
+        ///     The <see cref="KeyValuePair{TKey,TValue}" /> to add.
+        /// </param>
         public static void AddKeyValuePair<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
             KeyValuePair<TKey, TValue> keyValuePair)
         {
