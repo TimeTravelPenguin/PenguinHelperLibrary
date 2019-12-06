@@ -27,10 +27,10 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             [Fact]
             public void EnumToArrayTest()
             {
-                var counter = 0;
+                var index = 0;
                 foreach (var number in EnumExtensions.EnumToArray<Numbers>())
                 {
-                    number.Should().Be((Numbers) counter++);
+                    number.Should().Be((Numbers) index++);
                 }
             }
         }
