@@ -84,6 +84,7 @@
     <Compile Include="Extension Method Tests\DictionaryExtensionTests.cs" />
     <Compile Include="Extension Method Tests\DoubleExtensionTests.cs" />
     <Compile Include="Extension Method Tests\EnumExtensionTests.cs" />
+    <Compile Include="Extension Method Tests\IntegerExtensionTests.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

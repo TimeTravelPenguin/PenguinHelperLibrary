@@ -10,7 +10,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
     [UsedImplicitly]
     public class DoubleExtensionTests
     {
-        public class IsZeroTests : AoiFixtureBase
+        public class IsZero : AoiFixtureBase
         {
             [Theory]
             [InlineData(double.Epsilon)]
@@ -39,7 +39,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             }
         }
 
-        public class IsEqualToTests : AoiFixtureBase
+        public class IsEqualTo : AoiFixtureBase
         {
             [Theory]
             [InlineData(double.Epsilon)]
