@@ -1,4 +1,5 @@
-﻿using AllOverIt.Fixture;
+﻿using System;
+using AllOverIt.Fixture;
 using FluentAssertions;
 using JetBrains.Annotations;
 using PenguinHelperLibrary.Extension_Methods;
@@ -17,6 +18,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             [InlineData(double.MaxValue)]
             [InlineData(double.PositiveInfinity)]
             [InlineData(double.NegativeInfinity)]
+            [InlineData(double.NaN)]
             public void IsZeroTest_False_EdgeCases(double expected)
             {
                 expected.IsZero().Should().BeFalse();
@@ -51,7 +53,8 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             [Theory]
             [InlineData(double.PositiveInfinity)]
             [InlineData(double.NegativeInfinity)]
-            public void IsEqualTo_False_Infinity(double expected)
+            [InlineData(double.NaN)]
+            public void IsEqualTo_False_EdgeCases(double expected)
             {
                 expected.IsEqualTo(expected).Should().BeFalse();
             }
@@ -66,15 +69,50 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             }
 
             [Fact]
-            public void IsEqualTo_True_double()
+            public void IsEqualTo_True()
             {
                 var actual = Create<double>();
                 actual.IsEqualTo(actual).Should().BeTrue();
             }
         }
 
-        public class IsGreaterThan
+        public class IsGreaterThan : AoiFixtureBase
         {
+            [Theory]
+            [InlineData(double.Epsilon, 0, true)]
+            [InlineData(0, double.NegativeInfinity, true)]
+            [InlineData(double.PositiveInfinity, 0, true)]
+            public void IsGreaterThan_True_EdgeCases(double lhs, double rhs, bool expected)
+            {
+                lhs.IsGreaterThan(rhs).Should().Be(expected);
+            }
+
+            [Theory]
+            [InlineData(double.NegativeInfinity, double.NegativeInfinity, false)]
+            [InlineData(double.PositiveInfinity, double.PositiveInfinity, false)]
+            [InlineData(double.NaN, double.NaN, false)]
+            public void IsGreaterThan_False_EdgeCases(double lhs, double rhs, bool expected)
+            {
+                lhs.IsGreaterThan(rhs).Should().Be(expected);
+            }
+
+            [Fact]
+            public void IsGreaterTan_False()
+            {
+                var small = Create<double>();
+                var big = small + Math.Abs(CreateExcluding(0));
+
+                small.IsGreaterThan(big).Should().BeFalse();
+            }
+
+            [Fact]
+            public void IsGreaterThan_True()
+            {
+                var small = Create<double>();
+                var big = small + Math.Abs(CreateExcluding(0));
+
+                big.IsGreaterThan(small).Should().BeTrue();
+            }
         }
     }
 }
