@@ -35,14 +35,6 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             {
                 input.AddOrdinal().Should().Be(expected);
             }
-
-            [Fact]
-            public void AddOrdinal_Throw()
-            {
-                Invoking(() => GetWithinRange(int.MinValue, 0).AddOrdinal())
-                    .Should()
-                    .Throw<ArgumentOutOfRangeException>();
-            }
         }
     }
 }
