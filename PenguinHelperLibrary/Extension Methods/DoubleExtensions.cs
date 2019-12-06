@@ -14,19 +14,9 @@ namespace PenguinHelperLibrary.Extension_Methods
             return Math.Abs(lhs - rhs) < double.Epsilon;
         }
 
-        public static bool IsGreaterThanZero(this double lhs)
-        {
-            return lhs >= double.Epsilon;
-        }
-
-        public static bool AbsIsGreaterThanZero(this double lhs)
-        {
-            return Math.Abs(lhs).IsGreaterThanZero();
-        }
-
         public static bool IsGreaterThan(this double lhs, double rhs)
         {
-            return (lhs - rhs).IsGreaterThanZero();
+            return lhs - rhs > 0;
         }
 
         public static bool IsGreaterThanOrEqual(this double lhs, double rhs)
