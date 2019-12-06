@@ -14,7 +14,6 @@
 
 #endregion
 
-using System;
 using Humanizer;
 
 namespace PenguinHelperLibrary.Extension_Methods

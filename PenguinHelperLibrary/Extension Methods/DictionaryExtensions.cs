@@ -7,10 +7,10 @@
 // File Name: DictionaryExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 1:10 AM
+// 2019-12-07 10:20 AM
 // 
 // Creation Date:
-// 2019-12-07 12:59 AM
+// 2019-12-07 10:18 AM
 
 #endregion
 
@@ -63,7 +63,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </param>
         /// <param name="defaultValue">
         ///     The <typeparamref name="TValue" /> to return if the <see cref="IDictionary" /> does not contain the
-        ///     <paramref name="TKey" /> <paramref name="key" />.
+        ///     <typeparamref name="TKey" /> name="TKey" /> <paramref name="key" />.
         /// </param>
         /// <returns>
         ///     Returns a <typeparamref name="TValue" /> value paired with <paramref name="key" />, if <paramref name="key" />
