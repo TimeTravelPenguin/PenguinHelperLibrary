@@ -37,6 +37,8 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             public int RandomInt { get; set; }
             public double RandomDouble { get; set; }
             public DateTime RandomDateTime { get; set; }
+
+            private RandomObject(){}
         }
 
         /// <summary>
