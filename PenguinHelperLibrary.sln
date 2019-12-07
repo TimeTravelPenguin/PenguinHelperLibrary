@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenguinHelperLibrary", "Pen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenguinHelperLibrary.Tests", "PenguinHelperLibrary.Tests\PenguinHelperLibrary.Tests.csproj", "{5B84592E-7A8C-40E6-8740-82884CDA8516}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenguinHelperLibrary.Demos", "PenguinHelper.Demos\PenguinHelperLibrary.Demos.csproj", "{842BC883-056D-4639-BC08-07C77565C4F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B84592E-7A8C-40E6-8740-82884CDA8516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B84592E-7A8C-40E6-8740-82884CDA8516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B84592E-7A8C-40E6-8740-82884CDA8516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842BC883-056D-4639-BC08-07C77565C4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842BC883-056D-4639-BC08-07C77565C4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842BC883-056D-4639-BC08-07C77565C4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842BC883-056D-4639-BC08-07C77565C4F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
