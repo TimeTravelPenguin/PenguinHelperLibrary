@@ -7,7 +7,7 @@
 // File Name: ExceptionExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 3:51 PM
+// 2019-12-07 5:08 PM
 // 
 // Creation Date:
 // 2019-12-07 3:06 PM
@@ -30,7 +30,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
     public class ExceptionExtensionTests
     {
         /// <summary>
-        ///     Tests <see cref="Extension_Methods.ExceptionExtensions.TryOrThrow(Action, Exception)" />
+        ///     Tests <see cref="Extension_Methods.ExceptionExtensions.TryOrThrow{TException}(Action, TException)" />
         /// </summary>
         public class TryOrThrowTests : AoiFixtureBase
         {
