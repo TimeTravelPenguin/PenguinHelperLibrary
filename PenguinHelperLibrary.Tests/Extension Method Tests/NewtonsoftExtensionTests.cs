@@ -39,7 +39,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             public double RandomDouble { get; set; }
             public DateTime RandomDateTime { get; set; }
 
-            private RandomObject()
+            public RandomObject()
             {
             }
         }
