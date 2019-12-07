@@ -16,11 +16,13 @@
 
 using AllOverIt.Fixture;
 using FluentAssertions;
+using JetBrains.Annotations;
 using PenguinHelperLibrary.Extension_Methods;
 using Xunit;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
+    [UsedImplicitly]
     public class EnumExtensionTests
     {
         private enum Numbers
