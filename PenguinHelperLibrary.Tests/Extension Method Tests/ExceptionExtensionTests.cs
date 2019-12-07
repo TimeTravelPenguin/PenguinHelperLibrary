@@ -7,33 +7,39 @@
 // File Name: ExceptionExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 2:51 PM
+// 2019-12-07 3:30 PM
 // 
 // Creation Date:
-// 2019-12-07 2:29 PM
+// 2019-12-07 3:06 PM
 
 #endregion
 
 using System;
 using AllOverIt.Fixture;
+using FluentAssertions;
 using PenguinHelperLibrary.Extension_Methods;
 using Xunit;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
-    public class ExceptionExtensionTests : AoiFixtureBase
+    public class ExceptionExtensionTests
     {
-        public class TryOrThrowTests
+        public class TryOrThrowTests : AoiFixtureBase
         {
             [Fact]
             public void TryOrThrowTest()
             {
-                bool AreEqual(int a, int b) => a == b;
+                bool AreEqual(int a, int b)
+                {
+                    return a == b ? true : throw new Exception();
+                }
 
-                Action act = () => AreEqual(1, 1);
+                Action act = () => AreEqual(1, 2);
 
-
-                act.TryOrThrow(new Exception("This is a test"));
+                Invoking(() => act.TryOrThrow(new Exception("This is a test")))
+                    .Should()
+                    .Throw<Exception>()
+                    .WithMessage("This is a test");
             }
         }
     }
