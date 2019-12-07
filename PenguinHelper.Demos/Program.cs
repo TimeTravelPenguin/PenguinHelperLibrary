@@ -29,7 +29,7 @@ namespace PenguinHelperLibrary.Demos
         /// </summary>
         public static void Main()
         {
-            //Vector2DDemos.testMap();
+            Vector2DDemos.Test();
 
             Console.ReadKey();
         }
