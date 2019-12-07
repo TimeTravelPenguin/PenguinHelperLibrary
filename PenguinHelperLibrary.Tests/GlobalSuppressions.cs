@@ -7,7 +7,7 @@
 // File Name: GlobalSuppressions.cs
 // 
 // Current Data:
-// 2019-12-07 1:10 AM
+// 2019-12-07 12:51 PM
 // 
 // Creation Date:
 // 2019-12-06 5:06 PM
@@ -19,3 +19,4 @@ using System.Diagnostics.CodeAnalysis;
 [assembly: SuppressMessage("Naming", "CA1707:Identifiers should not contain underscores")]
 [assembly: SuppressMessage("Design", "CA1034:Nested types should not be visible")]
 [assembly: SuppressMessage("Design", "CA1052:Static holder types should be Static or NotInheritable")]
+[assembly: SuppressMessage("Build", "CA1812: Avoid uninstantiated internal classes")]
