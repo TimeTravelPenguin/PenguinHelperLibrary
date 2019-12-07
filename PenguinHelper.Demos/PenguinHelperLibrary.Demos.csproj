@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PenguinHelper.Demos.Program</StartupObject>
+    <StartupObject>PenguinHelperLibrary.Demos.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
