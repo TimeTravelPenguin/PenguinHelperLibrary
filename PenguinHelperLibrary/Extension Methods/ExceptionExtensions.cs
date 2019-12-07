@@ -7,10 +7,10 @@
 // File Name: ExceptionExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 2:38 PM
+// 2019-12-07 5:07 PM
 // 
 // Creation Date:
-// 2019-12-07 2:18 PM
+// 2019-12-07 3:05 PM
 
 #endregion
 
@@ -18,9 +18,24 @@ using System;
 
 namespace PenguinHelperLibrary.Extension_Methods
 {
+    /// <summary>
+    ///     Extension methods to extend <see cref="Exception" /> functionality
+    /// </summary>
     public static class ExceptionExtensions
     {
-        public static void TryOrThrow(this Action action, Exception ex)
+        /// <summary>
+        ///     Attempts to Invoke an <see cref="Action" />. If it fails, it throws exception <typeparamref name="TException" />.
+        /// </summary>
+        /// <typeparam name="TException">
+        ///     The exception to throw if the <see cref="Action" /> fails.
+        /// </typeparam>
+        /// <param name="action">
+        ///     The <see cref="Action" /> to try.
+        /// </param>
+        /// <param name="ex">
+        ///     The <typeparamref name="TException" /> to throw if <paramref name="action" /> fails.
+        /// </param>
+        public static void TryOrThrow<TException>(this Action action, TException ex) where TException : Exception
         {
             try
             {
