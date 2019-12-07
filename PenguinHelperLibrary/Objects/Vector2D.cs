@@ -7,7 +7,7 @@
 // File Name: Vector2D.cs
 // 
 // Current Data:
-// 2019-12-08 1:17 AM
+// 2019-12-08 1:52 AM
 // 
 // Creation Date:
 // 2019-12-07 6:17 PM
@@ -105,6 +105,20 @@ namespace PenguinHelperLibrary.Objects
         {
             X = x;
             Y = y;
+        }
+
+        /// <summary>
+        ///     Returns the angle of the vector.
+        /// </summary>
+        /// <param name="angleType">
+        ///     The <see cref="Angle" /> type to return.
+        /// </param>
+        /// <returns>
+        ///     Returns <see cref="double" /> value of the angle of the vector.
+        /// </returns>
+        public double Theta(Angle angleType)
+        {
+            return Point2D.ATan(Zero.Point2D, angleType);
         }
 
         /// <summary>
