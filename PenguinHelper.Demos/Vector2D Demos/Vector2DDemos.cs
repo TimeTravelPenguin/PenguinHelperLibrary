@@ -42,6 +42,13 @@ namespace PenguinHelperLibrary.Demos.Vector2D_Demos
             Console.WriteLine($"A+B:\t\tX: {three.X}\t{three.Y}");
         }
 
+        internal static void Test()
+        {
+            var v = new Vector2D(-1, 0);
+            Console.WriteLine(v.Theta(Angle.Radians));
+            Console.WriteLine(v.Theta(Angle.Degrees));
+        }
+
         /// <summary>
         ///     Demo of basic <see cref="DotProduct" />, using operator overloading.
         /// </summary>
