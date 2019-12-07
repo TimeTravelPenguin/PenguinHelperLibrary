@@ -7,10 +7,10 @@
 // File Name: EnumExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 1:10 AM
+// 2019-12-07 1:52 PM
 // 
 // Creation Date:
-// 2019-12-07 12:59 AM
+// 2019-12-07 10:18 AM
 
 #endregion
 
