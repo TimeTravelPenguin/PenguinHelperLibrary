@@ -1,2 +1,5 @@
 # PenguinHelperLibrary
- A little library of extension tests
+A little library of extension tests
+
+## What is this?
+This library is a personal collection of extension methods and other helper methods. It includes both the main library and the testing library
