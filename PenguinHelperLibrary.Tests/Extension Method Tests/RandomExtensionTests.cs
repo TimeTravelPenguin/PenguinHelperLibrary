@@ -7,7 +7,7 @@
 // File Name: RandomExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 1:15 PM
+// 2019-12-07 1:31 PM
 // 
 // Creation Date:
 // 2019-12-07 12:55 PM
@@ -16,6 +16,7 @@
 
 using System.Collections.ObjectModel;
 using AllOverIt.Fixture;
+using AutoFixture;
 using FluentAssertions;
 using JetBrains.Annotations;
 using PenguinHelperLibrary.Extension_Methods;
@@ -40,7 +41,8 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             [Fact]
             public void GetRandomInTest()
             {
-                var collection = Create<Collection<string>>();
+                var collection = new Collection<string>();
+                collection.AddMany(Create<string>, 1000);
 
                 for (var i = 0; i < 1000; i++)
                 {
