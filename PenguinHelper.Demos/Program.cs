@@ -3,11 +3,11 @@
 // Name: Phillip Smith
 // 
 // Solution: PenguinHelperLibrary
-// Project: PenguinHelper.Demos
+// Project: PenguinHelperLibrary.Demos
 // File Name: Program.cs
 // 
 // Current Data:
-// 2019-12-07 8:28 PM
+// 2019-12-08 12:45 AM
 // 
 // Creation Date:
 // 2019-12-07 8:08 PM
@@ -22,14 +22,14 @@ namespace PenguinHelperLibrary.Demos
     /// <summary>
     ///     Main entry point for <see cref="PenguinHelperLibrary.Demos" />
     /// </summary>
-    internal static class Program
+    public static class Program
     {
         /// <summary>
         ///     Main method launches the desired demo
         /// </summary>
-        private static void Main()
+        public static void Main()
         {
-            Vector2DDemos.DotProduct();
+            //Vector2DDemos.testMap();
 
             Console.ReadKey();
         }
