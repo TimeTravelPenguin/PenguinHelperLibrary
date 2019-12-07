@@ -7,10 +7,10 @@
 // File Name: DoubleExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 3:57 PM
+// 2019-12-07 4:07 PM
 // 
 // Creation Date:
-// 2019-12-07 3:06 PM
+// 2019-12-07 4:07 PM
 
 #endregion
 
