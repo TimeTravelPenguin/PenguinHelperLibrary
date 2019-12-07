@@ -1,20 +1,5 @@
-﻿#region Title Header
-
-// Name: Phillip Smith
-// 
-// Solution: PenguinHelperLibrary
-// Project: PenguinHelperLibrary.Tests
-// File Name: AssemblyInfo.cs
-// 
-// Current Data:
-// 2019-12-07 1:10 AM
-// 
-// Creation Date:
-// 2019-12-06 4:13 PM
-
-#endregion
-
-using System.Reflection;
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
@@ -35,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("41d96044-12db-410a-8f20-f3237381801f")]
+[assembly: Guid("5b84592e-7a8c-40e6-8740-82884cda8516")]
 
 // Version information for an assembly consists of the following four values:
 //
