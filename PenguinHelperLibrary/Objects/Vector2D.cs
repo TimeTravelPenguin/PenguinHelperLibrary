@@ -7,7 +7,7 @@
 // File Name: Vector2D.cs
 // 
 // Current Data:
-// 2019-12-07 9:03 PM
+// 2019-12-08 1:17 AM
 // 
 // Creation Date:
 // 2019-12-07 6:17 PM
@@ -19,41 +19,105 @@ using PenguinHelperLibrary.Extension_Methods;
 namespace PenguinHelperLibrary.Objects
 {
     /// <summary>
-    ///     An object representing a 2D Vector
+    ///     An object representing a 2D Vector, with the base at the origin
     /// </summary>
     public class Vector2D
     {
-        public Point2D Point2D { get; set; }
-
+        /// <summary>
+        ///     Returns a <see cref="Vector2D" /> of <see cref="Magnitude" /> zero
+        /// </summary>
         public static Vector2D Zero => new Vector2D(0, 0);
+
+        /// <summary>
+        ///     Returns a <see cref="Vector2D" /> of <see langword="X = 1" />, <see langword="Y = 0" />.
+        /// </summary>
         public static Vector2D One => new Vector2D(1, 0);
 
+        private Point2D Point2D { get; } = new Point2D();
+
+        /// <summary>
+        ///     The X coordinate of the vector
+        /// </summary>
+        public double X
+        {
+            get => Point2D.X;
+            set => Point2D.X = value;
+        }
+
+        /// <summary>
+        ///     The Y coordinate of the vector
+        /// </summary>
+        public double Y
+        {
+            get => Point2D.Y;
+            set => Point2D.Y = value;
+        }
+
+        /// <summary>
+        ///     Returns the length of the <see cref="Vector2D" />
+        /// </summary>
         public double Magnitude => Point2D.SqrDistance(Point2D.Origin);
 
-        public Vector2D() : this(new Point2D())
+        /// <summary>
+        ///     Creates a <see cref="Vector2D" /> with <see cref="Magnitude" /> zero
+        /// </summary>
+        /// <seealso cref="Zero" />
+        public Vector2D() : this(Zero)
         {
         }
 
+        /// <summary>
+        ///     Creates a <see cref="Vector2D" />, with initial <see cref="X" /> and <see cref="Y" /> values
+        ///     defined by the <see cref="PenguinHelperLibrary.Objects.Point2D" /> <paramref name="point" /> parameter.
+        /// </summary>
+        /// <param name="point">
+        ///     <see cref="PenguinHelperLibrary.Objects.Point2D" /> object used
+        ///     to initialize <see cref="X" /> and <see cref="Y" />.
+        /// </param>
         public Vector2D(Point2D point)
         {
             Point2D = point;
         }
 
-        public Vector2D(double x, double y) : this(new Point2D(x, y))
+        /// <summary>
+        ///     Creates a <see cref="Vector2D" />, with initial <see cref="X" /> and <see cref="Y" /> values
+        ///     defined by the <see cref="Vector2D" /> <paramref name="vector" /> parameter.
+        /// </summary>
+        /// <param name="vector">
+        ///     <see cref="Vector2D" /> object used to initialize <see cref="X" /> and <see cref="Y" />.
+        /// </param>
+        public Vector2D(Vector2D vector)
         {
+            Point2D = vector.Point2D;
         }
 
         /// <summary>
-        ///     Dot Product operator.
+        ///     Creates a <see cref="Vector2D" />, with initial <see cref="X" /> and <see cref="Y" /> values
+        ///     defined by the parameters passed.
         /// </summary>
-        /// <param name="vector1" />
-        /// <param name="vector2" />
-        /// <returns>
-        ///     Returns the Dot Product of two <see cref="Vector2D" />.
-        /// </returns>
-        public static double operator *(Vector2D vector1, Vector2D vector2)
+        /// <param name="x">
+        ///     The value to set <see cref="X" />
+        /// </param>
+        /// <param name="y">
+        ///     The value to set <see cref="Y" />
+        /// </param>
+        public Vector2D(double x, double y)
         {
-            return vector1.Point2D.X * vector2.Point2D.X + vector1.Point2D.Y * vector2.Point2D.Y;
+            X = x;
+            Y = y;
+        }
+
+        /// <summary>
+        ///     <see cref="Vector2D" /> dot product operator.
+        /// </summary>
+        /// <param name="vectorLhs" />
+        /// <param name="vectorRhs" />
+        /// <returns>
+        ///     Returns the dot product of two <see cref="Vector2D" />.
+        /// </returns>
+        public static double operator *(Vector2D vectorLhs, Vector2D vectorRhs)
+        {
+            return vectorLhs.X * vectorRhs.X + vectorLhs.Y * vectorRhs.Y;
         }
     }
 }
