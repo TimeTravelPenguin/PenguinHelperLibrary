@@ -51,14 +51,17 @@
     <Compile Include="Extension Methods\DictionaryExtensions.cs" />
     <Compile Include="Extension Methods\DoubleExtensions.cs" />
     <Compile Include="Extension Methods\EnumExtensions.cs" />
-    <Compile Include="Extension Methods\ExceptionExtensions.cs" />
     <Compile Include="Extension Methods\IntegerExtensions.cs" />
+    <Compile Include="Extension Methods\MathExtensions.cs" />
     <Compile Include="Extension Methods\NewtonsoftExtensions.cs" />
+    <Compile Include="Objects\Point2D.cs" />
+    <Compile Include="Objects\Vector2D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extension Methods\RandomExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
