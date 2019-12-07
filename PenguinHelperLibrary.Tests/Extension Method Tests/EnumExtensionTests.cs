@@ -7,7 +7,7 @@
 // File Name: EnumExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 1:10 AM
+// 2019-12-07 2:11 PM
 // 
 // Creation Date:
 // 2019-12-06 6:22 PM
@@ -40,7 +40,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             Ten
         }
 
-        public class EnumToArray : AoiFixtureBase
+        public class EnumToArrayTests : AoiFixtureBase
         {
             [Fact]
             public void EnumToArrayTest()
