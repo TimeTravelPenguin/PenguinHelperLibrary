@@ -7,10 +7,10 @@
 // File Name: RandomExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 1:34 PM
+// 2019-12-07 3:57 PM
 // 
 // Creation Date:
-// 2019-12-07 12:55 PM
+// 2019-12-07 3:06 PM
 
 #endregion
 
@@ -25,13 +25,13 @@ using Xunit;
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
     /// <summary>
-    ///     Tests for the Random Extension Methods
+    ///     Tests <see cref="RandomExtensions" />
     /// </summary>
     [UsedImplicitly]
     public class RandomExtensionTests
     {
         /// <summary>
-        ///     Tests the GetRandomIn method
+        ///     Tests <see cref="RandomExtensions.GetRandomIn{T}(System.Collections.Generic.ICollection{T})" />
         /// </summary>
         public class GetRandomInTests : AoiFixtureBase
         {

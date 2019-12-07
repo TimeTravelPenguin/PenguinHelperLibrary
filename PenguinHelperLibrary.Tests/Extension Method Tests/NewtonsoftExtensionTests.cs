@@ -7,10 +7,10 @@
 // File Name: NewtonsoftExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 11:45 AM
+// 2019-12-07 3:55 PM
 // 
 // Creation Date:
-// 2019-12-07 11:14 AM
+// 2019-12-07 3:06 PM
 
 #endregion
 
@@ -24,12 +24,13 @@ using Xunit;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
+    /// <summary>
+    ///     Tests <see cref="NewtonsoftExtensions" />
+    /// </summary>
     [UsedImplicitly]
     public class NewtonsoftExtensionTests
     {
-        /// <summary>
-        ///     Object used to test serialization
-        /// </summary>
+        // Object used to test serialization
         [UsedImplicitly]
         internal class RandomObject
         {
@@ -38,11 +39,13 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             public double RandomDouble { get; set; }
             public DateTime RandomDateTime { get; set; }
 
-            private RandomObject(){}
+            private RandomObject()
+            {
+            }
         }
 
         /// <summary>
-        ///     Tests for serialization
+        ///     Tests <see cref="NewtonsoftExtensions.SerializeObject{T}(T)" />
         /// </summary>
         public class SerializeObjectTests : AoiFixtureBase
         {
@@ -61,7 +64,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         }
 
         /// <summary>
-        ///     Tests for deserialization
+        ///     Tests <see cref="NewtonsoftExtensions.DeserializeObject{T}(string)" />
         /// </summary>
         public class DeserializeObjectTests : AoiFixtureBase
         {

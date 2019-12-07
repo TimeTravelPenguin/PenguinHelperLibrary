@@ -7,10 +7,10 @@
 // File Name: DictionaryExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 1:10 AM
+// 2019-12-07 3:32 PM
 // 
 // Creation Date:
-// 2019-12-06 6:32 PM
+// 2019-12-07 3:06 PM
 
 #endregion
 
@@ -24,9 +24,15 @@ using Xunit;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
+    /// <summary>
+    ///     Tests <see cref="DictionaryExtensions"/>
+    /// </summary>
     [UsedImplicitly]
     public class DictionaryExtensionTests
     {
+        /// <summary>
+        ///     Tests <see cref="GetValueOrDefault"/>
+        /// </summary>
         public class GetValueOrDefault : AoiFixtureBase
         {
             /// <summary>
@@ -91,6 +97,9 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             }
         }
 
+        /// <summary>
+        ///     Tests <see cref="AddKeyValuePair"/>
+        /// </summary>
         public class AddKeyValuePair : AoiFixtureBase
         {
             /// <summary>
