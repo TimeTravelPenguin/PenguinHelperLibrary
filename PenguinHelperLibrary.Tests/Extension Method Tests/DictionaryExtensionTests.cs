@@ -18,11 +18,13 @@ using System.Collections.Generic;
 using System.Linq;
 using AllOverIt.Fixture;
 using FluentAssertions;
+using JetBrains.Annotations;
 using PenguinHelperLibrary.Extension_Methods;
 using Xunit;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
+    [UsedImplicitly]
     public class DictionaryExtensionTests
     {
         public class GetValueOrDefault : AoiFixtureBase
