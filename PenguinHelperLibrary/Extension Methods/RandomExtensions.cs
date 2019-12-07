@@ -7,7 +7,7 @@
 // File Name: RandomExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 12:16 PM
+// 2019-12-07 1:03 PM
 // 
 // Creation Date:
 // 2019-12-07 11:52 AM
@@ -16,6 +16,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PenguinHelperLibrary.Extension_Methods
 {
@@ -41,7 +42,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </returns>
         public static T GetRandomIn<T>(this ICollection<T> collection)
         {
-            return ((T[]) collection)[RandInt(0, collection.Count)];
+            return collection.ToArray()[RandInt(0, collection.Count)];
         }
 
         private static int RandInt(int min, int max)
