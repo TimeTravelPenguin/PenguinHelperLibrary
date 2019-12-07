@@ -7,7 +7,7 @@
 // File Name: Vector2DDemos.cs
 // 
 // Current Data:
-// 2019-12-07 8:57 PM
+// 2019-12-08 12:59 AM
 // 
 // Creation Date:
 // 2019-12-07 8:09 PM
@@ -36,10 +36,10 @@ namespace PenguinHelperLibrary.Demos.Vector2D_Demos
             var three = one.AddVector2D(two);
 
             Console.WriteLine("This is an example of Vector addition");
-            Console.WriteLine($"Vector A:\tX: {one.Point2D.X}\t{one.Point2D.Y}");
-            Console.WriteLine($"Vector B:\tX: {two.Point2D.X}\t{two.Point2D.Y}");
+            Console.WriteLine($"Vector A:\tX: {one.X}\t{one.Y}");
+            Console.WriteLine($"Vector B:\tX: {two.X}\t{two.Y}");
             Console.WriteLine();
-            Console.WriteLine($"A+B:\t\tX: {three.Point2D.X}\t{three.Point2D.Y}");
+            Console.WriteLine($"A+B:\t\tX: {three.X}\t{three.Y}");
         }
 
         /// <summary>
@@ -53,8 +53,8 @@ namespace PenguinHelperLibrary.Demos.Vector2D_Demos
             var three = one * two;
 
             Console.WriteLine("This is an example of dot product");
-            Console.WriteLine($"Vector A:\tX: {one.Point2D.X}\t{one.Point2D.Y}");
-            Console.WriteLine($"Vector B:\tX: {two.Point2D.X}\t{two.Point2D.Y}");
+            Console.WriteLine($"Vector A:\tX: {one.X}\t{one.Y}");
+            Console.WriteLine($"Vector B:\tX: {two.X}\t{two.Y}");
             Console.WriteLine();
             Console.WriteLine($"A*B:\t\tX: {three}");
         }
