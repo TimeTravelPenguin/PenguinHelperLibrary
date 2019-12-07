@@ -61,6 +61,8 @@
     <Compile Include="Extension Methods\DoubleExtensions.cs" />
     <Compile Include="Extension Methods\EnumExtensions.cs" />
     <Compile Include="Extension Methods\IntegerExtensions.cs" />
+    <Compile Include="Extension Methods\NewtonsoftExtensions.cs" />
+    <Compile Include="Extension Methods\RandomExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
