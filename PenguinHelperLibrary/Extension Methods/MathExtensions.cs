@@ -7,7 +7,7 @@
 // File Name: MathExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 8:17 PM
+// 2019-12-08 12:43 AM
 // 
 // Creation Date:
 // 2019-12-07 6:22 PM
@@ -30,7 +30,7 @@ namespace PenguinHelperLibrary.Extension_Methods
 
         public static Vector2D AddVector2D(this Vector2D thisVector2D, Vector2D vector)
         {
-            return new Vector2D(thisVector2D.Point2D.X + vector.Point2D.X, thisVector2D.Point2D.Y + vector.Point2D.Y);
+            return new Vector2D(thisVector2D.X + vector.X, thisVector2D.Y + vector.Y);
         }
     }
 }
