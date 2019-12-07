@@ -7,7 +7,7 @@
 // File Name: EnumExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 3:48 PM
+// 2019-12-07 8:36 PM
 // 
 // Creation Date:
 // 2019-12-07 3:06 PM
@@ -22,28 +22,28 @@ using Xunit;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
+    // Used exclusively for testing enums
+    internal enum Numbers
+    {
+        Zero,
+        One,
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten
+    }
+
     /// <summary>
     ///     Tests <see cref="EnumExtensions" />
     /// </summary>
     [UsedImplicitly]
     public class EnumExtensionTests
     {
-        // Used exclusively for testing enums
-        private enum Numbers
-        {
-            Zero,
-            One,
-            Two,
-            Three,
-            Four,
-            Five,
-            Six,
-            Seven,
-            Eight,
-            Nine,
-            Ten
-        }
-
         /// <summary>
         ///     Tests <see cref="EnumExtensions.EnumToArray{T}" />
         /// </summary>
