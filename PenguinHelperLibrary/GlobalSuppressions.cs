@@ -1,6 +1,22 @@
-﻿// This file is used by Code Analysis to maintain SuppressMessage
-// attributes that are applied to this project.
-// Project-level suppressions either have no target or are given
-// a specific target and scoped to a namespace, type, member, etc.
+﻿#region Title Header
 
-[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<Pending>")]
+// Name: Phillip Smith
+// 
+// Solution: PenguinHelperLibrary
+// Project: PenguinHelperLibrary
+// File Name: GlobalSuppressions.cs
+// 
+// Current Data:
+// 2019-12-09 1:44 AM
+// 
+// Creation Date:
+// 2019-12-09 12:46 AM
+
+#endregion
+
+using System.Diagnostics.CodeAnalysis;
+
+[assembly: SuppressMessage("Naming", "CA1707:Identifiers should not contain underscores")]
+[assembly:
+    SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification =
+        "<Pending>")]
