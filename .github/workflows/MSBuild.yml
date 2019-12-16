@@ -7,6 +7,12 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
+    - name: Setup Nuget.exe
+      uses: warrenbuckley/Setup-Nuget@v1
+
+    - name: Nuget Restore 
+      run: nuget restore .\PenguinHelperLibrary.sln
+      
     - name: Setup MSBuild.exe
       uses: warrenbuckley/Setup-MSBuild@v1
 
