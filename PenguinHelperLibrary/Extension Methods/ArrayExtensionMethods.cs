@@ -7,7 +7,7 @@
 // File Name: ArrayExtensionMethods.cs
 // 
 // Current Data:
-// 2019-12-09 1:45 AM
+// 2019-12-16 11:57 PM
 // 
 // Creation Date:
 // 2019-12-09 1:02 AM
@@ -37,6 +37,11 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </param>
         public static void Fill<T>(this T[] arr, T value)
         {
+            if (arr == null)
+            {
+                throw new ArgumentNullException(nameof(arr));
+            }
+
             for (var i = 0; i < arr.Length; i++)
             {
                 arr[i] = value;
@@ -58,6 +63,11 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </param>
         public static void FillIfNull<T>(this T[] arr, T value)
         {
+            if (arr == null)
+            {
+                throw new ArgumentNullException(nameof(arr));
+            }
+
             for (var i = 0; i < arr.Length; i++)
             {
                 if (arr[i] == null)
