@@ -1,4 +1,4 @@
-name: Build
+name: PenguinHelperLibrary Build
 on: [push]
 jobs:
   build:
