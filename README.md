@@ -6,4 +6,4 @@ This library is a personal collection of extension methods and other helper meth
 
 ## Builds
 
-[![Actions Status](https://github.com/TimeTravelPenguin/PenguinHelperLibrary/workflows/Build/badge.svg)](https://github.com/TimeTravelPenguin/PenguinHelperLibrary/actions)
+[![Actions Status](https://github.com/TimeTravelPenguin/PenguinHelperLibrary/workflows/PenguinHelperLibrary%20Build/badge.svg)](https://github.com/TimeTravelPenguin/PenguinHelperLibrary/actions)
