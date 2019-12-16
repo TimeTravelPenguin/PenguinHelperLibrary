@@ -7,13 +7,14 @@
 // File Name: DictionaryExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 10:20 AM
+// 2019-12-16 11:59 PM
 // 
 // Creation Date:
-// 2019-12-07 10:18 AM
+// 2019-12-07 3:05 PM
 
 #endregion
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -43,6 +44,11 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </returns>
         public static TValue GetValueOrDefault<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key)
         {
+            if (dictionary == null)
+            {
+                throw new ArgumentNullException(nameof(dictionary));
+            }
+
             dictionary.TryGetValue(key, out var result);
 
             return result;
@@ -72,6 +78,11 @@ namespace PenguinHelperLibrary.Extension_Methods
         public static TValue GetValueOrDefault<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key,
             TValue defaultValue)
         {
+            if (dictionary == null)
+            {
+                throw new ArgumentNullException(nameof(dictionary));
+            }
+
             if (!dictionary.TryGetValue(key, out var result))
             {
                 result = defaultValue;
@@ -94,6 +105,11 @@ namespace PenguinHelperLibrary.Extension_Methods
         public static void AddKeyValuePair<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
             KeyValuePair<TKey, TValue> keyValuePair)
         {
+            if (dictionary == null)
+            {
+                throw new ArgumentNullException(nameof(dictionary));
+            }
+
             dictionary.Add(keyValuePair.Key, keyValuePair.Value);
         }
     }
