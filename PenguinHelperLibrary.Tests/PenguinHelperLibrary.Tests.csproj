@@ -45,7 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AllOverIt.Fixture, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AllOverIt.Fixture.0.7.2\lib\netstandard2.0\AllOverIt.Fixture.dll</HintPath>
+      <HintPath>..\packages\AllOverIt.Fixture.1.0.0-alpha.2\lib\netstandard2.0\AllOverIt.Fixture.dll</HintPath>
     </Reference>
     <Reference Include="AutoFixture, Version=4.11.0.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoFixture.4.11.0\lib\net452\AutoFixture.dll</HintPath>
