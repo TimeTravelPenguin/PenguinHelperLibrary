@@ -7,10 +7,10 @@
 // File Name: RandomExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 1:03 PM
+// 2019-12-18 12:22 AM
 // 
 // Creation Date:
-// 2019-12-07 11:52 AM
+// 2019-12-07 3:05 PM
 
 #endregion
 
@@ -42,6 +42,11 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </returns>
         public static T GetRandomIn<T>(this ICollection<T> collection)
         {
+            if (collection is null)
+            {
+                throw new ArgumentNullException(nameof(collection));
+            }
+
             return collection.ToArray()[RandInt(0, collection.Count)];
         }
 
