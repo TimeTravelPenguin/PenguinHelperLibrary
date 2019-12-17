@@ -104,7 +104,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             {
                 Invoking(() => ((Dictionary<string, string>) null).GetValueOrDefault(Create<string>()))
                     .Should()
-                    .Throw<ArgumentNullException>();
+                    .ThrowExactly<ArgumentNullException>();
             }
             
             [Fact]
@@ -112,7 +112,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             {
                 Invoking(() => ((Dictionary<string, string>) null).GetValueOrDefault(Create<string>(), Create<string>()))
                     .Should()
-                    .Throw<ArgumentNullException>();
+                    .ThrowExactly<ArgumentNullException>();
             }
         }
 
