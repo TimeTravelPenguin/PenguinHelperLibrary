@@ -7,13 +7,14 @@
 // File Name: IntegerExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 1:10 AM
+// 2019-12-17 11:59 PM
 // 
 // Creation Date:
-// 2019-12-07 12:59 AM
+// 2019-12-07 3:05 PM
 
 #endregion
 
+using System.Globalization;
 using Humanizer;
 
 namespace PenguinHelperLibrary.Extension_Methods

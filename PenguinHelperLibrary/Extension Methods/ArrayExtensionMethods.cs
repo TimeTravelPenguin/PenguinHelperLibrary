@@ -37,7 +37,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </param>
         public static void Fill<T>(this T[] arr, T value)
         {
-            if (arr == null)
+            if (arr is null)
             {
                 throw new ArgumentNullException(nameof(arr));
             }
@@ -63,14 +63,14 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </param>
         public static void FillIfNull<T>(this T[] arr, T value)
         {
-            if (arr == null)
+            if (arr is null)
             {
                 throw new ArgumentNullException(nameof(arr));
             }
 
             for (var i = 0; i < arr.Length; i++)
             {
-                if (arr[i] == null)
+                if (arr[i] is null)
                 {
                     arr[i] = value;
                 }

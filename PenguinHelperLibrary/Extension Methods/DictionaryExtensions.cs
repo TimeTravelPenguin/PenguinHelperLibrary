@@ -44,7 +44,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </returns>
         public static TValue GetValueOrDefault<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key)
         {
-            if (dictionary == null)
+            if (dictionary is null)
             {
                 throw new ArgumentNullException(nameof(dictionary));
             }
@@ -78,7 +78,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         public static TValue GetValueOrDefault<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key,
             TValue defaultValue)
         {
-            if (dictionary == null)
+            if (dictionary is null)
             {
                 throw new ArgumentNullException(nameof(dictionary));
             }
@@ -105,7 +105,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         public static void AddKeyValuePair<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
             KeyValuePair<TKey, TValue> keyValuePair)
         {
-            if (dictionary == null)
+            if (dictionary is null)
             {
                 throw new ArgumentNullException(nameof(dictionary));
             }
@@ -127,12 +127,12 @@ namespace PenguinHelperLibrary.Extension_Methods
         public static void AddKeyValuePair<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
             KeyValuePair<TKey, TValue>[] keyValuePairs)
         {
-            if (dictionary == null)
+            if (dictionary is null)
             {
                 throw new ArgumentNullException(nameof(dictionary));
             }
 
-            if (keyValuePairs == null)
+            if (keyValuePairs is null)
             {
                 throw new ArgumentNullException(nameof(keyValuePairs));
             }
