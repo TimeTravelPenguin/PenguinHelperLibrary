@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extension Method Tests\ArrayExtensionTests.cs" />
     <Compile Include="Extension Method Tests\DictionaryExtensionTests.cs" />
     <Compile Include="Extension Method Tests\DoubleExtensionTests.cs" />
     <Compile Include="Extension Method Tests\EnumExtensionTests.cs" />
