@@ -15,7 +15,6 @@
 #endregion
 
 using System;
-using PenguinHelperLibrary.Demos.Vector2D_Demos;
 
 namespace PenguinHelperLibrary.Demos
 {
@@ -29,7 +28,6 @@ namespace PenguinHelperLibrary.Demos
         /// </summary>
         public static void Main()
         {
-            Vector2DDemos.Test();
 
             Console.ReadKey();
         }
