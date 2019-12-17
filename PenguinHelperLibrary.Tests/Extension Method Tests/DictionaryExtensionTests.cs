@@ -14,6 +14,7 @@
 
 #endregion
 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using AllOverIt.Fixture;
@@ -65,7 +66,8 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             [Fact]
             public void GetValueOrDefaultTest_NoDefault_ContainedKeys()
             {
-                var dict = Create<Dictionary<decimal, string>>();
+                var dict = new Dictionary<int, string>();
+                dict.AddKeyValuePair(CreateManyDistinct<KeyValuePair<int,string>>(1000).ToArray());
 
                 foreach (var keyVal in dict)
                 {
@@ -94,6 +96,23 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                         .Should()
                         .Be(default);
                 }
+            }
+
+
+            [Fact]
+            public void GetValueOrDefault_ThrowsException_NoDefault()
+            {
+                Invoking(() => ((Dictionary<string, string>) null).GetValueOrDefault(Create<string>()))
+                    .Should()
+                    .Throw<ArgumentNullException>();
+            }
+            
+            [Fact]
+            public void GetValueOrDefault_ThrowsException_WithDefault()
+            {
+                Invoking(() => ((Dictionary<string, string>) null).GetValueOrDefault(Create<string>(), Create<string>()))
+                    .Should()
+                    .Throw<ArgumentNullException>();
             }
         }
 
