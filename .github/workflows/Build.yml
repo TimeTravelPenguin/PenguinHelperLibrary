@@ -1,5 +1,8 @@
-name: PenguinHelperLibrary Build
-on: [push]
+name: Build
+on:
+  push:
+    branches: 
+      - master
 jobs:
   build:
     runs-on: windows-latest
