@@ -7,10 +7,10 @@
 // File Name: DictionaryExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 3:32 PM
+// 2019-12-18 10:14 AM
 // 
 // Creation Date:
-// 2019-12-07 3:06 PM
+// 2019-12-18 1:24 AM
 
 #endregion
 
@@ -26,16 +26,33 @@ using Xunit;
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 {
     /// <summary>
-    ///     Tests <see cref="DictionaryExtensions"/>
+    ///     Tests <see cref="DictionaryExtensions" />
     /// </summary>
     [UsedImplicitly]
     public class DictionaryExtensionTests
     {
         /// <summary>
-        ///     Tests <see cref="GetValueOrDefault"/>
+        ///     Tests <see cref="GetValueOrDefault" />
         /// </summary>
         public class GetValueOrDefault : AoiFixtureBase
         {
+            [Fact]
+            public void GetValueOrDefault_ThrowsException_NoDefault()
+            {
+                Invoking(() => ((Dictionary<string, string>) null).GetValueOrDefault(Create<string>()))
+                    .Should()
+                    .ThrowExactly<ArgumentNullException>();
+            }
+
+            [Fact]
+            public void GetValueOrDefault_ThrowsException_WithDefault()
+            {
+                Invoking(
+                        () => ((Dictionary<string, string>) null).GetValueOrDefault(Create<string>(), Create<string>()))
+                    .Should()
+                    .ThrowExactly<ArgumentNullException>();
+            }
+
             /// <summary>
             ///     Tests successful return of preferred default value of a dictionary, requesting only keys that are not contained.
             /// </summary>
@@ -67,7 +84,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             public void GetValueOrDefaultTest_NoDefault_ContainedKeys()
             {
                 var dict = new Dictionary<int, string>();
-                dict.AddKeyValuePair(CreateManyDistinct<KeyValuePair<int,string>>(1000).ToArray());
+                dict.AddKeyValuePair(CreateManyDistinct<KeyValuePair<int, string>>(1000).ToArray());
 
                 foreach (var keyVal in dict)
                 {
@@ -97,30 +114,32 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                         .Be(default);
                 }
             }
-
-
-            [Fact]
-            public void GetValueOrDefault_ThrowsException_NoDefault()
-            {
-                Invoking(() => ((Dictionary<string, string>) null).GetValueOrDefault(Create<string>()))
-                    .Should()
-                    .ThrowExactly<ArgumentNullException>();
-            }
-            
-            [Fact]
-            public void GetValueOrDefault_ThrowsException_WithDefault()
-            {
-                Invoking(() => ((Dictionary<string, string>) null).GetValueOrDefault(Create<string>(), Create<string>()))
-                    .Should()
-                    .ThrowExactly<ArgumentNullException>();
-            }
         }
 
         /// <summary>
-        ///     Tests <see cref="AddKeyValuePair"/>
+        ///     Tests <see cref="AddKeyValuePair" />
         /// </summary>
         public class AddKeyValuePair : AoiFixtureBase
         {
+            [Fact]
+            public void AddKeyValuePairsTest()
+            {
+                // Create KeyValuePairs
+                var keyValPairs = CreateManyDistinct<KeyValuePair<string, string>>(1000);
+                var dict = new Dictionary<string, string>();
+
+                // Use extension method to add
+                dict.AddKeyValuePair(keyValPairs);
+
+                foreach (var keyValPair in keyValPairs)
+                {
+                    // Assert that the dictionary contains the Key and correct value
+                    dict[keyValPair.Key]
+                        .Should()
+                        .Be(keyValPair.Value);
+                }
+            }
+
             /// <summary>
             ///     Tests for successful addition of <see cref="KeyValuePair{TKey,TValue}" /> to
             ///     <see cref="IDictionary{TKey,TValue}" />.
@@ -129,8 +148,8 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             public void AddKeyValuePairTest()
             {
                 // Create KeyValuePairs
-                var keyValPairs = CreateMany<KeyValuePair<decimal, string>>(1000);
-                var dict = new Dictionary<decimal, string>();
+                var keyValPairs = CreateManyDistinct<KeyValuePair<string, string>>(1000);
+                var dict = new Dictionary<string, string>();
 
                 // Use extension method to add
                 foreach (var keyValuePair in keyValPairs)
@@ -145,6 +164,33 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                         .Should()
                         .Be(keyValPair.Value);
                 }
+            }
+
+            [Fact]
+            public void AddKeyValuePairTest_Dictionary_NullArgumentException()
+            {
+                Invoking(() =>
+                        ((Dictionary<string, string>) null).AddKeyValuePair(Create<KeyValuePair<string, string>>()))
+                    .Should()
+                    .ThrowExactly<ArgumentNullException>();
+            }
+            
+            [Fact]
+            public void AddKeyValuePairsTest_Dictionary_NullArgumentException()
+            {
+                Invoking(() =>
+                        ((Dictionary<string, string>) null).AddKeyValuePair(CreateManyDistinct<KeyValuePair<string, string>>()))
+                    .Should()
+                    .ThrowExactly<ArgumentNullException>();
+            }
+
+            [Fact]
+            public void AddKeyValuePairTest_KeyValuePair_NullArgumentException()
+            {
+                Invoking(() =>
+                        new Dictionary<string, string>().AddKeyValuePair(null))
+                    .Should()
+                    .ThrowExactly<ArgumentNullException>();
             }
         }
     }
