@@ -121,7 +121,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// <param name="dictionary">
         ///     The <see cref="IDictionary{TKey,TValue}" /> to add to.
         /// </param>
-        /// <param name="keyValuePair">
+        /// <param name="keyValuePairs">
         ///     The array of <see cref="KeyValuePair{TKey,TValue}" /> to add.
         /// </param>
         public static void AddKeyValuePair<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
