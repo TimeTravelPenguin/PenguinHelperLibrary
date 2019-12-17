@@ -112,5 +112,24 @@ namespace PenguinHelperLibrary.Extension_Methods
 
             dictionary.Add(keyValuePair.Key, keyValuePair.Value);
         }
+        
+        public static void AddKeyValuePair<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
+            KeyValuePair<TKey, TValue>[] keyValuePairs)
+        {
+            if (dictionary == null)
+            {
+                throw new ArgumentNullException(nameof(dictionary));
+            }
+
+            if (keyValuePairs == null)
+            {
+                throw new ArgumentNullException(nameof(keyValuePairs));
+            }
+
+            foreach (var keyValuePair in keyValuePairs)
+            {
+                dictionary.Add(keyValuePair.Key, keyValuePair.Value);
+            }
+        }
     }
 }
