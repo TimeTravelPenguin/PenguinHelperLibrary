@@ -46,7 +46,8 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
 
                 for (var i = 0; i < 1000; i++)
                 {
-                    collection.Should()
+                    collection
+                        .Should()
                         .Contain(collection.GetRandomIn());
                 }
             }
