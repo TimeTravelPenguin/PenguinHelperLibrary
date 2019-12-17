@@ -7,14 +7,15 @@
 // File Name: ArrayExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-18 1:15 AM
+// 2019-12-18 9:52 AM
 // 
 // Creation Date:
-// 2019-12-18 12:48 AM
+// 2019-12-18 1:24 AM
 
 #endregion
 
 using System;
+using System.Linq;
 using AllOverIt.Fixture;
 using FluentAssertions;
 using JetBrains.Annotations;
@@ -95,7 +96,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
             [Fact]
             public void FillWithDefaultTest()
             {
-                var arrLength = 10;
+                const int arrLength = 10;
 
                 var arrDec = new decimal[arrLength];
                 var arrStr = new string [arrLength];
@@ -112,6 +113,41 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                     arrStr[i].Should().Be(default);
                     arrObj[i].Should().Be(default);
                 }
+            }
+        }
+
+        /// <summary>
+        ///     Tests for <see cref="ArrayExtensionMethods" />
+        /// </summary>
+        public class FillNullIndexTests : AoiFixtureBase
+        {
+            /// <summary>
+            ///     Tests <see cref="ArrayExtensionMethods.FillNullIndex{T}(T[], T)" />
+            /// </summary>
+            [Fact]
+            public void FillIfNullTest()
+            {
+                var random = new Random();
+
+                object GetNewObject()
+                {
+                    return random.Next(2) == 0 ? new object() : null;
+                }
+
+                var array = new object[100];
+
+                do
+                {
+                    for (var i = 0; i < array.Length; i++)
+                    {
+                        array[i] = GetNewObject();
+                    }
+                } while (!array.Contains(null));
+
+                array.FillNullIndex(new object());
+
+                // Test that there are no null values
+                array.Should().NotContainNulls();
             }
         }
     }
