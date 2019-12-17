@@ -7,7 +7,7 @@
 // File Name: ArrayExtensionMethods.cs
 // 
 // Current Data:
-// 2019-12-16 11:57 PM
+// 2019-12-18 1:06 AM
 // 
 // Creation Date:
 // 2019-12-09 1:02 AM
@@ -46,6 +46,20 @@ namespace PenguinHelperLibrary.Extension_Methods
             {
                 arr[i] = value;
             }
+        }
+
+        /// <summary>
+        ///     Fills and array with the default of the array base type.
+        /// </summary>
+        /// <typeparam name="T">
+        ///     The type of the array
+        /// </typeparam>
+        /// <param name="arr">
+        ///     The array to fill
+        /// </param>
+        public static void FillWithDefault<T>(this T[] arr)
+        {
+            arr.Fill(default);
         }
 
         /// <summary>
