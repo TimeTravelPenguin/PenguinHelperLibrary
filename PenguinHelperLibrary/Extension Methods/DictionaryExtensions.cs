@@ -7,7 +7,7 @@
 // File Name: DictionaryExtensions.cs
 // 
 // Current Data:
-// 2019-12-16 11:59 PM
+// 2019-12-17 11:43 PM
 // 
 // Creation Date:
 // 2019-12-07 3:05 PM
@@ -112,7 +112,18 @@ namespace PenguinHelperLibrary.Extension_Methods
 
             dictionary.Add(keyValuePair.Key, keyValuePair.Value);
         }
-        
+
+        /// <summary>
+        ///     Adds a array of <see cref="KeyValuePair{TKey,TValue}" /> to an <see cref="IDictionary{Tkey, TValue}" />.
+        /// </summary>
+        /// <typeparam name="TKey"></typeparam>
+        /// <typeparam name="TValue"></typeparam>
+        /// <param name="dictionary">
+        ///     The <see cref="IDictionary{TKey,TValue}" /> to add to.
+        /// </param>
+        /// <param name="keyValuePair">
+        ///     The array of <see cref="KeyValuePair{TKey,TValue}" /> to add.
+        /// </param>
         public static void AddKeyValuePair<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
             KeyValuePair<TKey, TValue>[] keyValuePairs)
         {
