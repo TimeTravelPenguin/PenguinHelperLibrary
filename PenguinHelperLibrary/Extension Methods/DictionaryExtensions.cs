@@ -7,10 +7,10 @@
 // File Name: DictionaryExtensions.cs
 // 
 // Current Data:
-// 2019-12-17 11:43 PM
+// 2019-12-18 10:16 AM
 // 
 // Creation Date:
-// 2019-12-07 3:05 PM
+// 2019-12-18 1:24 AM
 
 #endregion
 
@@ -125,7 +125,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         ///     The array of <see cref="KeyValuePair{TKey,TValue}" /> to add.
         /// </param>
         public static void AddKeyValuePair<TKey, TValue>(this IDictionary<TKey, TValue> dictionary,
-            KeyValuePair<TKey, TValue>[] keyValuePairs)
+            IEnumerable<KeyValuePair<TKey, TValue>> keyValuePairs)
         {
             if (dictionary is null)
             {
