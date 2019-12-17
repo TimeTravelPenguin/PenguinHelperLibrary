@@ -7,10 +7,10 @@
 // File Name: ArrayExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-18 9:52 AM
+// 2019-12-18 9:59 AM
 // 
 // Creation Date:
-// 2019-12-18 1:24 AM
+// 2019-12-18 9:55 AM
 
 #endregion
 
@@ -122,7 +122,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         public class FillNullIndexTests : AoiFixtureBase
         {
             /// <summary>
-            ///     Tests <see cref="ArrayExtensionMethods.FillNullIndex{T}(T[], T)" />
+            ///     Tests that all null values are replaced
             /// </summary>
             [Fact]
             public void FillIfNullTest()
@@ -147,7 +147,20 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                 array.FillNullIndex(new object());
 
                 // Test that there are no null values
-                array.Should().NotContainNulls();
+                array
+                    .Should()
+                    .NotContainNulls();
+            }
+
+            /// <summary>
+            ///     Tests for null argument exception
+            /// </summary>
+            [Fact]
+            public void FillIfNullTest_ArgumentNullException()
+            {
+                Invoking(() => ((object[]) null).FillNullIndex(new object()))
+                    .Should()
+                    .ThrowExactly<ArgumentNullException>();
             }
         }
     }
