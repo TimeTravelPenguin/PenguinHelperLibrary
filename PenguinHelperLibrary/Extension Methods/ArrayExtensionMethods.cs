@@ -75,7 +75,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// <param name="value">
         ///     The value to fill
         /// </param>
-        public static void FillIfNull<T>(this T[] arr, T value)
+        public static void FillNullIndex<T>(this T[] arr, T value)
         {
             if (arr is null)
             {
