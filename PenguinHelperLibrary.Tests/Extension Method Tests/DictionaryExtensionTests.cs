@@ -7,7 +7,7 @@
 // File Name: DictionaryExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-18 10:14 AM
+// 2019-12-18 10:27 AM
 // 
 // Creation Date:
 // 2019-12-18 1:24 AM
@@ -121,6 +121,10 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         /// </summary>
         public class AddKeyValuePair : AoiFixtureBase
         {
+            /// <summary>
+            ///     Tests for successful addition of <see cref="KeyValuePair{TKey,TValue}" /> to
+            ///     <see cref="IDictionary{TKey,TValue}" />, given a collection of <see cref="KeyValuePair{TKey,TValue}" />.
+            /// </summary>
             [Fact]
             public void AddKeyValuePairsTest()
             {
@@ -138,6 +142,19 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                         .Should()
                         .Be(keyValPair.Value);
                 }
+            }
+
+            /// <summary>
+            ///     Tests NullArgumentException given a null reference <see cref="Dictionary{TKey,TValue}" /> in overloaded method
+            /// </summary>
+            [Fact]
+            public void AddKeyValuePairsTest_Dictionary_NullArgumentException()
+            {
+                Invoking(() =>
+                        ((Dictionary<string, string>) null).AddKeyValuePair(
+                            CreateManyDistinct<KeyValuePair<string, string>>()))
+                    .Should()
+                    .ThrowExactly<ArgumentNullException>();
             }
 
             /// <summary>
@@ -166,6 +183,9 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                 }
             }
 
+            /// <summary>
+            ///     Tests NullArgumentException given a null reference <see cref="Dictionary{TKey,TValue}" />
+            /// </summary>
             [Fact]
             public void AddKeyValuePairTest_Dictionary_NullArgumentException()
             {
@@ -174,16 +194,10 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                     .Should()
                     .ThrowExactly<ArgumentNullException>();
             }
-            
-            [Fact]
-            public void AddKeyValuePairsTest_Dictionary_NullArgumentException()
-            {
-                Invoking(() =>
-                        ((Dictionary<string, string>) null).AddKeyValuePair(CreateManyDistinct<KeyValuePair<string, string>>()))
-                    .Should()
-                    .ThrowExactly<ArgumentNullException>();
-            }
 
+            /// <summary>
+            ///     Tests NullArgumentException given a null reference <see cref="IEnumerable{T}" />
+            /// </summary>
             [Fact]
             public void AddKeyValuePairTest_KeyValuePair_NullArgumentException()
             {
