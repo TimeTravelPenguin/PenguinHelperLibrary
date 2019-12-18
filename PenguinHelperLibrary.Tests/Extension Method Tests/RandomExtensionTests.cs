@@ -7,13 +7,14 @@
 // File Name: RandomExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 3:57 PM
+// 2019-12-18 11:15 AM
 // 
 // Creation Date:
-// 2019-12-07 3:06 PM
+// 2019-12-18 1:24 AM
 
 #endregion
 
+using System;
 using System.Collections.ObjectModel;
 using AllOverIt.Fixture;
 using AutoFixture;
@@ -50,6 +51,18 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                         .Should()
                         .Contain(collection.GetRandomIn());
                 }
+            }
+
+            /// <summary>
+            ///     Tests that <see cref="RandomExtensions.GetRandomIn{T}(System.Collections.Generic.ICollection{T})" /> throws
+            ///     <see cref="ArgumentNullException" /> when collection is <see langword="null" />.
+            /// </summary>
+            [Fact]
+            public void TestNullCollection()
+            {
+                Invoking(() => ((int[]) null).GetRandomIn())
+                    .Should()
+                    .ThrowExactly<ArgumentNullException>();
             }
         }
     }
