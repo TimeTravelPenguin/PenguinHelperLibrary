@@ -7,10 +7,10 @@
 // File Name: MathExtensions.cs
 // 
 // Current Data:
-// 2019-12-17 11:34 PM
+// 2019-12-21 8:51 PM
 // 
 // Creation Date:
-// 2019-12-07 6:22 PM
+// 2019-12-17 11:41 PM
 
 #endregion
 
@@ -23,5 +23,15 @@ namespace PenguinHelperLibrary.Extension_Methods
     /// </summary>
     public static class MathExtensions
     {
+        /// <summary>
+        ///     Gets a percentage
+        /// </summary>
+        /// <param name="lhs"></param>
+        /// <param name="rhs"></param>
+        /// <returns></returns>
+        public static double PercentOf(this double lhs, double rhs)
+        {
+            return lhs / rhs * 100;
+        }
     }
 }
