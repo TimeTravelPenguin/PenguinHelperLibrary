@@ -7,10 +7,10 @@
 // File Name: DoubleExtensions.cs
 // 
 // Current Data:
-// 2019-12-21 6:28 PM
+// 2019-12-22 12:18 AM
 // 
 // Creation Date:
-// 2019-12-07 3:05 PM
+// 2019-12-21 9:44 PM
 
 #endregion
 
@@ -92,6 +92,28 @@ namespace PenguinHelperLibrary.Extension_Methods
         public static bool IsInfinity(this double value)
         {
             return double.IsInfinity(value);
+        }
+
+        /// <summary>
+        ///     Returns either the minimum or maximum value of a range, if a given value exceeds that range.
+        /// </summary>
+        /// <param name="value">
+        ///     The given value to test is within a range.
+        /// </param>
+        /// <param name="inclusiveMinimum">
+        ///     The minimum value. If <paramref name="value" /> is less than this value, the returned result is
+        ///     <paramref name="inclusiveMinimum" />.
+        /// </param>
+        /// <param name="inclusiveMaximum">
+        ///     The minimum value. If <paramref name="value" /> is greater than this value, the returned result is
+        ///     <paramref name="inclusiveMaximum" />.
+        /// </param>
+        /// <returns>
+        ///     Returns a <see cref="double" /> value.
+        /// </returns>
+        public static double LimitToRange(this double value, double inclusiveMinimum, double inclusiveMaximum)
+        {
+            return Math.Max(Math.Min(value, inclusiveMaximum), inclusiveMinimum);
         }
     }
 }
