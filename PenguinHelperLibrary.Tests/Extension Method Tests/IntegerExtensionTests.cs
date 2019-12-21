@@ -29,7 +29,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
     public class IntegerExtensionTests
     {
         /// <summary>
-        ///     Tests <see cref="AddOrdinal" />
+        ///     Tests <see cref="IntegerExtensions.AddOrdinal(int)" />
         /// </summary>
         public class AddOrdinal : AoiFixtureBase
         {

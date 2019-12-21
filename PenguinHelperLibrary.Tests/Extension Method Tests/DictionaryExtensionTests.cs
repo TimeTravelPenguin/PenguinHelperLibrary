@@ -7,10 +7,10 @@
 // File Name: DictionaryExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-18 10:27 AM
+// 2019-12-22 12:47 AM
 // 
 // Creation Date:
-// 2019-12-18 1:24 AM
+// 2019-12-21 9:56 PM
 
 #endregion
 
@@ -32,7 +32,9 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
     public class DictionaryExtensionTests
     {
         /// <summary>
-        ///     Tests <see cref="GetValueOrDefault" />
+        ///     Tests
+        ///     <see
+        ///         cref="PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault{TKey, TValue}(IDictionary{TKey,TValue}, TKey)" />
         /// </summary>
         public class GetValueOrDefault : AoiFixtureBase
         {
@@ -117,7 +119,9 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         }
 
         /// <summary>
-        ///     Tests <see cref="AddKeyValuePair" />
+        ///     Tests
+        ///     <see
+        ///         cref="PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair{TKey, TValue}(IDictionary{TKey, TValue}, IEnumerable{KeyValuePair{TKey, TValue}})" />
         /// </summary>
         public class AddKeyValuePair : AoiFixtureBase
         {

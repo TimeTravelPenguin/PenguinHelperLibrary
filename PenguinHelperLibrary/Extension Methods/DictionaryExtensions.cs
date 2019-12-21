@@ -28,8 +28,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// <summary>
         ///     Returns a <typeparamref name="TValue" /> within an <see cref="IDictionary{TKey,TValue}" />, given a
         ///     <typeparamref name="TKey" /> <paramref name="key" />. If the <typeparamref name="TKey" /> does not exist, the
-        ///     returned
-        ///     value is the <see langword="default" /> value of <typeparamref name="TValue" />.
+        ///     returned value is the <see langword="default" /> value of <typeparamref name="TValue" />.
         /// </summary>
         /// <typeparam name="TKey"></typeparam>
         /// <typeparam name="TValue"></typeparam>
@@ -57,8 +56,7 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// <summary>
         ///     Returns a <typeparamref name="TValue" /> within an <see cref="IDictionary{TKey,TValue}" />, given a
         ///     <typeparamref name="TKey" /> <paramref name="key" />. If the <typeparamref name="TKey" /> does not exist, the
-        ///     returned
-        ///     value is <paramref name="defaultValue" />.
+        ///     returned value is <paramref name="defaultValue" />.
         /// </summary>
         /// <typeparam name="TKey"></typeparam>
         /// <typeparam name="TValue"></typeparam>

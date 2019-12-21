@@ -29,10 +29,10 @@ namespace PenguinHelperLibrary.Extension_Methods
         /// </summary>
         /// <example>
         ///     As an example:
-        ///     <c>1.AddOrdinal()</c> returns <c>"1st"</c>
-        ///     <c>2.AddOrdinal()</c> returns <c>"2nd"</c>
-        ///     <c>3.AddOrdinal()</c> returns <c>"3rd"</c>
-        ///     <c>4.AddOrdinal()</c> returns <c>"4th"</c>
+        ///     <br/><c>1.AddOrdinal()</c> returns <c>"1st"</c>
+        ///     <br/><c>2.AddOrdinal()</c> returns <c>"2nd"</c>
+        ///     <br/><c>3.AddOrdinal()</c> returns <c>"3rd"</c>
+        ///     <br/><c>4.AddOrdinal()</c> returns <c>"4th"</c>
         /// </example>
         /// <param name="num">The value to append an ordinal</param>
         /// <returns>
