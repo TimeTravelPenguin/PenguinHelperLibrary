@@ -7,10 +7,10 @@
 // File Name: DoubleExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 1:10 AM
+// 2019-12-21 6:28 PM
 // 
 // Creation Date:
-// 2019-12-07 12:59 AM
+// 2019-12-07 3:05 PM
 
 #endregion
 
@@ -74,6 +74,24 @@ namespace PenguinHelperLibrary.Extension_Methods
         public static bool IsGreaterThanOrEqual(this double lhs, double rhs)
         {
             return lhs.IsGreaterThan(rhs) || lhs.IsEqualTo(rhs);
+        }
+
+        /// <summary>
+        ///     Checks if a <see cref="double" /> is equal to either <see cref="double.PositiveInfinity" /> or
+        ///     <see cref="double.NegativeInfinity" />.
+        ///     <para>
+        ///     </para>
+        ///     This extension method performs: <see cref="double.IsInfinity(double)" />.
+        /// </summary>
+        /// <param name="value">
+        ///     The value to check
+        /// </param>
+        /// <returns>
+        ///     Returns <see cref="bool" /> value
+        /// </returns>
+        public static bool IsInfinity(this double value)
+        {
+            return double.IsInfinity(value);
         }
     }
 }
