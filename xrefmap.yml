@@ -1,0 +1,357 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: PenguinHelperLibrary.Extension_Methods
+  name: PenguinHelperLibrary.Extension_Methods
+  href: api/PenguinHelperLibrary.Extension_Methods.html
+  commentId: N:PenguinHelperLibrary.Extension_Methods
+  fullName: PenguinHelperLibrary.Extension_Methods
+  nameWithType: PenguinHelperLibrary.Extension_Methods
+- uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods
+  name: ArrayExtensionMethods
+  href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods
+  fullName: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods
+  nameWithType: ArrayExtensionMethods
+- uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill*
+  name: Fill
+  href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html#PenguinHelperLibrary_Extension_Methods_ArrayExtensionMethods_Fill_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill
+  nameWithType: ArrayExtensionMethods.Fill
+- uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill``1(``0[],``0)
+  name: Fill<T>(T[], T)
+  href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html#PenguinHelperLibrary_Extension_Methods_ArrayExtensionMethods_Fill__1___0_____0_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill``1(``0[],``0)
+  name.vb: Fill(Of T)(T(), T)
+  fullName: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill<T>(T[], T)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill(Of T)(T(), T)
+  nameWithType: ArrayExtensionMethods.Fill<T>(T[], T)
+  nameWithType.vb: ArrayExtensionMethods.Fill(Of T)(T(), T)
+- uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillNullIndex*
+  name: FillNullIndex
+  href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html#PenguinHelperLibrary_Extension_Methods_ArrayExtensionMethods_FillNullIndex_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillNullIndex
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillNullIndex
+  nameWithType: ArrayExtensionMethods.FillNullIndex
+- uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillNullIndex``1(``0[],``0)
+  name: FillNullIndex<T>(T[], T)
+  href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html#PenguinHelperLibrary_Extension_Methods_ArrayExtensionMethods_FillNullIndex__1___0_____0_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillNullIndex``1(``0[],``0)
+  name.vb: FillNullIndex(Of T)(T(), T)
+  fullName: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillNullIndex<T>(T[], T)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillNullIndex(Of T)(T(), T)
+  nameWithType: ArrayExtensionMethods.FillNullIndex<T>(T[], T)
+  nameWithType.vb: ArrayExtensionMethods.FillNullIndex(Of T)(T(), T)
+- uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillWithDefault*
+  name: FillWithDefault
+  href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html#PenguinHelperLibrary_Extension_Methods_ArrayExtensionMethods_FillWithDefault_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillWithDefault
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillWithDefault
+  nameWithType: ArrayExtensionMethods.FillWithDefault
+- uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillWithDefault``1(``0[])
+  name: FillWithDefault<T>(T[])
+  href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html#PenguinHelperLibrary_Extension_Methods_ArrayExtensionMethods_FillWithDefault__1___0___
+  commentId: M:PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillWithDefault``1(``0[])
+  name.vb: FillWithDefault(Of T)(T())
+  fullName: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillWithDefault<T>(T[])
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillWithDefault(Of T)(T())
+  nameWithType: ArrayExtensionMethods.FillWithDefault<T>(T[])
+  nameWithType.vb: ArrayExtensionMethods.FillWithDefault(Of T)(T())
+- uid: PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions
+  name: AutoMapperExtensions
+  href: api/PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions
+  fullName: PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions
+  nameWithType: AutoMapperExtensions
+- uid: PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.MapTo*
+  name: MapTo
+  href: api/PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.html#PenguinHelperLibrary_Extension_Methods_AutoMapperExtensions_MapTo_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.MapTo
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.MapTo
+  nameWithType: AutoMapperExtensions.MapTo
+- uid: PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.MapTo``2(``0)
+  name: MapTo<TSource, TDestination>(TSource)
+  href: api/PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.html#PenguinHelperLibrary_Extension_Methods_AutoMapperExtensions_MapTo__2___0_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.MapTo``2(``0)
+  name.vb: MapTo(Of TSource, TDestination)(TSource)
+  fullName: PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.MapTo<TSource, TDestination>(TSource)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.MapTo(Of TSource, TDestination)(TSource)
+  nameWithType: AutoMapperExtensions.MapTo<TSource, TDestination>(TSource)
+  nameWithType.vb: AutoMapperExtensions.MapTo(Of TSource, TDestination)(TSource)
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions
+  name: DictionaryExtensions
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions
+  nameWithType: DictionaryExtensions
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair*
+  name: AddKeyValuePair
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_AddKeyValuePair_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair
+  nameWithType: DictionaryExtensions.AddKeyValuePair
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(IDictionary{``0,``1},IEnumerable{KeyValuePair{``0,``1}})
+  name: AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_AddKeyValuePair__2_IDictionary___0___1__IEnumerable_KeyValuePair___0___1___
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(IDictionary{``0,``1},IEnumerable{KeyValuePair{``0,``1}})
+  name.vb: AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  nameWithType: DictionaryExtensions.AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  nameWithType.vb: DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(IDictionary{``0,``1},KeyValuePair{``0,``1})
+  name: AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, KeyValuePair<TKey, TValue>)
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_AddKeyValuePair__2_IDictionary___0___1__KeyValuePair___0___1__
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(IDictionary{``0,``1},KeyValuePair{``0,``1})
+  name.vb: AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), KeyValuePair(Of TKey, TValue))
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, KeyValuePair<TKey, TValue>)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), KeyValuePair(Of TKey, TValue))
+  nameWithType: DictionaryExtensions.AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, KeyValuePair<TKey, TValue>)
+  nameWithType.vb: DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), KeyValuePair(Of TKey, TValue))
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_GetValueOrDefault_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault
+  nameWithType: DictionaryExtensions.GetValueOrDefault
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0)
+  name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_GetValueOrDefault__2_IDictionary___0___1____0_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  nameWithType: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  nameWithType.vb: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0,``1)
+  name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_GetValueOrDefault__2_IDictionary___0___1____0___1_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0,``1)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+  nameWithType: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
+  nameWithType.vb: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions
+  name: DoubleExtensions
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.DoubleExtensions
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions
+  nameWithType: DoubleExtensions
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsEqualTo(System.Double,System.Double)
+  name: IsEqualTo(Double, Double)
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsEqualTo_System_Double_System_Double_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsEqualTo(System.Double,System.Double)
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsEqualTo(System.Double, System.Double)
+  nameWithType: DoubleExtensions.IsEqualTo(Double, Double)
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsEqualTo*
+  name: IsEqualTo
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsEqualTo_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsEqualTo
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsEqualTo
+  nameWithType: DoubleExtensions.IsEqualTo
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThan(System.Double,System.Double)
+  name: IsGreaterThan(Double, Double)
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsGreaterThan_System_Double_System_Double_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThan(System.Double,System.Double)
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThan(System.Double, System.Double)
+  nameWithType: DoubleExtensions.IsGreaterThan(Double, Double)
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThan*
+  name: IsGreaterThan
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsGreaterThan_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThan
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThan
+  nameWithType: DoubleExtensions.IsGreaterThan
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThanOrEqual(System.Double,System.Double)
+  name: IsGreaterThanOrEqual(Double, Double)
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsGreaterThanOrEqual_System_Double_System_Double_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThanOrEqual(System.Double,System.Double)
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThanOrEqual(System.Double, System.Double)
+  nameWithType: DoubleExtensions.IsGreaterThanOrEqual(Double, Double)
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThanOrEqual*
+  name: IsGreaterThanOrEqual
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsGreaterThanOrEqual_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThanOrEqual
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsGreaterThanOrEqual
+  nameWithType: DoubleExtensions.IsGreaterThanOrEqual
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsInfinity(System.Double)
+  name: IsInfinity(Double)
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsInfinity_System_Double_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsInfinity(System.Double)
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsInfinity(System.Double)
+  nameWithType: DoubleExtensions.IsInfinity(Double)
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsInfinity*
+  name: IsInfinity
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsInfinity_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsInfinity
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsInfinity
+  nameWithType: DoubleExtensions.IsInfinity
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsZero(System.Double)
+  name: IsZero(Double)
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsZero_System_Double_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsZero(System.Double)
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsZero(System.Double)
+  nameWithType: DoubleExtensions.IsZero(Double)
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsZero*
+  name: IsZero
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_IsZero_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsZero
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsZero
+  nameWithType: DoubleExtensions.IsZero
+- uid: PenguinHelperLibrary.Extension_Methods.EnumExtensions
+  name: EnumExtensions
+  href: api/PenguinHelperLibrary.Extension_Methods.EnumExtensions.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.EnumExtensions
+  fullName: PenguinHelperLibrary.Extension_Methods.EnumExtensions
+  nameWithType: EnumExtensions
+- uid: PenguinHelperLibrary.Extension_Methods.EnumExtensions.EnumToArray*
+  name: EnumToArray
+  href: api/PenguinHelperLibrary.Extension_Methods.EnumExtensions.html#PenguinHelperLibrary_Extension_Methods_EnumExtensions_EnumToArray_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.EnumExtensions.EnumToArray
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.EnumExtensions.EnumToArray
+  nameWithType: EnumExtensions.EnumToArray
+- uid: PenguinHelperLibrary.Extension_Methods.EnumExtensions.EnumToArray``1
+  name: EnumToArray<T>()
+  href: api/PenguinHelperLibrary.Extension_Methods.EnumExtensions.html#PenguinHelperLibrary_Extension_Methods_EnumExtensions_EnumToArray__1
+  commentId: M:PenguinHelperLibrary.Extension_Methods.EnumExtensions.EnumToArray``1
+  name.vb: EnumToArray(Of T)()
+  fullName: PenguinHelperLibrary.Extension_Methods.EnumExtensions.EnumToArray<T>()
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.EnumExtensions.EnumToArray(Of T)()
+  nameWithType: EnumExtensions.EnumToArray<T>()
+  nameWithType.vb: EnumExtensions.EnumToArray(Of T)()
+- uid: PenguinHelperLibrary.Extension_Methods.IntegerExtensions
+  name: IntegerExtensions
+  href: api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.IntegerExtensions
+  fullName: PenguinHelperLibrary.Extension_Methods.IntegerExtensions
+  nameWithType: IntegerExtensions
+- uid: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32)
+  name: AddOrdinal(Int32)
+  href: api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html#PenguinHelperLibrary_Extension_Methods_IntegerExtensions_AddOrdinal_System_Int32_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32)
+  fullName: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32)
+  nameWithType: IntegerExtensions.AddOrdinal(Int32)
+- uid: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal*
+  name: AddOrdinal
+  href: api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html#PenguinHelperLibrary_Extension_Methods_IntegerExtensions_AddOrdinal_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal
+  nameWithType: IntegerExtensions.AddOrdinal
+- uid: PenguinHelperLibrary.Extension_Methods.MathExtensions
+  name: MathExtensions
+  href: api/PenguinHelperLibrary.Extension_Methods.MathExtensions.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.MathExtensions
+  fullName: PenguinHelperLibrary.Extension_Methods.MathExtensions
+  nameWithType: MathExtensions
+- uid: PenguinHelperLibrary.Extension_Methods.MathExtensions.PercentOf(System.Double,System.Double)
+  name: PercentOf(Double, Double)
+  href: api/PenguinHelperLibrary.Extension_Methods.MathExtensions.html#PenguinHelperLibrary_Extension_Methods_MathExtensions_PercentOf_System_Double_System_Double_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.MathExtensions.PercentOf(System.Double,System.Double)
+  fullName: PenguinHelperLibrary.Extension_Methods.MathExtensions.PercentOf(System.Double, System.Double)
+  nameWithType: MathExtensions.PercentOf(Double, Double)
+- uid: PenguinHelperLibrary.Extension_Methods.MathExtensions.PercentOf*
+  name: PercentOf
+  href: api/PenguinHelperLibrary.Extension_Methods.MathExtensions.html#PenguinHelperLibrary_Extension_Methods_MathExtensions_PercentOf_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.MathExtensions.PercentOf
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.MathExtensions.PercentOf
+  nameWithType: MathExtensions.PercentOf
+- uid: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions
+  name: NewtonsoftExtensions
+  href: api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions
+  fullName: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions
+  nameWithType: NewtonsoftExtensions
+- uid: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.DeserializeObject*
+  name: DeserializeObject
+  href: api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.html#PenguinHelperLibrary_Extension_Methods_NewtonsoftExtensions_DeserializeObject_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.DeserializeObject
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.DeserializeObject
+  nameWithType: NewtonsoftExtensions.DeserializeObject
+- uid: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.DeserializeObject``1(System.String)
+  name: DeserializeObject<T>(String)
+  href: api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.html#PenguinHelperLibrary_Extension_Methods_NewtonsoftExtensions_DeserializeObject__1_System_String_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.DeserializeObject``1(System.String)
+  name.vb: DeserializeObject(Of T)(String)
+  fullName: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.DeserializeObject<T>(System.String)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.DeserializeObject(Of T)(System.String)
+  nameWithType: NewtonsoftExtensions.DeserializeObject<T>(String)
+  nameWithType.vb: NewtonsoftExtensions.DeserializeObject(Of T)(String)
+- uid: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.SerializeObject*
+  name: SerializeObject
+  href: api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.html#PenguinHelperLibrary_Extension_Methods_NewtonsoftExtensions_SerializeObject_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.SerializeObject
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.SerializeObject
+  nameWithType: NewtonsoftExtensions.SerializeObject
+- uid: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.SerializeObject``1(``0)
+  name: SerializeObject<T>(T)
+  href: api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.html#PenguinHelperLibrary_Extension_Methods_NewtonsoftExtensions_SerializeObject__1___0_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.SerializeObject``1(``0)
+  name.vb: SerializeObject(Of T)(T)
+  fullName: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.SerializeObject<T>(T)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.SerializeObject(Of T)(T)
+  nameWithType: NewtonsoftExtensions.SerializeObject<T>(T)
+  nameWithType.vb: NewtonsoftExtensions.SerializeObject(Of T)(T)
+- uid: PenguinHelperLibrary.Extension_Methods.RandomExtensions
+  name: RandomExtensions
+  href: api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.html
+  commentId: T:PenguinHelperLibrary.Extension_Methods.RandomExtensions
+  fullName: PenguinHelperLibrary.Extension_Methods.RandomExtensions
+  nameWithType: RandomExtensions
+- uid: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn*
+  name: GetRandomIn
+  href: api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.html#PenguinHelperLibrary_Extension_Methods_RandomExtensions_GetRandomIn_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn
+  nameWithType: RandomExtensions.GetRandomIn
+- uid: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn``1(ICollection{``0})
+  name: GetRandomIn<T>(ICollection<T>)
+  href: api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.html#PenguinHelperLibrary_Extension_Methods_RandomExtensions_GetRandomIn__1_ICollection___0__
+  commentId: M:PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn``1(ICollection{``0})
+  name.vb: GetRandomIn(Of T)(ICollection(Of T))
+  fullName: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn<T>(ICollection<T>)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn(Of T)(ICollection(Of T))
+  nameWithType: RandomExtensions.GetRandomIn<T>(ICollection<T>)
+  nameWithType.vb: RandomExtensions.GetRandomIn(Of T)(ICollection(Of T))
+- uid: PenguinHelperLibrary.Helpful_Methods.IO
+  name: PenguinHelperLibrary.Helpful_Methods.IO
+  href: api/PenguinHelperLibrary.Helpful_Methods.IO.html
+  commentId: N:PenguinHelperLibrary.Helpful_Methods.IO
+  fullName: PenguinHelperLibrary.Helpful_Methods.IO
+  nameWithType: PenguinHelperLibrary.Helpful_Methods.IO
+- uid: PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper
+  name: FileNameHelper
+  href: api/PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.html
+  commentId: T:PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper
+  fullName: PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper
+  nameWithType: FileNameHelper
+- uid: PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.CreateUniqueFilename(System.String)
+  name: CreateUniqueFilename(String)
+  href: api/PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.html#PenguinHelperLibrary_Helpful_Methods_IO_FileNameHelper_CreateUniqueFilename_System_String_
+  commentId: M:PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.CreateUniqueFilename(System.String)
+  fullName: PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.CreateUniqueFilename(System.String)
+  nameWithType: FileNameHelper.CreateUniqueFilename(String)
+- uid: PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.CreateUniqueFilename*
+  name: CreateUniqueFilename
+  href: api/PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.html#PenguinHelperLibrary_Helpful_Methods_IO_FileNameHelper_CreateUniqueFilename_
+  commentId: Overload:PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.CreateUniqueFilename
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.CreateUniqueFilename
+  nameWithType: FileNameHelper.CreateUniqueFilename

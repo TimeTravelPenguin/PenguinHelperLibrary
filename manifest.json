@@ -1,0 +1,272 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Dropbox (MJ Smith)/My Stuff/C#/PenguinHelperLibrary/Project/DocFx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html",
+          "hash": "3pOr+vx6nRgROFBfHB0S+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.html",
+          "hash": "XCECdnto3fWtDBRFr3KGTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html",
+          "hash": "enHSycLswvOhBcVF92XK9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html",
+          "hash": "4B3eKHkR0DvMGjgcxDmjcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.EnumExtensions.html",
+          "hash": "/JjUq+6+DSzoMMMwalHFrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html",
+          "hash": "r6GAciCVPlr0FVWo+Fgq0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.MathExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.MathExtensions.html",
+          "hash": "srO/4T5wwoFHUgXyZ1tYgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.html",
+          "hash": "iBB5w5xIHiNLDg9UlNhZmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.html",
+          "hash": "O+U72uCUcdkhPKWmj4sJ0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.html",
+          "hash": "x62FB++zrCiqxpLOlumlnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.html",
+          "hash": "RaSriyEQaEvMcgAQTH+3tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.html",
+          "hash": "aECnMe1gXc5nTePE9ePpOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "3Rx9NxL/4pRL8Qb2NCjxkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "E9xhUQBeAk7lN20nZl7Liw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "HjlYT5CBMkmxGE9uz/C5Tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "C5DXwurinQOTeB69dSLBHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
