@@ -7,14 +7,15 @@
 // File Name: DoubleExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-07 4:07 PM
+// 2019-12-22 12:43 AM
 // 
 // Creation Date:
-// 2019-12-07 4:07 PM
+// 2019-12-21 9:56 PM
 
 #endregion
 
 using System;
+using System.Diagnostics;
 using AllOverIt.Fixture;
 using FluentAssertions;
 using JetBrains.Annotations;
@@ -242,6 +243,88 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
                 big.IsGreaterThanOrEqual(small).Should().BeTrue();
                 small.IsGreaterThanOrEqual(small).Should().BeTrue();
                 big.IsGreaterThanOrEqual(big).Should().BeTrue();
+            }
+        }
+
+        /// <summary>
+        ///     Tests <see cref="DoubleExtensions.IsInfinity(double)" />.
+        /// </summary>
+        public class IsInfinityTests : AoiFixtureBase
+        {
+            /// <summary>
+            ///     Test for non numerical inputs
+            /// </summary>
+            /// <param name="value">
+            ///     The number to test is infinity.
+            /// </param>
+            /// <param name="expected">
+            ///     The expected result.
+            /// </param>
+            [Theory]
+            [InlineData(double.PositiveInfinity, true)]
+            [InlineData(double.NegativeInfinity, true)]
+            [InlineData(double.NaN, false)]
+            public void IsInfinityTest_NonNumber(double value, bool expected)
+            {
+                value.IsInfinity()
+                    .Should()
+                    .Be(expected);
+            }
+
+            /// <summary>
+            ///     Tests that a double non-infinity number returns false.
+            /// </summary>
+            [Fact]
+            public void IsInfinityTest_Number()
+            {
+                Create<double>()
+                    .IsInfinity()
+                    .Should()
+                    .Be(false);
+            }
+        }
+
+        /// <summary>
+        ///     Tests <see cref="DoubleExtensions.LimitToRange(double, double, double)" />.
+        /// </summary>
+        public class LimitToRangeTests : AoiFixtureBase
+        {
+            /// <summary>
+            ///     Runs tests to check the correct result is returned within the range
+            /// </summary>
+            [Fact]
+            public void LimitToRange()
+            {
+                for (var i = 0; i < 1000; i++)
+                {
+                    var value = Create<double>();
+                    var min = Create<double>();
+                    var max = Create<double>();
+
+                    if (min > max)
+                    {
+                        var temp = max;
+                        max = min;
+                        min = temp;
+                    }
+
+                    var actual = value.LimitToRange(min, max);
+
+                    Debug.WriteLine($"{min}\t{value}\t{max}\t\t{actual}");
+
+                    if (value <= min)
+                    {
+                        actual.Should().Be(min);
+                    }
+                    else if (value >= max)
+                    {
+                        actual.Should().Be(max);
+                    }
+                    else
+                    {
+                        actual.Should().Be(value);
+                    }
+                }
             }
         }
     }
