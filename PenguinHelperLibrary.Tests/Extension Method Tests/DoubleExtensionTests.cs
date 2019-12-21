@@ -30,7 +30,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
     public class DoubleExtensionTests
     {
         /// <summary>
-        ///     Tests <see cref="IsZero" />
+        ///     Tests <see cref="DoubleExtensions.IsZero(double)" />
         /// </summary>
         public class IsZero : AoiFixtureBase
         {
@@ -72,7 +72,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         }
 
         /// <summary>
-        ///     Tests <see cref="IsEqualTo" />
+        ///     Tests <see cref="DoubleExtensions.IsEqualTo(double, double)" />
         /// </summary>
         public class IsEqualTo : AoiFixtureBase
         {
@@ -126,7 +126,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         }
 
         /// <summary>
-        ///     Tests <see cref="IsGreaterThan" />
+        ///     Tests <see cref="DoubleExtensions.IsGreaterThan(double, double)" />
         /// </summary>
         public class IsGreaterThan : AoiFixtureBase
         {
@@ -185,7 +185,7 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         }
 
         /// <summary>
-        ///     Tests <see cref="IsGreaterThanOrEqual" />
+        ///     Tests <see cref="DoubleExtensions.IsGreaterThanOrEqual(double, double)" />
         /// </summary>
         public class IsGreaterThanOrEqual : AoiFixtureBase
         {
