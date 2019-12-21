@@ -96,22 +96,22 @@ references:
   isSpec: "True"
   fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair
   nameWithType: DictionaryExtensions.AddKeyValuePair
-- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(IDictionary{``0,``1},IEnumerable{KeyValuePair{``0,``1}})
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
   name: AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
-  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_AddKeyValuePair__2_IDictionary___0___1__IEnumerable_KeyValuePair___0___1___
-  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(IDictionary{``0,``1},IEnumerable{KeyValuePair{``0,``1}})
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_AddKeyValuePair__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
   name.vb: AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
-  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
-  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
   nameWithType: DictionaryExtensions.AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
   nameWithType.vb: DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
-- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(IDictionary{``0,``1},KeyValuePair{``0,``1})
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.KeyValuePair{``0,``1})
   name: AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, KeyValuePair<TKey, TValue>)
-  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_AddKeyValuePair__2_IDictionary___0___1__KeyValuePair___0___1__
-  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(IDictionary{``0,``1},KeyValuePair{``0,``1})
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_AddKeyValuePair__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_KeyValuePair___0___1__
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.KeyValuePair{``0,``1})
   name.vb: AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), KeyValuePair(Of TKey, TValue))
-  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, KeyValuePair<TKey, TValue>)
-  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), KeyValuePair(Of TKey, TValue))
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), System.Collections.Generic.KeyValuePair(Of TKey, TValue))
   nameWithType: DictionaryExtensions.AddKeyValuePair<TKey, TValue>(IDictionary<TKey, TValue>, KeyValuePair<TKey, TValue>)
   nameWithType.vb: DictionaryExtensions.AddKeyValuePair(Of TKey, TValue)(IDictionary(Of TKey, TValue), KeyValuePair(Of TKey, TValue))
 - uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault*
@@ -121,22 +121,22 @@ references:
   isSpec: "True"
   fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault
   nameWithType: DictionaryExtensions.GetValueOrDefault
-- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0)
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)
   name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_GetValueOrDefault__2_IDictionary___0___1____0_
-  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0)
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IDictionary___0___1____0_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)
   name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
-  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey)
   nameWithType: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
   nameWithType.vb: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
-- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0,``1)
+- uid: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
   name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
-  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_GetValueOrDefault__2_IDictionary___0___1____0___1_
-  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0,``1)
+  href: api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html#PenguinHelperLibrary_Extension_Methods_DictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IDictionary___0___1____0___1_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
   name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
-  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
-  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+  fullName: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey, TValue)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey, TValue)
   nameWithType: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
   nameWithType.vb: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
 - uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions
@@ -210,6 +210,19 @@ references:
   isSpec: "True"
   fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.IsZero
   nameWithType: DoubleExtensions.IsZero
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.LimitToRange(System.Double,System.Double,System.Double)
+  name: LimitToRange(Double, Double, Double)
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_LimitToRange_System_Double_System_Double_System_Double_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.LimitToRange(System.Double,System.Double,System.Double)
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.LimitToRange(System.Double, System.Double, System.Double)
+  nameWithType: DoubleExtensions.LimitToRange(Double, Double, Double)
+- uid: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.LimitToRange*
+  name: LimitToRange
+  href: api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html#PenguinHelperLibrary_Extension_Methods_DoubleExtensions_LimitToRange_
+  commentId: Overload:PenguinHelperLibrary.Extension_Methods.DoubleExtensions.LimitToRange
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Extension_Methods.DoubleExtensions.LimitToRange
+  nameWithType: DoubleExtensions.LimitToRange
 - uid: PenguinHelperLibrary.Extension_Methods.EnumExtensions
   name: EnumExtensions
   href: api/PenguinHelperLibrary.Extension_Methods.EnumExtensions.html
@@ -321,13 +334,13 @@ references:
   isSpec: "True"
   fullName: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn
   nameWithType: RandomExtensions.GetRandomIn
-- uid: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn``1(ICollection{``0})
+- uid: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn``1(System.Collections.Generic.ICollection{``0})
   name: GetRandomIn<T>(ICollection<T>)
-  href: api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.html#PenguinHelperLibrary_Extension_Methods_RandomExtensions_GetRandomIn__1_ICollection___0__
-  commentId: M:PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn``1(ICollection{``0})
+  href: api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.html#PenguinHelperLibrary_Extension_Methods_RandomExtensions_GetRandomIn__1_System_Collections_Generic_ICollection___0__
+  commentId: M:PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn``1(System.Collections.Generic.ICollection{``0})
   name.vb: GetRandomIn(Of T)(ICollection(Of T))
-  fullName: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn<T>(ICollection<T>)
-  fullName.vb: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn(Of T)(ICollection(Of T))
+  fullName: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn<T>(System.Collections.Generic.ICollection<T>)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn(Of T)(System.Collections.Generic.ICollection(Of T))
   nameWithType: RandomExtensions.GetRandomIn<T>(ICollection<T>)
   nameWithType.vb: RandomExtensions.GetRandomIn(Of T)(ICollection(Of T))
 - uid: PenguinHelperLibrary.Helpful_Methods.IO
