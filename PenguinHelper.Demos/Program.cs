@@ -7,15 +7,15 @@
 // File Name: Program.cs
 // 
 // Current Data:
-// 2019-12-30 6:13 PM
+// 2019-12-30 11:13 PM
 // 
 // Creation Date:
-// 2019-12-21 9:56 PM
+// 2019-12-30 6:17 PM
 
 #endregion
 
 using System;
-using PenguinHelperLibrary.Demos.Factory;
+using PenguinHelperLibrary.Demos.Strategy;
 
 namespace PenguinHelperLibrary.Demos
 {
@@ -29,7 +29,7 @@ namespace PenguinHelperLibrary.Demos
     /// </summary>
     public static void Main()
     {
-      FactoryDemo.RunDemo();
+      StrategyDemo.RunDemo();
       Console.ReadKey();
     }
   }

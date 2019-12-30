@@ -57,6 +57,11 @@
     <Compile Include="Factory\AnimalFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy\Encoder.cs" />
+    <Compile Include="Strategy\IEncoder.cs" />
+    <Compile Include="Strategy\Strategies\LowerEncoderStrategy.cs" />
+    <Compile Include="Strategy\Strategies\UpperEncoderStrategy.cs" />
+    <Compile Include="Strategy\StrategyDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
