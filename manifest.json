@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html",
-          "hash": "V14zAw2t519pzVK1m7EQvQ=="
+          "hash": "FpTASuJi/B4NCrpuX5zNbA=="
         }
       },
       "is_incremental": false,
@@ -125,6 +125,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.html",
+          "hash": "NZY14EjDQShMbWuHszgyeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Generic_Factory.IFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Generic_Factory.IFactory-1.html",
+          "hash": "oGqlkPYYd4AGRkiyR6j3sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelperLibrary.Generic_Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelperLibrary.Generic_Factory.html",
+          "hash": "NmBw4x+knGNCeCYnF1XdWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.yml",
       "output": {
         ".html": {
@@ -165,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "E9xhUQBeAk7lN20nZl7Liw=="
+          "hash": "V9Q7JbF0vfIWUQJYEoKqrg=="
         }
       },
       "is_incremental": false,
@@ -231,6 +267,13 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -240,14 +283,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 12,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 15,
           "skipped_file_count": 0
         }
       }

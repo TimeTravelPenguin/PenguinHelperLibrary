@@ -251,12 +251,12 @@ references:
   commentId: T:PenguinHelperLibrary.Extension_Methods.IntegerExtensions
   fullName: PenguinHelperLibrary.Extension_Methods.IntegerExtensions
   nameWithType: IntegerExtensions
-- uid: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32)
-  name: AddOrdinal(Int32)
-  href: api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html#PenguinHelperLibrary_Extension_Methods_IntegerExtensions_AddOrdinal_System_Int32_
-  commentId: M:PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32)
-  fullName: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32)
-  nameWithType: IntegerExtensions.AddOrdinal(Int32)
+- uid: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32,System.Globalization.CultureInfo)
+  name: AddOrdinal(Int32, CultureInfo)
+  href: api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html#PenguinHelperLibrary_Extension_Methods_IntegerExtensions_AddOrdinal_System_Int32_System_Globalization_CultureInfo_
+  commentId: M:PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32,System.Globalization.CultureInfo)
+  fullName: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal(System.Int32, System.Globalization.CultureInfo)
+  nameWithType: IntegerExtensions.AddOrdinal(Int32, CultureInfo)
 - uid: PenguinHelperLibrary.Extension_Methods.IntegerExtensions.AddOrdinal*
   name: AddOrdinal
   href: api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html#PenguinHelperLibrary_Extension_Methods_IntegerExtensions_AddOrdinal_
@@ -343,6 +343,108 @@ references:
   fullName.vb: PenguinHelperLibrary.Extension_Methods.RandomExtensions.GetRandomIn(Of T)(System.Collections.Generic.ICollection(Of T))
   nameWithType: RandomExtensions.GetRandomIn<T>(ICollection<T>)
   nameWithType.vb: RandomExtensions.GetRandomIn(Of T)(ICollection(Of T))
+- uid: PenguinHelperLibrary.Generic_Factory
+  name: PenguinHelperLibrary.Generic_Factory
+  href: api/PenguinHelperLibrary.Generic_Factory.html
+  commentId: N:PenguinHelperLibrary.Generic_Factory
+  fullName: PenguinHelperLibrary.Generic_Factory
+  nameWithType: PenguinHelperLibrary.Generic_Factory
+- uid: PenguinHelperLibrary.Generic_Factory.FactoryBase`1
+  name: FactoryBase<T>
+  href: api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.html
+  commentId: T:PenguinHelperLibrary.Generic_Factory.FactoryBase`1
+  name.vb: FactoryBase(Of T)
+  fullName: PenguinHelperLibrary.Generic_Factory.FactoryBase<T>
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.FactoryBase(Of T)
+  nameWithType: FactoryBase<T>
+  nameWithType.vb: FactoryBase(Of T)
+- uid: PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Create(System.String)
+  name: Create(String)
+  href: api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.html#PenguinHelperLibrary_Generic_Factory_FactoryBase_1_Create_System_String_
+  commentId: M:PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Create(System.String)
+  fullName: PenguinHelperLibrary.Generic_Factory.FactoryBase<T>.Create(System.String)
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.FactoryBase(Of T).Create(System.String)
+  nameWithType: FactoryBase<T>.Create(String)
+  nameWithType.vb: FactoryBase(Of T).Create(String)
+- uid: PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Create*
+  name: Create
+  href: api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.html#PenguinHelperLibrary_Generic_Factory_FactoryBase_1_Create_
+  commentId: Overload:PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Create
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Generic_Factory.FactoryBase<T>.Create
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.FactoryBase(Of T).Create
+  nameWithType: FactoryBase<T>.Create
+  nameWithType.vb: FactoryBase(Of T).Create
+- uid: PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Register(System.String,System.Func{`0})
+  name: Register(String, Func<T>)
+  href: api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.html#PenguinHelperLibrary_Generic_Factory_FactoryBase_1_Register_System_String_System_Func__0__
+  commentId: M:PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Register(System.String,System.Func{`0})
+  name.vb: Register(String, Func(Of T))
+  fullName: PenguinHelperLibrary.Generic_Factory.FactoryBase<T>.Register(System.String, System.Func<T>)
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.FactoryBase(Of T).Register(System.String, System.Func(Of T))
+  nameWithType: FactoryBase<T>.Register(String, Func<T>)
+  nameWithType.vb: FactoryBase(Of T).Register(String, Func(Of T))
+- uid: PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Register*
+  name: Register
+  href: api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.html#PenguinHelperLibrary_Generic_Factory_FactoryBase_1_Register_
+  commentId: Overload:PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Register
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Generic_Factory.FactoryBase<T>.Register
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.FactoryBase(Of T).Register
+  nameWithType: FactoryBase<T>.Register
+  nameWithType.vb: FactoryBase(Of T).Register
+- uid: PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Registry
+  name: Registry
+  href: api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.html#PenguinHelperLibrary_Generic_Factory_FactoryBase_1_Registry
+  commentId: F:PenguinHelperLibrary.Generic_Factory.FactoryBase`1.Registry
+  fullName: PenguinHelperLibrary.Generic_Factory.FactoryBase<T>.Registry
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.FactoryBase(Of T).Registry
+  nameWithType: FactoryBase<T>.Registry
+  nameWithType.vb: FactoryBase(Of T).Registry
+- uid: PenguinHelperLibrary.Generic_Factory.IFactory`1
+  name: IFactory<T>
+  href: api/PenguinHelperLibrary.Generic_Factory.IFactory-1.html
+  commentId: T:PenguinHelperLibrary.Generic_Factory.IFactory`1
+  name.vb: IFactory(Of T)
+  fullName: PenguinHelperLibrary.Generic_Factory.IFactory<T>
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.IFactory(Of T)
+  nameWithType: IFactory<T>
+  nameWithType.vb: IFactory(Of T)
+- uid: PenguinHelperLibrary.Generic_Factory.IFactory`1.Create(System.String)
+  name: Create(String)
+  href: api/PenguinHelperLibrary.Generic_Factory.IFactory-1.html#PenguinHelperLibrary_Generic_Factory_IFactory_1_Create_System_String_
+  commentId: M:PenguinHelperLibrary.Generic_Factory.IFactory`1.Create(System.String)
+  fullName: PenguinHelperLibrary.Generic_Factory.IFactory<T>.Create(System.String)
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.IFactory(Of T).Create(System.String)
+  nameWithType: IFactory<T>.Create(String)
+  nameWithType.vb: IFactory(Of T).Create(String)
+- uid: PenguinHelperLibrary.Generic_Factory.IFactory`1.Create*
+  name: Create
+  href: api/PenguinHelperLibrary.Generic_Factory.IFactory-1.html#PenguinHelperLibrary_Generic_Factory_IFactory_1_Create_
+  commentId: Overload:PenguinHelperLibrary.Generic_Factory.IFactory`1.Create
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Generic_Factory.IFactory<T>.Create
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.IFactory(Of T).Create
+  nameWithType: IFactory<T>.Create
+  nameWithType.vb: IFactory(Of T).Create
+- uid: PenguinHelperLibrary.Generic_Factory.IFactory`1.Register(System.String,System.Func{`0})
+  name: Register(String, Func<T>)
+  href: api/PenguinHelperLibrary.Generic_Factory.IFactory-1.html#PenguinHelperLibrary_Generic_Factory_IFactory_1_Register_System_String_System_Func__0__
+  commentId: M:PenguinHelperLibrary.Generic_Factory.IFactory`1.Register(System.String,System.Func{`0})
+  name.vb: Register(String, Func(Of T))
+  fullName: PenguinHelperLibrary.Generic_Factory.IFactory<T>.Register(System.String, System.Func<T>)
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.IFactory(Of T).Register(System.String, System.Func(Of T))
+  nameWithType: IFactory<T>.Register(String, Func<T>)
+  nameWithType.vb: IFactory(Of T).Register(String, Func(Of T))
+- uid: PenguinHelperLibrary.Generic_Factory.IFactory`1.Register*
+  name: Register
+  href: api/PenguinHelperLibrary.Generic_Factory.IFactory-1.html#PenguinHelperLibrary_Generic_Factory_IFactory_1_Register_
+  commentId: Overload:PenguinHelperLibrary.Generic_Factory.IFactory`1.Register
+  isSpec: "True"
+  fullName: PenguinHelperLibrary.Generic_Factory.IFactory<T>.Register
+  fullName.vb: PenguinHelperLibrary.Generic_Factory.IFactory(Of T).Register
+  nameWithType: IFactory<T>.Register
+  nameWithType.vb: IFactory(Of T).Register
 - uid: PenguinHelperLibrary.Helpful_Methods.IO
   name: PenguinHelperLibrary.Helpful_Methods.IO
   href: api/PenguinHelperLibrary.Helpful_Methods.IO.html
