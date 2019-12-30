@@ -68,6 +68,8 @@
     <Compile Include="Extension Methods\IntegerExtensions.cs" />
     <Compile Include="Extension Methods\MathExtensions.cs" />
     <Compile Include="Extension Methods\NewtonsoftExtensions.cs" />
+    <Compile Include="Generic Factory\FactoryBase.cs" />
+    <Compile Include="Generic Factory\IFactory.cs" />
     <Compile Include="Helpful Methods\IO\FileNameHelper.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

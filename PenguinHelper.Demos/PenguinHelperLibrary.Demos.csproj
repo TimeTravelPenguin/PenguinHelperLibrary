@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\Animals.cs" />
+    <Compile Include="Factory\FactoryDemo.cs" />
+    <Compile Include="Factory\Objects\Cat.cs" />
+    <Compile Include="Factory\Objects\Dog.cs" />
+    <Compile Include="Factory\Objects\IAnimal.cs" />
+    <Compile Include="Factory\AnimalFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,5 +67,6 @@
       <Name>PenguinHelperLibrary</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
