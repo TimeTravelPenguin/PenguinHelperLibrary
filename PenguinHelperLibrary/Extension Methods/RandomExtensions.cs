@@ -7,10 +7,10 @@
 // File Name: RandomExtensions.cs
 // 
 // Current Data:
-// 2019-12-18 12:22 AM
+// 2019-12-30 6:32 PM
 // 
 // Creation Date:
-// 2019-12-07 3:05 PM
+// 2019-12-21 9:44 PM
 
 #endregion
 
@@ -20,50 +20,50 @@ using System.Linq;
 
 namespace PenguinHelperLibrary.Extension_Methods
 {
+  /// <summary>
+  ///   Extension methods to perform random operations
+  /// </summary>
+  public static class RandomExtensions
+  {
+    private static readonly Random Random = new Random();
+    private static readonly object SyncLock = new object();
+
     /// <summary>
-    ///     Extension methods to perform random operations
+    ///   Returns a random item from within an <see cref="ICollection{T}" />.
     /// </summary>
-    public static class RandomExtensions
+    /// <typeparam name="T">
+    ///   The object type of the elements of the collection.
+    /// </typeparam>
+    /// <param name="collection">
+    ///   The collection of elements.
+    /// </param>
+    /// <returns>
+    ///   Returns a random <typeparamref name="T" /> from within <paramref name="collection" />.
+    /// </returns>
+    public static T GetRandomIn<T>(this ICollection<T> collection)
     {
-        private static readonly Random Random = new Random();
-        private static readonly object SyncLock = new object();
+      if (collection is null)
+      {
+        throw new ArgumentNullException(nameof(collection));
+      }
 
-        /// <summary>
-        ///     Returns a random item from within an <see cref="ICollection{T}" />.
-        /// </summary>
-        /// <typeparam name="T">
-        ///     The object type of the elements of the collection.
-        /// </typeparam>
-        /// <param name="collection">
-        ///     The collection of elements.
-        /// </param>
-        /// <returns>
-        ///     Returns a random <typeparamref name="T" /> from within <paramref name="collection" />.
-        /// </returns>
-        public static T GetRandomIn<T>(this ICollection<T> collection)
-        {
-            if (collection is null)
-            {
-                throw new ArgumentNullException(nameof(collection));
-            }
-
-            return collection.ToArray()[RandInt(0, collection.Count)];
-        }
-
-        private static int RandInt(int min, int max)
-        {
-            lock (SyncLock)
-            {
-                return Random.Next(min, max);
-            }
-        }
-
-        private static double RandInRange(double min, double max)
-        {
-            lock (SyncLock)
-            {
-                return min + Random.NextDouble() * max;
-            }
-        }
+      return collection.ToArray()[RandInt(0, collection.Count)];
     }
+
+    private static int RandInt(int min, int max)
+    {
+      lock (SyncLock)
+      {
+        return Random.Next(min, max);
+      }
+    }
+
+    private static double RandInRange(double min, double max)
+    {
+      lock (SyncLock)
+      {
+        return min + Random.NextDouble() * max;
+      }
+    }
+  }
 }

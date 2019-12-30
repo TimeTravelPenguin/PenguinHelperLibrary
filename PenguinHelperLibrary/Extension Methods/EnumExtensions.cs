@@ -7,10 +7,10 @@
 // File Name: EnumExtensions.cs
 // 
 // Current Data:
-// 2019-12-07 1:52 PM
+// 2019-12-30 6:26 PM
 // 
 // Creation Date:
-// 2019-12-07 10:18 AM
+// 2019-12-21 9:44 PM
 
 #endregion
 
@@ -18,23 +18,23 @@ using System;
 
 namespace PenguinHelperLibrary.Extension_Methods
 {
+  /// <summary>
+  ///   Extension methods for type <see cref="Enum" />.
+  /// </summary>
+  public static class EnumExtensions
+  {
     /// <summary>
-    ///     Extension methods for type <see cref="Enum" />.
+    ///   Returns an array of type <typeparamref name="T" /> containing <see cref="Enum" /> values.
     /// </summary>
-    public static class EnumExtensions
+    /// <typeparam name="T">
+    ///   The element type of the array
+    /// </typeparam>
+    /// <returns>
+    ///   Returns an array of type <typeparamref name="T" />
+    /// </returns>
+    public static T[] EnumToArray<T>() where T : Enum
     {
-        /// <summary>
-        ///     Returns an array of type <typeparamref name="T" /> containing <see cref="Enum" /> values.
-        /// </summary>
-        /// <typeparam name="T">
-        ///     The element type of the array
-        /// </typeparam>
-        /// <returns>
-        ///     Returns an array of type <typeparamref name="T" />
-        /// </returns>
-        public static T[] EnumToArray<T>() where T : Enum
-        {
-            return (T[]) Enum.GetValues(typeof(T));
-        }
+      return (T[]) Enum.GetValues(typeof(T));
     }
+  }
 }
