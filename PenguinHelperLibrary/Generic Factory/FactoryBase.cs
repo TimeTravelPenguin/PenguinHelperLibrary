@@ -30,7 +30,9 @@ namespace PenguinHelperLibrary.Generic_Factory
     /// <summary>
     ///   An <see cref="IDictionary{TKey,TValue}" /> containing <see cref="KeyValuePair{TKey,TValue}" /> to create objects.
     /// </summary>
+#pragma warning disable CA1051 // Do not declare visible instance fields
     protected IDictionary<string, Func<T>> Registry;
+#pragma warning restore CA1051 // Do not declare visible instance fields
 
     /// <summary>
     ///   If <see cref="Registry" /> contains a Key" of <paramref name="key" />,
