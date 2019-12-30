@@ -7,19 +7,21 @@
 // File Name: ArrayExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-30 6:32 PM
+// 2019-12-30 6:59 PM
 // 
 // Creation Date:
-// 2019-12-22 12:53 AM
+// 2019-12-30 6:38 PM
 
 #endregion
 
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using AllOverIt.Fixture;
 using FluentAssertions;
 using JetBrains.Annotations;
 using PenguinHelperLibrary.Extension_Methods;
+using PenguinHelperLibrary.Generic_Factory;
 using Xunit;
 
 namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
@@ -161,6 +163,55 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         Invoking(() => ((object[]) null).FillNullIndex(new object()))
           .Should()
           .ThrowExactly<ArgumentNullException>();
+      }
+    }
+
+    public class FillUsingFactory : AoiFixtureBase
+    {
+      internal class DemoFactory : FactoryBase<DemoFactory.IDemo>
+      {
+        public DemoFactory()
+        {
+          Registry = new Dictionary<string, Func<IDemo>>
+          {
+            ["Demo"] = () => new DemoObject()
+          };
+        }
+
+        public interface IDemo
+        {
+        }
+
+        internal class DemoObject : IDemo
+        {
+        }
+      }
+
+      /// <summary>
+      /// Tests for <see cref="ArrayExtensionMethods.Fill{T}(T[], Func{T})"/>.
+      /// </summary>
+      [Fact]
+      public void FillUsingFactoryTest()
+      {
+        var factory = new DemoFactory();
+
+        DemoFactory.IDemo FillValue()
+        {
+          return factory.Create("Demo");
+        }
+
+        var actual = new DemoFactory.IDemo[10];
+
+        actual.Fill(FillValue);
+
+        foreach (var value in actual)
+        {
+          value
+            .Should()
+            .BeAssignableTo<DemoFactory.IDemo>()
+            .And
+            .BeOfType<DemoFactory.DemoObject>();
+        }
       }
     }
   }
