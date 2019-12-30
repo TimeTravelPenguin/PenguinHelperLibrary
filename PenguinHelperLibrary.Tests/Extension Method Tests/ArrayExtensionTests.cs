@@ -7,7 +7,7 @@
 // File Name: ArrayExtensionTests.cs
 // 
 // Current Data:
-// 2019-12-30 6:59 PM
+// 2019-12-30 7:10 PM
 // 
 // Creation Date:
 // 2019-12-30 6:38 PM
@@ -166,9 +166,12 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
       }
     }
 
+    /// <summary>
+    ///   Tests for <see cref="ArrayExtensionMethods.Fill{T}(T[], Func{T})" />.
+    /// </summary>
     public class FillUsingFactory : AoiFixtureBase
     {
-      internal class DemoFactory : FactoryBase<DemoFactory.IDemo>
+      private class DemoFactory : FactoryBase<DemoFactory.IDemo>
       {
         public DemoFactory()
         {
@@ -182,13 +185,13 @@ namespace PenguinHelperLibrary.Tests.Extension_Method_Tests
         {
         }
 
-        internal class DemoObject : IDemo
+        public class DemoObject : IDemo
         {
         }
       }
 
       /// <summary>
-      /// Tests for <see cref="ArrayExtensionMethods.Fill{T}(T[], Func{T})"/>.
+      ///   Uses the fill function to add objects using a factory
       /// </summary>
       [Fact]
       public void FillUsingFactoryTest()
