@@ -7,10 +7,10 @@
 // File Name: NewtonsoftExtensions.cs
 // 
 // Current Data:
-// 2019-12-30 6:32 PM
+// 2019-12-30 11:23 PM
 // 
 // Creation Date:
-// 2019-12-21 9:44 PM
+// 2019-12-30 6:38 PM
 
 #endregion
 
@@ -28,17 +28,17 @@ namespace PenguinHelperLibrary.Extension_Methods
     ///   Returns JSON formatted <see cref="string" />.
     /// </summary>
     /// <typeparam name="T">
-    ///   The object type of <paramref name="obj" /> that will be serialized.
+    ///   The object type of <paramref name="serializableObject" /> that will be serialized.
     /// </typeparam>
-    /// <param name="obj">
+    /// <param name="serializableObject">
     ///   The object to be serialized.
     /// </param>
     /// <returns>
     ///   Returns a <see cref="string" /> value
     /// </returns>
-    public static string SerializeObject<T>(this T obj)
+    public static string SerializeObject<T>(this T serializableObject)
     {
-      return JsonConvert.SerializeObject(obj);
+      return JsonConvert.SerializeObject(serializableObject);
     }
 
     /// <summary>
