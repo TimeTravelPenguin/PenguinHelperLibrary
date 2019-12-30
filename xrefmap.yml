@@ -29,6 +29,15 @@ references:
   fullName.vb: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill(Of T)(T(), T)
   nameWithType: ArrayExtensionMethods.Fill<T>(T[], T)
   nameWithType.vb: ArrayExtensionMethods.Fill(Of T)(T(), T)
+- uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill``1(``0[],System.Func{``0})
+  name: Fill<T>(T[], Func<T>)
+  href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html#PenguinHelperLibrary_Extension_Methods_ArrayExtensionMethods_Fill__1___0___System_Func___0__
+  commentId: M:PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill``1(``0[],System.Func{``0})
+  name.vb: Fill(Of T)(T(), Func(Of T))
+  fullName: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill<T>(T[], System.Func<T>)
+  fullName.vb: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.Fill(Of T)(T(), System.Func(Of T))
+  nameWithType: ArrayExtensionMethods.Fill<T>(T[], Func<T>)
+  nameWithType.vb: ArrayExtensionMethods.Fill(Of T)(T(), Func(Of T))
 - uid: PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.FillNullIndex*
   name: FillNullIndex
   href: api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html#PenguinHelperLibrary_Extension_Methods_ArrayExtensionMethods_FillNullIndex_
