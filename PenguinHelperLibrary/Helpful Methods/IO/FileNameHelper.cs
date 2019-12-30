@@ -21,7 +21,7 @@ namespace PenguinHelperLibrary.Helpful_Methods.IO
   /// <summary>
   ///   Methods to assist with file creation, management, etc.
   /// </summary>
-  public class FileNameHelper
+  public static class FileNameHelper
   {
     /// <summary>
     ///   Ensures a filename is unique by generating a unique filename if the specified file already exists.
