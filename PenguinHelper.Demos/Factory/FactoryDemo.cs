@@ -7,10 +7,10 @@
 // File Name: FactoryDemo.cs
 // 
 // Current Data:
-// 2019-12-30 6:13 PM
+// 2019-12-30 7:15 PM
 // 
 // Creation Date:
-// 2019-12-30 5:42 PM
+// 2019-12-30 6:17 PM
 
 #endregion
 
@@ -19,6 +19,9 @@ using PenguinHelperLibrary.Demos.Factory.Objects;
 
 namespace PenguinHelperLibrary.Demos.Factory
 {
+  /// <summary>
+  ///   Demo showing how to use the generic factory, including how to register own objects to the factory.
+  /// </summary>
   public static class FactoryDemo
   {
     // Private class separate to factory defaults
