@@ -4,15 +4,243 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Extensions.ArrayExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Extensions.ArrayExtensionMethods.html",
+          "hash": "ev8XFYYZKU0zl0SoQtyTpAwRiAthFi1NjCdFjst8Cmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Extensions.CollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Extensions.CollectionExtensions.html",
+          "hash": "tC4E8ajk13V+XpHkC2xxyp6VQS6JCl6/nEBK032ksj0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Extensions.DictionaryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Extensions.DictionaryExtensions.html",
+          "hash": "YBAlGnx9Omhf0uY7jn/G2n7+7bNqiLnb6GW6rpeKzbQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Extensions.DoubleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Extensions.DoubleExtensions.html",
+          "hash": "8z0/4ACDs78GIfRgajwtDpHyrPjA4irSaweq0h8uNlY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Extensions.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Extensions.EnumExtensions.html",
+          "hash": "5iiGVqGjI5dFKsh8UL6r0oR1BqjZ5Ps5FYI7FLBTIuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Extensions.MathExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Extensions.MathExtensions.html",
+          "hash": "hc1znGF6vXBsTj48Fq7yXGSJZPROZqKZ3Ei0xBDKUFc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Extensions.RandomExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Extensions.RandomExtensions.html",
+          "hash": "DDrln3ZmXz5Lgyj/R2vFrRmRrfpUeFN5a3dVJwmSjCA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Extensions.html",
+          "hash": "K6VWAPEVty8voGoBJAMF1rOCknScaOO0036kSqIZdJw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Helper.FileNameHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Helper.FileNameHelper.html",
+          "hash": "kINZBBqdDaBvMjfMRYEG+6kblBLEIdKV6Y/WSV4UIo0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Helper.ThreadSafeRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Helper.ThreadSafeRandom.html",
+          "hash": "a6X4NSjc3mzHaRE8ZpZUfSwvKNJ8JhH4yk/W66cDh8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Helper.html",
+          "hash": "lUwnRTlhOLgA+9cCPwxT3B6RwgzlZ4VGDG5UhhrASQ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.html",
+          "hash": "oPmihVwVr0Rsl3Bzs+hcZxKaUsuszLCI55VAooqg/LQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Newtonsoft.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Newtonsoft.Extensions.html",
+          "hash": "sZDfhZPTnBAbnYSA3JdS6kwHxbAaglZWNoWPVmnLuZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.html",
+          "hash": "gGEynliyHHDCN4+Z7x6lbh43g22uBEJkVRaOv8DGsK8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Patterns.GenericFactory.IFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Patterns.GenericFactory.IFactory-1.html",
+          "hash": "uOpbUYMCPR+9Pvm9MfURQ3VHjKWmprbvA9+qbjAl+ko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Patterns.GenericFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Patterns.GenericFactory.html",
+          "hash": "pHvtC/TUJ0s2haGD3JNSusVSG0wvKSBINs4e5gIcEXo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor-1.html",
+          "hash": "iwfXtvgsdHrrdt8s189iXFtJLb5dXYkK9wHdlmcAc3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Patterns.GenericStrategy.IStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Patterns.GenericStrategy.IStrategy.html",
+          "hash": "GS7ftTGtO/eEaygE/xz5JneeprVx/HZPqbF2snS7zgg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PenguinHelper.Patterns.GenericStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PenguinHelper.Patterns.GenericStrategy.html",
+          "hash": "HyyJJOA6lAZ7eeU7Rw2eQNTYOXTlEyCs7gRRfm1lWVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "cJarOrzug9Ba7aF59Pd8U7SpzgJCbIUOfd36qLnBI5w="
+          "hash": "S7R9vcurmFPcLJnsmD/AghOuGxLwXmF6YEM+alX7CBw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "53cDPdjyKTmYSaPMwcMYYJO/bYpeY21eGi/JWyVQBqE="
+          "hash": "IlW87vhV23ghHToZQ4OjrzMFIXBSd80KYsOrlJGQP8E="
         }
       },
       "is_incremental": false,
@@ -33,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "gpdfopab5n9lLvWEQxuqmCpUFFP6YkzrPMpSk1k560I="
+          "hash": "ekG5plNgSgQ4M53UVe+dnw852gDLkgg/9On8QwBjdr4="
         }
       },
       "is_incremental": true,
@@ -57,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "6fLWtztVGp5xQEkfVgzvosvVByVwKr8gh6Fau1OJ1l4="
+          "hash": "5UmAUFfy/6mMhQrf+sKK4sBpy3vdgkcIDfLwFilK8UM="
         }
       },
       "is_incremental": true,
@@ -90,6 +318,12 @@
           "incrementalPhase": "build",
           "total_file_count": 3,
           "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 19,
+          "skipped_file_count": 15
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

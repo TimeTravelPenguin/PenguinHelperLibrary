@@ -1,3 +1,586 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: PenguinHelper.Extensions
+  name: PenguinHelper.Extensions
+  href: api/PenguinHelper.Extensions.html
+  commentId: N:PenguinHelper.Extensions
+  fullName: PenguinHelper.Extensions
+  nameWithType: PenguinHelper.Extensions
+- uid: PenguinHelper.Extensions.ArrayExtensionMethods
+  name: ArrayExtensionMethods
+  href: api/PenguinHelper.Extensions.ArrayExtensionMethods.html
+  commentId: T:PenguinHelper.Extensions.ArrayExtensionMethods
+  fullName: PenguinHelper.Extensions.ArrayExtensionMethods
+  nameWithType: ArrayExtensionMethods
+- uid: PenguinHelper.Extensions.ArrayExtensionMethods.Fill*
+  name: Fill
+  href: api/PenguinHelper.Extensions.ArrayExtensionMethods.html#PenguinHelper_Extensions_ArrayExtensionMethods_Fill_
+  commentId: Overload:PenguinHelper.Extensions.ArrayExtensionMethods.Fill
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.ArrayExtensionMethods.Fill
+  nameWithType: ArrayExtensionMethods.Fill
+- uid: PenguinHelper.Extensions.ArrayExtensionMethods.Fill``1(``0[],``0)
+  name: Fill<T>(T[], T)
+  href: api/PenguinHelper.Extensions.ArrayExtensionMethods.html#PenguinHelper_Extensions_ArrayExtensionMethods_Fill__1___0_____0_
+  commentId: M:PenguinHelper.Extensions.ArrayExtensionMethods.Fill``1(``0[],``0)
+  name.vb: Fill(Of T)(T(), T)
+  fullName: PenguinHelper.Extensions.ArrayExtensionMethods.Fill<T>(T[], T)
+  fullName.vb: PenguinHelper.Extensions.ArrayExtensionMethods.Fill(Of T)(T(), T)
+  nameWithType: ArrayExtensionMethods.Fill<T>(T[], T)
+  nameWithType.vb: ArrayExtensionMethods.Fill(Of T)(T(), T)
+- uid: PenguinHelper.Extensions.ArrayExtensionMethods.Fill``1(``0[],System.Func{``0})
+  name: Fill<T>(T[], Func<T>)
+  href: api/PenguinHelper.Extensions.ArrayExtensionMethods.html#PenguinHelper_Extensions_ArrayExtensionMethods_Fill__1___0___System_Func___0__
+  commentId: M:PenguinHelper.Extensions.ArrayExtensionMethods.Fill``1(``0[],System.Func{``0})
+  name.vb: Fill(Of T)(T(), Func(Of T))
+  fullName: PenguinHelper.Extensions.ArrayExtensionMethods.Fill<T>(T[], System.Func<T>)
+  fullName.vb: PenguinHelper.Extensions.ArrayExtensionMethods.Fill(Of T)(T(), System.Func(Of T))
+  nameWithType: ArrayExtensionMethods.Fill<T>(T[], Func<T>)
+  nameWithType.vb: ArrayExtensionMethods.Fill(Of T)(T(), Func(Of T))
+- uid: PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault*
+  name: FillWithDefault
+  href: api/PenguinHelper.Extensions.ArrayExtensionMethods.html#PenguinHelper_Extensions_ArrayExtensionMethods_FillWithDefault_
+  commentId: Overload:PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault
+  nameWithType: ArrayExtensionMethods.FillWithDefault
+- uid: PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault``1(``0[])
+  name: FillWithDefault<T>(T[])
+  href: api/PenguinHelper.Extensions.ArrayExtensionMethods.html#PenguinHelper_Extensions_ArrayExtensionMethods_FillWithDefault__1___0___
+  commentId: M:PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault``1(``0[])
+  name.vb: FillWithDefault(Of T)(T())
+  fullName: PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault<T>(T[])
+  fullName.vb: PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault(Of T)(T())
+  nameWithType: ArrayExtensionMethods.FillWithDefault<T>(T[])
+  nameWithType.vb: ArrayExtensionMethods.FillWithDefault(Of T)(T())
+- uid: PenguinHelper.Extensions.ArrayExtensionMethods.ReplaceNull*
+  name: ReplaceNull
+  href: api/PenguinHelper.Extensions.ArrayExtensionMethods.html#PenguinHelper_Extensions_ArrayExtensionMethods_ReplaceNull_
+  commentId: Overload:PenguinHelper.Extensions.ArrayExtensionMethods.ReplaceNull
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.ArrayExtensionMethods.ReplaceNull
+  nameWithType: ArrayExtensionMethods.ReplaceNull
+- uid: PenguinHelper.Extensions.ArrayExtensionMethods.ReplaceNull``1(``0[],``0)
+  name: ReplaceNull<T>(T[], T)
+  href: api/PenguinHelper.Extensions.ArrayExtensionMethods.html#PenguinHelper_Extensions_ArrayExtensionMethods_ReplaceNull__1___0_____0_
+  commentId: M:PenguinHelper.Extensions.ArrayExtensionMethods.ReplaceNull``1(``0[],``0)
+  name.vb: ReplaceNull(Of T)(T(), T)
+  fullName: PenguinHelper.Extensions.ArrayExtensionMethods.ReplaceNull<T>(T[], T)
+  fullName.vb: PenguinHelper.Extensions.ArrayExtensionMethods.ReplaceNull(Of T)(T(), T)
+  nameWithType: ArrayExtensionMethods.ReplaceNull<T>(T[], T)
+  nameWithType.vb: ArrayExtensionMethods.ReplaceNull(Of T)(T(), T)
+- uid: PenguinHelper.Extensions.CollectionExtensions
+  name: CollectionExtensions
+  href: api/PenguinHelper.Extensions.CollectionExtensions.html
+  commentId: T:PenguinHelper.Extensions.CollectionExtensions
+  fullName: PenguinHelper.Extensions.CollectionExtensions
+  nameWithType: CollectionExtensions
+- uid: PenguinHelper.Extensions.CollectionExtensions.AddRange*
+  name: AddRange
+  href: api/PenguinHelper.Extensions.CollectionExtensions.html#PenguinHelper_Extensions_CollectionExtensions_AddRange_
+  commentId: Overload:PenguinHelper.Extensions.CollectionExtensions.AddRange
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.CollectionExtensions.AddRange
+  nameWithType: CollectionExtensions.AddRange
+- uid: PenguinHelper.Extensions.CollectionExtensions.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})
+  name: AddRange<T>(ICollection<T>, IEnumerable<T>)
+  href: api/PenguinHelper.Extensions.CollectionExtensions.html#PenguinHelper_Extensions_CollectionExtensions_AddRange__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:PenguinHelper.Extensions.CollectionExtensions.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})
+  name.vb: AddRange(Of T)(ICollection(Of T), IEnumerable(Of T))
+  fullName: PenguinHelper.Extensions.CollectionExtensions.AddRange<T>(System.Collections.Generic.ICollection<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: PenguinHelper.Extensions.CollectionExtensions.AddRange(Of T)(System.Collections.Generic.ICollection(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CollectionExtensions.AddRange<T>(ICollection<T>, IEnumerable<T>)
+  nameWithType.vb: CollectionExtensions.AddRange(Of T)(ICollection(Of T), IEnumerable(Of T))
+- uid: PenguinHelper.Extensions.DictionaryExtensions
+  name: DictionaryExtensions
+  href: api/PenguinHelper.Extensions.DictionaryExtensions.html
+  commentId: T:PenguinHelper.Extensions.DictionaryExtensions
+  fullName: PenguinHelper.Extensions.DictionaryExtensions
+  nameWithType: DictionaryExtensions
+- uid: PenguinHelper.Extensions.DictionaryExtensions.Add*
+  name: Add
+  href: api/PenguinHelper.Extensions.DictionaryExtensions.html#PenguinHelper_Extensions_DictionaryExtensions_Add_
+  commentId: Overload:PenguinHelper.Extensions.DictionaryExtensions.Add
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DictionaryExtensions.Add
+  nameWithType: DictionaryExtensions.Add
+- uid: PenguinHelper.Extensions.DictionaryExtensions.Add``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.KeyValuePair{``0,``1})
+  name: Add<TKey, TValue>(IDictionary<TKey, TValue>, KeyValuePair<TKey, TValue>)
+  href: api/PenguinHelper.Extensions.DictionaryExtensions.html#PenguinHelper_Extensions_DictionaryExtensions_Add__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_KeyValuePair___0___1__
+  commentId: M:PenguinHelper.Extensions.DictionaryExtensions.Add``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.KeyValuePair{``0,``1})
+  name.vb: Add(Of TKey, TValue)(IDictionary(Of TKey, TValue), KeyValuePair(Of TKey, TValue))
+  fullName: PenguinHelper.Extensions.DictionaryExtensions.Add<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  fullName.vb: PenguinHelper.Extensions.DictionaryExtensions.Add(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  nameWithType: DictionaryExtensions.Add<TKey, TValue>(IDictionary<TKey, TValue>, KeyValuePair<TKey, TValue>)
+  nameWithType.vb: DictionaryExtensions.Add(Of TKey, TValue)(IDictionary(Of TKey, TValue), KeyValuePair(Of TKey, TValue))
+- uid: PenguinHelper.Extensions.DictionaryExtensions.AddRange*
+  name: AddRange
+  href: api/PenguinHelper.Extensions.DictionaryExtensions.html#PenguinHelper_Extensions_DictionaryExtensions_AddRange_
+  commentId: Overload:PenguinHelper.Extensions.DictionaryExtensions.AddRange
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DictionaryExtensions.AddRange
+  nameWithType: DictionaryExtensions.AddRange
+- uid: PenguinHelper.Extensions.DictionaryExtensions.AddRange``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name: AddRange<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  href: api/PenguinHelper.Extensions.DictionaryExtensions.html#PenguinHelper_Extensions_DictionaryExtensions_AddRange__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___
+  commentId: M:PenguinHelper.Extensions.DictionaryExtensions.AddRange``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name.vb: AddRange(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  fullName: PenguinHelper.Extensions.DictionaryExtensions.AddRange<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
+  fullName.vb: PenguinHelper.Extensions.DictionaryExtensions.AddRange(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
+  nameWithType: DictionaryExtensions.AddRange<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  nameWithType.vb: DictionaryExtensions.AddRange(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+- uid: PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/PenguinHelper.Extensions.DictionaryExtensions.html#PenguinHelper_Extensions_DictionaryExtensions_GetValueOrDefault_
+  commentId: Overload:PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault
+  nameWithType: DictionaryExtensions.GetValueOrDefault
+- uid: PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)
+  name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  href: api/PenguinHelper.Extensions.DictionaryExtensions.html#PenguinHelper_Extensions_DictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IDictionary___0___1____0_
+  commentId: M:PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  fullName: PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey)
+  fullName.vb: PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey)
+  nameWithType: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  nameWithType.vb: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+- uid: PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
+  name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
+  href: api/PenguinHelper.Extensions.DictionaryExtensions.html#PenguinHelper_Extensions_DictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IDictionary___0___1____0___1_
+  commentId: M:PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+  fullName: PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey, TValue)
+  fullName.vb: PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey, TValue)
+  nameWithType: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
+  nameWithType.vb: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+- uid: PenguinHelper.Extensions.DoubleExtensions
+  name: DoubleExtensions
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html
+  commentId: T:PenguinHelper.Extensions.DoubleExtensions
+  fullName: PenguinHelper.Extensions.DoubleExtensions
+  nameWithType: DoubleExtensions
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsEqualTo(System.Double,System.Double,System.Double)
+  name: IsEqualTo(Double, Double, Double)
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsEqualTo_System_Double_System_Double_System_Double_
+  commentId: M:PenguinHelper.Extensions.DoubleExtensions.IsEqualTo(System.Double,System.Double,System.Double)
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsEqualTo(System.Double, System.Double, System.Double)
+  nameWithType: DoubleExtensions.IsEqualTo(Double, Double, Double)
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsEqualTo*
+  name: IsEqualTo
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsEqualTo_
+  commentId: Overload:PenguinHelper.Extensions.DoubleExtensions.IsEqualTo
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsEqualTo
+  nameWithType: DoubleExtensions.IsEqualTo
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsGreaterThan(System.Double,System.Double)
+  name: IsGreaterThan(Double, Double)
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsGreaterThan_System_Double_System_Double_
+  commentId: M:PenguinHelper.Extensions.DoubleExtensions.IsGreaterThan(System.Double,System.Double)
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsGreaterThan(System.Double, System.Double)
+  nameWithType: DoubleExtensions.IsGreaterThan(Double, Double)
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsGreaterThan*
+  name: IsGreaterThan
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsGreaterThan_
+  commentId: Overload:PenguinHelper.Extensions.DoubleExtensions.IsGreaterThan
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsGreaterThan
+  nameWithType: DoubleExtensions.IsGreaterThan
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsGreaterThanOrEqual(System.Double,System.Double,System.Double)
+  name: IsGreaterThanOrEqual(Double, Double, Double)
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsGreaterThanOrEqual_System_Double_System_Double_System_Double_
+  commentId: M:PenguinHelper.Extensions.DoubleExtensions.IsGreaterThanOrEqual(System.Double,System.Double,System.Double)
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsGreaterThanOrEqual(System.Double, System.Double, System.Double)
+  nameWithType: DoubleExtensions.IsGreaterThanOrEqual(Double, Double, Double)
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsGreaterThanOrEqual*
+  name: IsGreaterThanOrEqual
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsGreaterThanOrEqual_
+  commentId: Overload:PenguinHelper.Extensions.DoubleExtensions.IsGreaterThanOrEqual
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsGreaterThanOrEqual
+  nameWithType: DoubleExtensions.IsGreaterThanOrEqual
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsInfinity(System.Double)
+  name: IsInfinity(Double)
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsInfinity_System_Double_
+  commentId: M:PenguinHelper.Extensions.DoubleExtensions.IsInfinity(System.Double)
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsInfinity(System.Double)
+  nameWithType: DoubleExtensions.IsInfinity(Double)
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsInfinity*
+  name: IsInfinity
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsInfinity_
+  commentId: Overload:PenguinHelper.Extensions.DoubleExtensions.IsInfinity
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsInfinity
+  nameWithType: DoubleExtensions.IsInfinity
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsZero(System.Double,System.Double)
+  name: IsZero(Double, Double)
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsZero_System_Double_System_Double_
+  commentId: M:PenguinHelper.Extensions.DoubleExtensions.IsZero(System.Double,System.Double)
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsZero(System.Double, System.Double)
+  nameWithType: DoubleExtensions.IsZero(Double, Double)
+- uid: PenguinHelper.Extensions.DoubleExtensions.IsZero*
+  name: IsZero
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_IsZero_
+  commentId: Overload:PenguinHelper.Extensions.DoubleExtensions.IsZero
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DoubleExtensions.IsZero
+  nameWithType: DoubleExtensions.IsZero
+- uid: PenguinHelper.Extensions.DoubleExtensions.LimitToRange(System.Double,System.Double,System.Double)
+  name: LimitToRange(Double, Double, Double)
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_LimitToRange_System_Double_System_Double_System_Double_
+  commentId: M:PenguinHelper.Extensions.DoubleExtensions.LimitToRange(System.Double,System.Double,System.Double)
+  fullName: PenguinHelper.Extensions.DoubleExtensions.LimitToRange(System.Double, System.Double, System.Double)
+  nameWithType: DoubleExtensions.LimitToRange(Double, Double, Double)
+- uid: PenguinHelper.Extensions.DoubleExtensions.LimitToRange*
+  name: LimitToRange
+  href: api/PenguinHelper.Extensions.DoubleExtensions.html#PenguinHelper_Extensions_DoubleExtensions_LimitToRange_
+  commentId: Overload:PenguinHelper.Extensions.DoubleExtensions.LimitToRange
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.DoubleExtensions.LimitToRange
+  nameWithType: DoubleExtensions.LimitToRange
+- uid: PenguinHelper.Extensions.EnumExtensions
+  name: EnumExtensions
+  href: api/PenguinHelper.Extensions.EnumExtensions.html
+  commentId: T:PenguinHelper.Extensions.EnumExtensions
+  fullName: PenguinHelper.Extensions.EnumExtensions
+  nameWithType: EnumExtensions
+- uid: PenguinHelper.Extensions.EnumExtensions.EnumToArray*
+  name: EnumToArray
+  href: api/PenguinHelper.Extensions.EnumExtensions.html#PenguinHelper_Extensions_EnumExtensions_EnumToArray_
+  commentId: Overload:PenguinHelper.Extensions.EnumExtensions.EnumToArray
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.EnumExtensions.EnumToArray
+  nameWithType: EnumExtensions.EnumToArray
+- uid: PenguinHelper.Extensions.EnumExtensions.EnumToArray``1
+  name: EnumToArray<T>()
+  href: api/PenguinHelper.Extensions.EnumExtensions.html#PenguinHelper_Extensions_EnumExtensions_EnumToArray__1
+  commentId: M:PenguinHelper.Extensions.EnumExtensions.EnumToArray``1
+  name.vb: EnumToArray(Of T)()
+  fullName: PenguinHelper.Extensions.EnumExtensions.EnumToArray<T>()
+  fullName.vb: PenguinHelper.Extensions.EnumExtensions.EnumToArray(Of T)()
+  nameWithType: EnumExtensions.EnumToArray<T>()
+  nameWithType.vb: EnumExtensions.EnumToArray(Of T)()
+- uid: PenguinHelper.Extensions.MathExtensions
+  name: MathExtensions
+  href: api/PenguinHelper.Extensions.MathExtensions.html
+  commentId: T:PenguinHelper.Extensions.MathExtensions
+  fullName: PenguinHelper.Extensions.MathExtensions
+  nameWithType: MathExtensions
+- uid: PenguinHelper.Extensions.MathExtensions.PercentOf(System.Double,System.Double)
+  name: PercentOf(Double, Double)
+  href: api/PenguinHelper.Extensions.MathExtensions.html#PenguinHelper_Extensions_MathExtensions_PercentOf_System_Double_System_Double_
+  commentId: M:PenguinHelper.Extensions.MathExtensions.PercentOf(System.Double,System.Double)
+  fullName: PenguinHelper.Extensions.MathExtensions.PercentOf(System.Double, System.Double)
+  nameWithType: MathExtensions.PercentOf(Double, Double)
+- uid: PenguinHelper.Extensions.MathExtensions.PercentOf*
+  name: PercentOf
+  href: api/PenguinHelper.Extensions.MathExtensions.html#PenguinHelper_Extensions_MathExtensions_PercentOf_
+  commentId: Overload:PenguinHelper.Extensions.MathExtensions.PercentOf
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.MathExtensions.PercentOf
+  nameWithType: MathExtensions.PercentOf
+- uid: PenguinHelper.Extensions.RandomExtensions
+  name: RandomExtensions
+  href: api/PenguinHelper.Extensions.RandomExtensions.html
+  commentId: T:PenguinHelper.Extensions.RandomExtensions
+  fullName: PenguinHelper.Extensions.RandomExtensions
+  nameWithType: RandomExtensions
+- uid: PenguinHelper.Extensions.RandomExtensions.GetRandomIn*
+  name: GetRandomIn
+  href: api/PenguinHelper.Extensions.RandomExtensions.html#PenguinHelper_Extensions_RandomExtensions_GetRandomIn_
+  commentId: Overload:PenguinHelper.Extensions.RandomExtensions.GetRandomIn
+  isSpec: "True"
+  fullName: PenguinHelper.Extensions.RandomExtensions.GetRandomIn
+  nameWithType: RandomExtensions.GetRandomIn
+- uid: PenguinHelper.Extensions.RandomExtensions.GetRandomIn``1(System.Collections.Generic.ICollection{``0})
+  name: GetRandomIn<T>(ICollection<T>)
+  href: api/PenguinHelper.Extensions.RandomExtensions.html#PenguinHelper_Extensions_RandomExtensions_GetRandomIn__1_System_Collections_Generic_ICollection___0__
+  commentId: M:PenguinHelper.Extensions.RandomExtensions.GetRandomIn``1(System.Collections.Generic.ICollection{``0})
+  name.vb: GetRandomIn(Of T)(ICollection(Of T))
+  fullName: PenguinHelper.Extensions.RandomExtensions.GetRandomIn<T>(System.Collections.Generic.ICollection<T>)
+  fullName.vb: PenguinHelper.Extensions.RandomExtensions.GetRandomIn(Of T)(System.Collections.Generic.ICollection(Of T))
+  nameWithType: RandomExtensions.GetRandomIn<T>(ICollection<T>)
+  nameWithType.vb: RandomExtensions.GetRandomIn(Of T)(ICollection(Of T))
+- uid: PenguinHelper.Helper
+  name: PenguinHelper.Helper
+  href: api/PenguinHelper.Helper.html
+  commentId: N:PenguinHelper.Helper
+  fullName: PenguinHelper.Helper
+  nameWithType: PenguinHelper.Helper
+- uid: PenguinHelper.Helper.FileNameHelper
+  name: FileNameHelper
+  href: api/PenguinHelper.Helper.FileNameHelper.html
+  commentId: T:PenguinHelper.Helper.FileNameHelper
+  fullName: PenguinHelper.Helper.FileNameHelper
+  nameWithType: FileNameHelper
+- uid: PenguinHelper.Helper.FileNameHelper.CreateUniqueFilename(System.String)
+  name: CreateUniqueFilename(String)
+  href: api/PenguinHelper.Helper.FileNameHelper.html#PenguinHelper_Helper_FileNameHelper_CreateUniqueFilename_System_String_
+  commentId: M:PenguinHelper.Helper.FileNameHelper.CreateUniqueFilename(System.String)
+  fullName: PenguinHelper.Helper.FileNameHelper.CreateUniqueFilename(System.String)
+  nameWithType: FileNameHelper.CreateUniqueFilename(String)
+- uid: PenguinHelper.Helper.FileNameHelper.CreateUniqueFilename*
+  name: CreateUniqueFilename
+  href: api/PenguinHelper.Helper.FileNameHelper.html#PenguinHelper_Helper_FileNameHelper_CreateUniqueFilename_
+  commentId: Overload:PenguinHelper.Helper.FileNameHelper.CreateUniqueFilename
+  isSpec: "True"
+  fullName: PenguinHelper.Helper.FileNameHelper.CreateUniqueFilename
+  nameWithType: FileNameHelper.CreateUniqueFilename
+- uid: PenguinHelper.Helper.ThreadSafeRandom
+  name: ThreadSafeRandom
+  href: api/PenguinHelper.Helper.ThreadSafeRandom.html
+  commentId: T:PenguinHelper.Helper.ThreadSafeRandom
+  fullName: PenguinHelper.Helper.ThreadSafeRandom
+  nameWithType: ThreadSafeRandom
+- uid: PenguinHelper.Helper.ThreadSafeRandom.Next
+  name: Next()
+  href: api/PenguinHelper.Helper.ThreadSafeRandom.html#PenguinHelper_Helper_ThreadSafeRandom_Next
+  commentId: M:PenguinHelper.Helper.ThreadSafeRandom.Next
+  fullName: PenguinHelper.Helper.ThreadSafeRandom.Next()
+  nameWithType: ThreadSafeRandom.Next()
+- uid: PenguinHelper.Helper.ThreadSafeRandom.Next(System.Int32,System.Int32)
+  name: Next(Int32, Int32)
+  href: api/PenguinHelper.Helper.ThreadSafeRandom.html#PenguinHelper_Helper_ThreadSafeRandom_Next_System_Int32_System_Int32_
+  commentId: M:PenguinHelper.Helper.ThreadSafeRandom.Next(System.Int32,System.Int32)
+  fullName: PenguinHelper.Helper.ThreadSafeRandom.Next(System.Int32, System.Int32)
+  nameWithType: ThreadSafeRandom.Next(Int32, Int32)
+- uid: PenguinHelper.Helper.ThreadSafeRandom.Next*
+  name: Next
+  href: api/PenguinHelper.Helper.ThreadSafeRandom.html#PenguinHelper_Helper_ThreadSafeRandom_Next_
+  commentId: Overload:PenguinHelper.Helper.ThreadSafeRandom.Next
+  isSpec: "True"
+  fullName: PenguinHelper.Helper.ThreadSafeRandom.Next
+  nameWithType: ThreadSafeRandom.Next
+- uid: PenguinHelper.Helper.ThreadSafeRandom.NextDouble
+  name: NextDouble()
+  href: api/PenguinHelper.Helper.ThreadSafeRandom.html#PenguinHelper_Helper_ThreadSafeRandom_NextDouble
+  commentId: M:PenguinHelper.Helper.ThreadSafeRandom.NextDouble
+  fullName: PenguinHelper.Helper.ThreadSafeRandom.NextDouble()
+  nameWithType: ThreadSafeRandom.NextDouble()
+- uid: PenguinHelper.Helper.ThreadSafeRandom.NextDouble*
+  name: NextDouble
+  href: api/PenguinHelper.Helper.ThreadSafeRandom.html#PenguinHelper_Helper_ThreadSafeRandom_NextDouble_
+  commentId: Overload:PenguinHelper.Helper.ThreadSafeRandom.NextDouble
+  isSpec: "True"
+  fullName: PenguinHelper.Helper.ThreadSafeRandom.NextDouble
+  nameWithType: ThreadSafeRandom.NextDouble
+- uid: PenguinHelper.Helper.ThreadSafeRandom.RandomInRange(System.Double,System.Double)
+  name: RandomInRange(Double, Double)
+  href: api/PenguinHelper.Helper.ThreadSafeRandom.html#PenguinHelper_Helper_ThreadSafeRandom_RandomInRange_System_Double_System_Double_
+  commentId: M:PenguinHelper.Helper.ThreadSafeRandom.RandomInRange(System.Double,System.Double)
+  fullName: PenguinHelper.Helper.ThreadSafeRandom.RandomInRange(System.Double, System.Double)
+  nameWithType: ThreadSafeRandom.RandomInRange(Double, Double)
+- uid: PenguinHelper.Helper.ThreadSafeRandom.RandomInRange*
+  name: RandomInRange
+  href: api/PenguinHelper.Helper.ThreadSafeRandom.html#PenguinHelper_Helper_ThreadSafeRandom_RandomInRange_
+  commentId: Overload:PenguinHelper.Helper.ThreadSafeRandom.RandomInRange
+  isSpec: "True"
+  fullName: PenguinHelper.Helper.ThreadSafeRandom.RandomInRange
+  nameWithType: ThreadSafeRandom.RandomInRange
+- uid: PenguinHelper.Newtonsoft.Extensions
+  name: PenguinHelper.Newtonsoft.Extensions
+  href: api/PenguinHelper.Newtonsoft.Extensions.html
+  commentId: N:PenguinHelper.Newtonsoft.Extensions
+  fullName: PenguinHelper.Newtonsoft.Extensions
+  nameWithType: PenguinHelper.Newtonsoft.Extensions
+- uid: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions
+  name: NewtonsoftExtensions
+  href: api/PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.html
+  commentId: T:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions
+  fullName: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions
+  nameWithType: NewtonsoftExtensions
+- uid: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject*
+  name: DeserializeObject
+  href: api/PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.html#PenguinHelper_Newtonsoft_Extensions_NewtonsoftExtensions_DeserializeObject_
+  commentId: Overload:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject
+  isSpec: "True"
+  fullName: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject
+  nameWithType: NewtonsoftExtensions.DeserializeObject
+- uid: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject``1(System.String)
+  name: DeserializeObject<T>(String)
+  href: api/PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.html#PenguinHelper_Newtonsoft_Extensions_NewtonsoftExtensions_DeserializeObject__1_System_String_
+  commentId: M:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject``1(System.String)
+  name.vb: DeserializeObject(Of T)(String)
+  fullName: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject<T>(System.String)
+  fullName.vb: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject(Of T)(System.String)
+  nameWithType: NewtonsoftExtensions.DeserializeObject<T>(String)
+  nameWithType.vb: NewtonsoftExtensions.DeserializeObject(Of T)(String)
+- uid: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject*
+  name: SerializeObject
+  href: api/PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.html#PenguinHelper_Newtonsoft_Extensions_NewtonsoftExtensions_SerializeObject_
+  commentId: Overload:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject
+  isSpec: "True"
+  fullName: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject
+  nameWithType: NewtonsoftExtensions.SerializeObject
+- uid: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject``1(``0)
+  name: SerializeObject<T>(T)
+  href: api/PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.html#PenguinHelper_Newtonsoft_Extensions_NewtonsoftExtensions_SerializeObject__1___0_
+  commentId: M:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject``1(``0)
+  name.vb: SerializeObject(Of T)(T)
+  fullName: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject<T>(T)
+  fullName.vb: PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject(Of T)(T)
+  nameWithType: NewtonsoftExtensions.SerializeObject<T>(T)
+  nameWithType.vb: NewtonsoftExtensions.SerializeObject(Of T)(T)
+- uid: PenguinHelper.Patterns.GenericFactory
+  name: PenguinHelper.Patterns.GenericFactory
+  href: api/PenguinHelper.Patterns.GenericFactory.html
+  commentId: N:PenguinHelper.Patterns.GenericFactory
+  fullName: PenguinHelper.Patterns.GenericFactory
+  nameWithType: PenguinHelper.Patterns.GenericFactory
+- uid: PenguinHelper.Patterns.GenericFactory.FactoryBase`1
+  name: FactoryBase<T>
+  href: api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.html
+  commentId: T:PenguinHelper.Patterns.GenericFactory.FactoryBase`1
+  name.vb: FactoryBase(Of T)
+  fullName: PenguinHelper.Patterns.GenericFactory.FactoryBase<T>
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.FactoryBase(Of T)
+  nameWithType: FactoryBase<T>
+  nameWithType.vb: FactoryBase(Of T)
+- uid: PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Create(System.String)
+  name: Create(String)
+  href: api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.html#PenguinHelper_Patterns_GenericFactory_FactoryBase_1_Create_System_String_
+  commentId: M:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Create(System.String)
+  fullName: PenguinHelper.Patterns.GenericFactory.FactoryBase<T>.Create(System.String)
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.FactoryBase(Of T).Create(System.String)
+  nameWithType: FactoryBase<T>.Create(String)
+  nameWithType.vb: FactoryBase(Of T).Create(String)
+- uid: PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Create*
+  name: Create
+  href: api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.html#PenguinHelper_Patterns_GenericFactory_FactoryBase_1_Create_
+  commentId: Overload:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Create
+  isSpec: "True"
+  fullName: PenguinHelper.Patterns.GenericFactory.FactoryBase<T>.Create
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.FactoryBase(Of T).Create
+  nameWithType: FactoryBase<T>.Create
+  nameWithType.vb: FactoryBase(Of T).Create
+- uid: PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Register(System.String,System.Func{`0})
+  name: Register(String, Func<T>)
+  href: api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.html#PenguinHelper_Patterns_GenericFactory_FactoryBase_1_Register_System_String_System_Func__0__
+  commentId: M:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Register(System.String,System.Func{`0})
+  name.vb: Register(String, Func(Of T))
+  fullName: PenguinHelper.Patterns.GenericFactory.FactoryBase<T>.Register(System.String, System.Func<T>)
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.FactoryBase(Of T).Register(System.String, System.Func(Of T))
+  nameWithType: FactoryBase<T>.Register(String, Func<T>)
+  nameWithType.vb: FactoryBase(Of T).Register(String, Func(Of T))
+- uid: PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Register*
+  name: Register
+  href: api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.html#PenguinHelper_Patterns_GenericFactory_FactoryBase_1_Register_
+  commentId: Overload:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Register
+  isSpec: "True"
+  fullName: PenguinHelper.Patterns.GenericFactory.FactoryBase<T>.Register
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.FactoryBase(Of T).Register
+  nameWithType: FactoryBase<T>.Register
+  nameWithType.vb: FactoryBase(Of T).Register
+- uid: PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry
+  name: Registry
+  href: api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.html#PenguinHelper_Patterns_GenericFactory_FactoryBase_1_Registry
+  commentId: P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry
+  fullName: PenguinHelper.Patterns.GenericFactory.FactoryBase<T>.Registry
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.FactoryBase(Of T).Registry
+  nameWithType: FactoryBase<T>.Registry
+  nameWithType.vb: FactoryBase(Of T).Registry
+- uid: PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry*
+  name: Registry
+  href: api/PenguinHelper.Patterns.GenericFactory.FactoryBase-1.html#PenguinHelper_Patterns_GenericFactory_FactoryBase_1_Registry_
+  commentId: Overload:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry
+  isSpec: "True"
+  fullName: PenguinHelper.Patterns.GenericFactory.FactoryBase<T>.Registry
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.FactoryBase(Of T).Registry
+  nameWithType: FactoryBase<T>.Registry
+  nameWithType.vb: FactoryBase(Of T).Registry
+- uid: PenguinHelper.Patterns.GenericFactory.IFactory`1
+  name: IFactory<T>
+  href: api/PenguinHelper.Patterns.GenericFactory.IFactory-1.html
+  commentId: T:PenguinHelper.Patterns.GenericFactory.IFactory`1
+  name.vb: IFactory(Of T)
+  fullName: PenguinHelper.Patterns.GenericFactory.IFactory<T>
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.IFactory(Of T)
+  nameWithType: IFactory<T>
+  nameWithType.vb: IFactory(Of T)
+- uid: PenguinHelper.Patterns.GenericFactory.IFactory`1.Create(System.String)
+  name: Create(String)
+  href: api/PenguinHelper.Patterns.GenericFactory.IFactory-1.html#PenguinHelper_Patterns_GenericFactory_IFactory_1_Create_System_String_
+  commentId: M:PenguinHelper.Patterns.GenericFactory.IFactory`1.Create(System.String)
+  fullName: PenguinHelper.Patterns.GenericFactory.IFactory<T>.Create(System.String)
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.IFactory(Of T).Create(System.String)
+  nameWithType: IFactory<T>.Create(String)
+  nameWithType.vb: IFactory(Of T).Create(String)
+- uid: PenguinHelper.Patterns.GenericFactory.IFactory`1.Create*
+  name: Create
+  href: api/PenguinHelper.Patterns.GenericFactory.IFactory-1.html#PenguinHelper_Patterns_GenericFactory_IFactory_1_Create_
+  commentId: Overload:PenguinHelper.Patterns.GenericFactory.IFactory`1.Create
+  isSpec: "True"
+  fullName: PenguinHelper.Patterns.GenericFactory.IFactory<T>.Create
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.IFactory(Of T).Create
+  nameWithType: IFactory<T>.Create
+  nameWithType.vb: IFactory(Of T).Create
+- uid: PenguinHelper.Patterns.GenericFactory.IFactory`1.Register(System.String,System.Func{`0})
+  name: Register(String, Func<T>)
+  href: api/PenguinHelper.Patterns.GenericFactory.IFactory-1.html#PenguinHelper_Patterns_GenericFactory_IFactory_1_Register_System_String_System_Func__0__
+  commentId: M:PenguinHelper.Patterns.GenericFactory.IFactory`1.Register(System.String,System.Func{`0})
+  name.vb: Register(String, Func(Of T))
+  fullName: PenguinHelper.Patterns.GenericFactory.IFactory<T>.Register(System.String, System.Func<T>)
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.IFactory(Of T).Register(System.String, System.Func(Of T))
+  nameWithType: IFactory<T>.Register(String, Func<T>)
+  nameWithType.vb: IFactory(Of T).Register(String, Func(Of T))
+- uid: PenguinHelper.Patterns.GenericFactory.IFactory`1.Register*
+  name: Register
+  href: api/PenguinHelper.Patterns.GenericFactory.IFactory-1.html#PenguinHelper_Patterns_GenericFactory_IFactory_1_Register_
+  commentId: Overload:PenguinHelper.Patterns.GenericFactory.IFactory`1.Register
+  isSpec: "True"
+  fullName: PenguinHelper.Patterns.GenericFactory.IFactory<T>.Register
+  fullName.vb: PenguinHelper.Patterns.GenericFactory.IFactory(Of T).Register
+  nameWithType: IFactory<T>.Register
+  nameWithType.vb: IFactory(Of T).Register
+- uid: PenguinHelper.Patterns.GenericStrategy
+  name: PenguinHelper.Patterns.GenericStrategy
+  href: api/PenguinHelper.Patterns.GenericStrategy.html
+  commentId: N:PenguinHelper.Patterns.GenericStrategy
+  fullName: PenguinHelper.Patterns.GenericStrategy
+  nameWithType: PenguinHelper.Patterns.GenericStrategy
+- uid: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor`1
+  name: GenericStrategyExecutor<T>
+  href: api/PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor-1.html
+  commentId: T:PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor`1
+  name.vb: GenericStrategyExecutor(Of T)
+  fullName: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor<T>
+  fullName.vb: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor(Of T)
+  nameWithType: GenericStrategyExecutor<T>
+  nameWithType.vb: GenericStrategyExecutor(Of T)
+- uid: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor`1.Execute(`0,System.Object)
+  name: Execute(T, Object)
+  href: api/PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor-1.html#PenguinHelper_Patterns_GenericStrategy_GenericStrategyExecutor_1_Execute__0_System_Object_
+  commentId: M:PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor`1.Execute(`0,System.Object)
+  fullName: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor<T>.Execute(T, System.Object)
+  fullName.vb: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor(Of T).Execute(T, System.Object)
+  nameWithType: GenericStrategyExecutor<T>.Execute(T, Object)
+  nameWithType.vb: GenericStrategyExecutor(Of T).Execute(T, Object)
+- uid: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor`1.Execute*
+  name: Execute
+  href: api/PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor-1.html#PenguinHelper_Patterns_GenericStrategy_GenericStrategyExecutor_1_Execute_
+  commentId: Overload:PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor`1.Execute
+  isSpec: "True"
+  fullName: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor<T>.Execute
+  fullName.vb: PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor(Of T).Execute
+  nameWithType: GenericStrategyExecutor<T>.Execute
+  nameWithType.vb: GenericStrategyExecutor(Of T).Execute
+- uid: PenguinHelper.Patterns.GenericStrategy.IStrategy
+  name: IStrategy
+  href: api/PenguinHelper.Patterns.GenericStrategy.IStrategy.html
+  commentId: T:PenguinHelper.Patterns.GenericStrategy.IStrategy
+  fullName: PenguinHelper.Patterns.GenericStrategy.IStrategy
+  nameWithType: IStrategy
+- uid: PenguinHelper.Patterns.GenericStrategy.IStrategy.Execute(System.Object)
+  name: Execute(Object)
+  href: api/PenguinHelper.Patterns.GenericStrategy.IStrategy.html#PenguinHelper_Patterns_GenericStrategy_IStrategy_Execute_System_Object_
+  commentId: M:PenguinHelper.Patterns.GenericStrategy.IStrategy.Execute(System.Object)
+  fullName: PenguinHelper.Patterns.GenericStrategy.IStrategy.Execute(System.Object)
+  nameWithType: IStrategy.Execute(Object)
+- uid: PenguinHelper.Patterns.GenericStrategy.IStrategy.Execute*
+  name: Execute
+  href: api/PenguinHelper.Patterns.GenericStrategy.IStrategy.html#PenguinHelper_Patterns_GenericStrategy_IStrategy_Execute_
+  commentId: Overload:PenguinHelper.Patterns.GenericStrategy.IStrategy.Execute
+  isSpec: "True"
+  fullName: PenguinHelper.Patterns.GenericStrategy.IStrategy.Execute
+  nameWithType: IStrategy.Execute
