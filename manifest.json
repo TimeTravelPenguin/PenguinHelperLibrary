@@ -1,195 +1,15 @@
 {
   "homepages": [],
-  "source_base_path": "D:/Dropbox (MJ Smith)/My Stuff/C#/PenguinHelperLibrary/Project/DocFx",
+  "source_base_path": "D:/Dropbox/My Stuff/C#/PenguinHelperLibrary/Project/DocFx/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.ArrayExtensionMethods.html",
-          "hash": "jTtLZvfNeOMQdGUdaIwEVw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.AutoMapperExtensions.html",
-          "hash": "78y805jo4NEjDuXGILkaUA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.DictionaryExtensions.html",
-          "hash": "Lpzl8ZK/F6JI/yOISuSqkA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.DoubleExtensions.html",
-          "hash": "4a/9DfO7GdXLfHLQqIKAoA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.EnumExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.EnumExtensions.html",
-          "hash": "69iw+QUIxPCY/Wry1JUnRQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.IntegerExtensions.html",
-          "hash": "FpTASuJi/B4NCrpuX5zNbA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.MathExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.MathExtensions.html",
-          "hash": "VTU6lglhXiAAENNuq2Is0Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.NewtonsoftExtensions.html",
-          "hash": "0JYCqXTjqJbzmFkK+Y3v2A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.RandomExtensions.html",
-          "hash": "VS+PH+YoNYCTg/ItZ3Ub1g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Extension_Methods.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Extension_Methods.html",
-          "hash": "A3jARgCNlC7RTWyNvhsdyw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Generic_Factory.FactoryBase-1.html",
-          "hash": "NZY14EjDQShMbWuHszgyeg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Generic_Factory.IFactory-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Generic_Factory.IFactory-1.html",
-          "hash": "oGqlkPYYd4AGRkiyR6j3sg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Generic_Factory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Generic_Factory.html",
-          "hash": "NmBw4x+knGNCeCYnF1XdWg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.FileNameHelper.html",
-          "hash": "Fv53nAu1PmddFa423Ba8Zg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PenguinHelperLibrary.Helpful_Methods.IO.html",
-          "hash": "aECnMe1gXc5nTePE9ePpOw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
     {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "3Rx9NxL/4pRL8Qb2NCjxkQ=="
+          "hash": "cJarOrzug9Ba7aF59Pd8U7SpzgJCbIUOfd36qLnBI5w="
         }
       },
       "is_incremental": true,
@@ -201,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "V9Q7JbF0vfIWUQJYEoKqrg=="
+          "hash": "53cDPdjyKTmYSaPMwcMYYJO/bYpeY21eGi/JWyVQBqE="
         }
       },
       "is_incremental": false,
@@ -213,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "HjlYT5CBMkmxGE9uz/C5Tg=="
+          "hash": "gpdfopab5n9lLvWEQxuqmCpUFFP6YkzrPMpSk1k560I="
         }
       },
       "is_incremental": true,
@@ -225,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
         }
       },
       "is_incremental": false,
@@ -237,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "aOlOa8asIfurCW/8T4PPsA=="
+          "hash": "6fLWtztVGp5xQEkfVgzvosvVByVwKr8gh6Fau1OJ1l4="
         }
       },
       "is_incremental": true,
@@ -249,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
         }
       },
       "is_incremental": false,
@@ -265,12 +85,6 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 15,
-          "skipped_file_count": 15
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
