@@ -50,7 +50,7 @@ jobs:
           INCLUDE_SYMBOLS: true
           
       - name: publish PenguinHelper
-        id: publish_nuget_PenguinHelper.Patterns
+        id: publish_nuget_PenguinHelper_Patterns
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
@@ -84,7 +84,7 @@ jobs:
           INCLUDE_SYMBOLS: true
           
       - name: publish PenguinHelper
-        id: publish_nuget_PenguinHelper.Newtonsoft
+        id: publish_nuget_PenguinHelper_Newtonsoft
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
