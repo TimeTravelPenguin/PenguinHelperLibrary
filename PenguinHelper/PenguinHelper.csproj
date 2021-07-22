@@ -5,6 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/TimeTravelPenguin/PenguinHelperLibrary</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TimeTravelPenguin/PenguinHelperLibrary</RepositoryUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
