@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PenguinHelper.Newtonsoft</name>
+    </assembly>
+    <members>
+        <member name="T:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions">
+            <summary>
+              Extension methods using the <see cref="N:PenguinHelper.Newtonsoft" /> package.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject``1(``0)">
+            <summary>
+              Extension method to simplify object serialization.
+              Returns JSON formatted <see cref="T:System.String" />.
+            </summary>
+            <typeparam name="T">
+              The object type of <paramref name="serializableObject" /> that will be serialized.
+            </typeparam>
+            <param name="serializableObject">
+              The object to be serialized.
+            </param>
+            <returns>
+              Returns a <see cref="T:System.String" /> value
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject``1(System.String)">
+            <summary>
+              Extension method to simplify object deserialization.
+              Returns a <typeparamref name="T" /> object.
+            </summary>
+            <typeparam name="T">
+              The object type of the deserialized object.
+            </typeparam>
+            <param name="serializedObj">
+              The JSON formatted <see cref="T:System.String" /> to deserialize
+            </param>
+            <returns>
+              Returns the deserialized object of type <typeparamref name="T" />
+            </returns>
+        </member>
+    </members>
+</doc>

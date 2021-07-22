@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PenguinHelper.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests">
+            <summary>
+              Tests for <see cref="T:PenguinHelper.Extensions.ArrayExtensionMethods" />
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillTests">
+            <summary>
+              Tests <see cref="M:PenguinHelper.Extensions.ArrayExtensionMethods.Fill``1(``0[],``0)" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillTests.FillTest">
+            <summary>
+              Tests filling value for all indexes of array
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillTests.FillTest_NullArray">
+            <summary>
+              Tests that method throws exception when array is null
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillTests.FillTest_WithObject">
+            <summary>
+              Tests filling with object is same object reference for all values
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillWithDefaultTests">
+            <summary>
+              Tests <see cref="M:PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault``1(``0[])" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillWithDefaultTests.FillWithDefaultTest">
+            <summary>
+              Tests all indexes hold the default value of the given array type
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillNullIndexTests">
+            <summary>
+              Tests for <see cref="!:ArrayExtensionMethods.FillNullIndex&lt;T&gt;(T[], T)" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillNullIndexTests.FillIfNullTest">
+            <summary>
+              Tests that all null values are replaced
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillNullIndexTests.FillIfNullTest_ArgumentNullException">
+            <summary>
+              Tests for null argument exception
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillUsingFactory">
+            <summary>
+              Tests for <see cref="M:PenguinHelper.Extensions.ArrayExtensionMethods.Fill``1(``0[],System.Func{``0})" />.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.ArrayExtensionTests.FillUsingFactory.FillUsingFactoryTest">
+            <summary>
+              Uses the fill function to add objects using a factory
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests">
+            <summary>
+              Tests <see cref="T:PenguinHelper.Extensions.DictionaryExtensions" />
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.GetValueOrDefault">
+            <summary>
+              Tests
+              <see
+                cref="T:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.GetValueOrDefault" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.GetValueOrDefault.GetValueOrDefaultTest_Default">
+            <summary>
+              Tests successful return of preferred default value of a dictionary, requesting only keys that are not contained.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.GetValueOrDefault.GetValueOrDefaultTest_NoDefault_ContainedKeys">
+            <summary>
+              Tests successful return of dictionary value when giving a contained key.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.GetValueOrDefault.GetValueOrDefaultTest_NoDefault_NonContainedKeys">
+            <summary>
+              Tests successful return of default dictionary value when giving a non-contained key.
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.AddKeyValuePair">
+            <summary>
+              Tests
+              <see
+                cref="T:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.AddKeyValuePair" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.AddKeyValuePair.AddKeyValuePairsTest">
+            <summary>
+              Tests for successful addition of <see cref="T:System.Collections.Generic.KeyValuePair`2" /> to
+              <see cref="T:System.Collections.Generic.IDictionary`2" />, given a collection of
+              <see cref="T:System.Collections.Generic.KeyValuePair`2" />.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.AddKeyValuePair.AddKeyValuePairsTest_Dictionary_NullArgumentException">
+            <summary>
+              Tests NullArgumentException given a null reference <see cref="T:System.Collections.Generic.Dictionary`2" />
+              in overloaded method
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.AddKeyValuePair.AddKeyValuePairTest">
+            <summary>
+              Tests for successful addition of <see cref="T:System.Collections.Generic.KeyValuePair`2" /> to
+              <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.AddKeyValuePair.AddKeyValuePairTest_Dictionary_NullArgumentException">
+            <summary>
+              Tests NullArgumentException given a null reference <see cref="T:System.Collections.Generic.Dictionary`2" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DictionaryExtensionTests.AddKeyValuePair.AddKeyValuePairRangeTest_KeyValuePair_NullArgumentException">
+            <summary>
+              Tests NullArgumentException given a null reference <see cref="T:System.Collections.Generic.IEnumerable`1" />
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests">
+            <summary>
+              Tests <see cref="T:PenguinHelper.Extensions.DoubleExtensions" />
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsZero">
+            <summary>
+              Tests <see cref="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsZero" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsZero.IsZeroTest_False_EdgeCases(System.Double)">
+            <summary>
+              Tests that edge cases return false
+            </summary>
+            <param name="expected"></param>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsZero.IsZeroTest_False_Double">
+            <summary>
+              Tests that non-zero values return false
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsZero.IsZeroTest_True">
+            <summary>
+              Tests that zero returns true
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsEqualTo">
+            <summary>
+              Tests <see cref="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsEqualTo" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsEqualTo.IsEqualTo_True_EdgeCases(System.Double)">
+            <summary>
+              Tests that edge cases return true
+            </summary>
+            <param name="expected"></param>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsEqualTo.IsEqualTo_False_EdgeCases(System.Double)">
+            <summary>
+              Tests that edge cases return false
+            </summary>
+            <param name="expected"></param>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsEqualTo.IsEqualTo_False">
+            <summary>
+              Tests that two un-identical values return false
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsEqualTo.IsEqualTo_True">
+            <summary>
+              Tests that identical values return true
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThan">
+            <summary>
+              Tests <see cref="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThan" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThan.IsGreaterThan_True_EdgeCases(System.Double,System.Double)">
+            <summary>
+              Tests that edge cases return true
+            </summary>
+            <param name="lhs"></param>
+            <param name="rhs"></param>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThan.IsGreaterThan_False_EdgeCases(System.Double,System.Double)">
+            <summary>
+              Tests that edge case return false
+            </summary>
+            <param name="lhs"></param>
+            <param name="rhs"></param>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThan.IsGreaterThan_False">
+            <summary>
+              Tests that if a smaller or equal sized number is not greater than a larger or equal number
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThan.IsGreaterThan_True">
+            <summary>
+              Tests a bigger number is greater than a smaller number
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThanOrEqual">
+            <summary>
+              Tests <see cref="!:DoubleExtensions.IsGreaterThanOrEqual(double, double)" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThanOrEqual.IsGreaterThanOrEqual_True_EdgeCases(System.Double,System.Double)">
+            <summary>
+              Tests edge cases return true
+            </summary>
+            <param name="lhs"></param>
+            <param name="rhs"></param>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThanOrEqual.IsGreaterThanOrEqual_False_EdgeCases(System.Double,System.Double)">
+            <summary>
+              Tests edge cases return false
+            </summary>
+            <param name="lhs"></param>
+            <param name="rhs"></param>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThanOrEqual.IsGreaterThanOrEqual_False">
+            <summary>
+              Tests a smaller number is not greater than or equal to another number
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsGreaterThanOrEqual.IsGreaterThanOrEqual_True">
+            <summary>
+              Tests a larger number is greater than or equal to a smaller number
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsInfinityTests">
+            <summary>
+              Tests <see cref="M:PenguinHelper.Extensions.DoubleExtensions.IsInfinity(System.Double)" />.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsInfinityTests.IsInfinityTest_NonNumber(System.Double,System.Boolean)">
+            <summary>
+              Test for non numerical inputs
+            </summary>
+            <param name="value">
+              The number to test is infinity.
+            </param>
+            <param name="expected">
+              The expected result.
+            </param>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.IsInfinityTests.IsInfinityTest_Number">
+            <summary>
+              Tests that a double non-infinity number returns false.
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.LimitToRangeTests">
+            <summary>
+              Tests <see cref="M:PenguinHelper.Extensions.DoubleExtensions.LimitToRange(System.Double,System.Double,System.Double)" />.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.DoubleExtensionTests.LimitToRangeTests.LimitToRange">
+            <summary>
+              Runs tests to check the correct result is returned within the range
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.EnumExtensionTests">
+            <summary>
+              Tests <see cref="T:PenguinHelper.Extensions.EnumExtensions" />
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.EnumExtensionTests.EnumToArrayTests">
+            <summary>
+              Tests <see cref="M:PenguinHelper.Extensions.EnumExtensions.EnumToArray``1" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.EnumExtensionTests.EnumToArrayTests.EnumToArrayTest">
+            <summary>
+              Tests that an array is returned with all the appropriate enum values an have the correct type
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.NewtonsoftExtensionTests">
+            <summary>
+              Tests <see cref="T:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions" />
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.NewtonsoftExtensionTests.SerializeObjectTests">
+            <summary>
+              Tests <see cref="M:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.SerializeObject``1(``0)" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.NewtonsoftExtensionTests.SerializeObjectTests.SerializeObjectTest">
+            <summary>
+              Tests that the serialization extension method returns the correct result
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.NewtonsoftExtensionTests.DeserializeObjectTests">
+            <summary>
+              Tests <see cref="M:PenguinHelper.Newtonsoft.Extensions.NewtonsoftExtensions.DeserializeObject``1(System.String)" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.NewtonsoftExtensionTests.DeserializeObjectTests.DeserializeObjectTest">
+            <summary>
+              Tests that the deserialization extension method returns the correct result
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.RandomExtensionTests">
+            <summary>
+              Tests <see cref="T:PenguinHelper.Extensions.RandomExtensions" />
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Tests.ExtensionTests.RandomExtensionTests.GetRandomInTests">
+            <summary>
+              Tests <see cref="M:PenguinHelper.Extensions.RandomExtensions.GetRandomIn``1(System.Collections.Generic.ICollection{``0})" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.RandomExtensionTests.GetRandomInTests.GetRandomInTest">
+            <summary>
+              Tests to ensure items being returned are contained in the collection
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Tests.ExtensionTests.RandomExtensionTests.GetRandomInTests.TestNullCollection">
+            <summary>
+              Tests that <see cref="M:PenguinHelper.Extensions.RandomExtensions.GetRandomIn``1(System.Collections.Generic.ICollection{``0})" /> throws
+              <see cref="T:System.ArgumentNullException" /> when collection is <see langword="null" />.
+            </summary>
+        </member>
+    </members>
+</doc>

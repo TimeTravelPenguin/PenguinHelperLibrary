@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PenguinHelper</name>
+    </assembly>
+    <members>
+        <member name="T:PenguinHelper.Extensions.ArrayExtensionMethods">
+            <summary>
+              Extension methods for <see cref="T:System.Array" /> objects
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Extensions.ArrayExtensionMethods.Fill``1(``0[],``0)">
+            <summary>
+              Fills an array with an object or value. If an object, it will be the same reference for each.
+            </summary>
+            <typeparam name="T">
+              The type of the array
+            </typeparam>
+            <param name="arr">
+              The array to fill
+            </param>
+            <param name="value">
+              The value to fill
+            </param>
+        </member>
+        <member name="M:PenguinHelper.Extensions.ArrayExtensionMethods.Fill``1(``0[],System.Func{``0})">
+            <summary>
+              Fills an array with an object of value, given a function to generate the object or value.
+            </summary>
+            <typeparam name="T">
+              The type of array.
+            </typeparam>
+            <param name="arr">
+              The array to fill.
+            </param>
+            <param name="generatorFunc">
+              The generating function to use to fill the array.
+            </param>
+        </member>
+        <member name="M:PenguinHelper.Extensions.ArrayExtensionMethods.FillWithDefault``1(``0[])">
+            <summary>
+              Fills and array with the default of the array base type.
+            </summary>
+            <typeparam name="T">
+              The type of the array
+            </typeparam>
+            <param name="arr">
+              The array to fill
+            </param>
+        </member>
+        <member name="M:PenguinHelper.Extensions.ArrayExtensionMethods.ReplaceNull``1(``0[],``0)">
+            <summary>
+              Fills an array with an object or value for any null objects in the array.
+              If an object, it will be the same reference for each.
+            </summary>
+            <typeparam name="T">
+              The type of the array
+            </typeparam>
+            <param name="arr">
+              The array to fill
+            </param>
+            <param name="value">
+              The value to fill
+            </param>
+        </member>
+        <member name="T:PenguinHelper.Extensions.DictionaryExtensions">
+            <summary>
+              Extension methods for type <see cref="T:System.Collections.IDictionary" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)">
+            <summary>
+              Returns a <typeparamref name="TValue" /> within an <see cref="T:System.Collections.Generic.IDictionary`2" />, given a
+              <typeparamref name="TKey" /> <paramref name="key" />. If the <typeparamref name="TKey" /> does not exist, the
+              returned value is the <see langword="default" /> value of <typeparamref name="TValue" />.
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="dictionary">The <see cref="T:System.Collections.IDictionary" /> value to get a value.</param>
+            <param name="key">
+              The <typeparamref name="TKey" /> key value of a <see cref="T:System.Collections.Generic.KeyValuePair`2" /> within
+              <paramref name="dictionary" />.
+            </param>
+            <returns>
+              Returns a <typeparamref name="TValue" /> value paired with <paramref name="key" />, if <paramref name="key" />
+              exists. Otherwise, returns the default type of <typeparamref name="TValue" />.
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)">
+            <summary>
+              Returns a <typeparamref name="TValue" /> within an <see cref="T:System.Collections.Generic.IDictionary`2" />, given a
+              <typeparamref name="TKey" /> <paramref name="key" />. If the <typeparamref name="TKey" /> does not exist, the
+              returned value is <paramref name="defaultValue" />.
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="dictionary">The <see cref="T:System.Collections.IDictionary" /> value to get a value.</param>
+            <param name="key">
+              The <typeparamref name="TKey" /> key value of a <see cref="T:System.Collections.Generic.KeyValuePair`2" /> within
+              <paramref name="dictionary" />.
+            </param>
+            <param name="defaultValue">
+              The <typeparamref name="TValue" /> to return if the <see cref="T:System.Collections.IDictionary" /> does not contain the
+              <typeparamref name="TKey" /> name="TKey" /> <paramref name="key" />.
+            </param>
+            <returns>
+              Returns a <typeparamref name="TValue" /> value paired with <paramref name="key" />, if <paramref name="key" />
+              exists. Otherwise, returns <paramref name="defaultValue" />.
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DictionaryExtensions.Add``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.KeyValuePair{``0,``1})">
+            <summary>
+              Adds a array of <see cref="T:System.Collections.Generic.KeyValuePair`2" /> to an <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="dictionary">
+              The <see cref="T:System.Collections.Generic.IDictionary`2" /> to add to.
+            </param>
+            <param name="keyValuePair">
+              The <see cref="T:System.Collections.Generic.KeyValuePair`2" /> to add.
+            </param>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DictionaryExtensions.AddRange``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+            <summary>
+              Adds a array of <see cref="T:System.Collections.Generic.KeyValuePair`2" /> to an <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="dictionary">
+              The <see cref="T:System.Collections.Generic.IDictionary`2" /> to add to.
+            </param>
+            <param name="keyValuePairs">
+              The array of <see cref="T:System.Collections.Generic.KeyValuePair`2" /> to add.
+            </param>
+        </member>
+        <member name="T:PenguinHelper.Extensions.DoubleExtensions">
+            <summary>
+              Extension methods for type <see cref="T:System.Double" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DoubleExtensions.IsZero(System.Double,System.Double)">
+            <summary>
+              Checks if a <see cref="T:System.Double" /> value is equal to zero.
+            </summary>
+            <param name="value">The <see cref="T:System.Double" /> value to check if zero.</param>
+            <param name="precision">The acceptable amount of error.</param>
+            <returns>
+              Returns <see cref="T:System.Boolean" />. If <c>true</c>, the <paramref name="value" /> is equal to zero.
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DoubleExtensions.IsEqualTo(System.Double,System.Double,System.Double)">
+            <summary>
+              Compares two <see cref="T:System.Double" /> values and returns <see langword="true" /> if they are equal.
+            </summary>
+            <param name="lhs">The first <see cref="T:System.Double" /> value.</param>
+            <param name="rhs">The second <see cref="T:System.Double" /> value.</param>
+            <param name="precision">The acceptable amount of error.</param>
+            <returns>
+              Returns <see langword="true" /> if values are equal.
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DoubleExtensions.IsGreaterThan(System.Double,System.Double)">
+            <summary>
+              Compares two <see cref="T:System.Double" /> values and returns <see langword="true" /> if <paramref name="lhs" /> is greater
+              than <paramref name="rhs" />.
+            </summary>
+            <param name="lhs">The first <see cref="T:System.Double" /> value.</param>
+            <param name="rhs">The second <see cref="T:System.Double" /> value.</param>
+            <returns>
+              Returns <see langword="true" /> if <paramref name="lhs" /> is greater than <paramref name="rhs" />.
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DoubleExtensions.IsGreaterThanOrEqual(System.Double,System.Double,System.Double)">
+            <summary>
+              Compares two <see cref="T:System.Double" /> values and returns <see langword="true" /> if <paramref name="lhs" /> is greater
+              than or equal to <paramref name="rhs" />.
+            </summary>
+            <param name="lhs">The first <see cref="T:System.Double" /> value.</param>
+            <param name="rhs">The second <see cref="T:System.Double" /> value.</param>
+            <param name="precision">The acceptable amount of error.</param>
+            <returns>
+              Returns <see langword="true" /> if <paramref name="lhs" /> is greater than or equal to <paramref name="rhs" />.
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DoubleExtensions.IsInfinity(System.Double)">
+            <summary>
+              Checks if a <see cref="T:System.Double" /> is equal to either <see cref="F:System.Double.PositiveInfinity" /> or
+              <see cref="F:System.Double.NegativeInfinity" />.
+              <para>
+              </para>
+              This extension method performs: <see cref="M:System.Double.IsInfinity(System.Double)" />.
+            </summary>
+            <param name="value">
+              The value to check
+            </param>
+            <returns>
+              Returns <see cref="T:System.Boolean" /> value
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Extensions.DoubleExtensions.LimitToRange(System.Double,System.Double,System.Double)">
+            <summary>
+              Returns either the minimum or maximum value of a range, if a given value exceeds that range.
+            </summary>
+            <param name="value">
+              The given value to test is within a range.
+            </param>
+            <param name="inclusiveMinimum">
+              The minimum value. If <paramref name="value" /> is less than this value, the returned result is
+              <paramref name="inclusiveMinimum" />.
+            </param>
+            <param name="inclusiveMaximum">
+              The minimum value. If <paramref name="value" /> is greater than this value, the returned result is
+              <paramref name="inclusiveMaximum" />.
+            </param>
+            <returns>
+              Returns a <see cref="T:System.Double" /> value.
+            </returns>
+        </member>
+        <member name="T:PenguinHelper.Extensions.EnumExtensions">
+            <summary>
+              Extension methods for type <see cref="T:System.Enum" />.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Extensions.EnumExtensions.EnumToArray``1">
+            <summary>
+              Returns an array of type <typeparamref name="T" /> containing <see cref="T:System.Enum" /> values.
+            </summary>
+            <typeparam name="T">
+              The element type of the array
+            </typeparam>
+            <returns>
+              Returns an array of type <typeparamref name="T" />
+            </returns>
+        </member>
+        <member name="T:PenguinHelper.Extensions.MathExtensions">
+            <summary>
+              Extension methods performing <see cref="T:System.Math" /> operations.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Extensions.MathExtensions.PercentOf(System.Double,System.Double)">
+            <summary>
+              Gets a percentage
+            </summary>
+            <param name="lhs"></param>
+            <param name="rhs"></param>
+            <returns>Returns the percentage proportion of the two arguments</returns>
+        </member>
+        <member name="T:PenguinHelper.Extensions.RandomExtensions">
+            <summary>
+              Extension methods to perform random operations
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Extensions.RandomExtensions.GetRandomIn``1(System.Collections.Generic.ICollection{``0})">
+            <summary>
+              Returns a random item from within an <see cref="T:System.Collections.Generic.ICollection`1" />.
+            </summary>
+            <typeparam name="T">
+              The object type of the elements of the collection.
+            </typeparam>
+            <param name="collection">
+              The collection of elements.
+            </param>
+            <returns>
+              Returns a random <typeparamref name="T" /> from within <paramref name="collection" />.
+            </returns>
+        </member>
+        <member name="T:PenguinHelper.Helper.FileNameHelper">
+            <summary>
+              Methods to assist with file creation, management, etc.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Helper.FileNameHelper.CreateUniqueFilename(System.String)">
+            <summary>
+              Ensures a filename is unique by generating a unique filename if the specified file already exists.
+              If the provided filename exists this method generates a new name that contains a numerical suffix (starting at 1)
+              while ensuring the new filename also does not exist. This method does not create the file so applications should
+              take extra measures to ensure the returned filename is still unique before using it (the file may have since been
+              created by another process.
+            </summary>
+            <example>
+              And example of this code would be having a
+              <c><see cref="T:System.String" /> FileAddress = "C:\MyFiles\ExampleOutput.txt"</c>,
+              and then using <c>fileName = CreateUniqueFilename(FileAddress);</c>
+              <para />
+              Assuming the file location already contains ExampleOutput.txt, ExampleOutput1.txt, and ExampleOutput2.txt, then the
+              output will be ExampleOutput3.txt.
+            </example>
+            <param name="baseFilename">
+              The address to the file to create a unique filename
+            </param>
+            <returns>
+              Returns a unique filename
+            </returns>
+        </member>
+    </members>
+</doc>

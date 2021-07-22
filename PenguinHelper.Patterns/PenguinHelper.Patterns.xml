@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PenguinHelper.Patterns</name>
+    </assembly>
+    <members>
+        <member name="T:PenguinHelper.Patterns.GenericFactory.FactoryBase`1">
+            <summary>
+              Creates a Factory to construct objects of type <typeparamref name="T" />.
+            </summary>
+            <typeparam name="T">
+              A class type object
+            </typeparam>
+        </member>
+        <member name="P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry">
+            <summary>
+              An <see cref="T:System.Collections.Generic.IDictionary`2" /> containing <see cref="T:System.Collections.Generic.KeyValuePair`2" /> to create objects.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Create(System.String)">
+            <summary>
+              If <see cref="P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry" /> contains a Key" of <paramref name="key" />,
+              it will return an object defined by the Value.
+            </summary>
+            <param name="key">
+              The Key contained within <see cref="P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry" />.
+            </param>
+            <exception cref="T:System.ArgumentException">
+              Throws exception if <see cref="P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry" /> does not contain Key
+            </exception>
+            <returns>
+              Returns object of type <typeparamref name="T" />.
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Register(System.String,System.Func{`0})">
+            <summary>
+              Adds a new pair to <see cref="P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry" /> for creation of new objects of type <typeparamref name="T" />.
+            </summary>
+            <param name="key">
+              The <see cref="T:System.String" /> Key to add to <see cref="P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry" />.
+            </param>
+            <param name="valueFunc">
+              The <see cref="T:System.Func`1" /> Value to add to <see cref="P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry" />.
+            </param>
+            <exception cref="T:System.ArgumentException">
+              Throws exception if <see cref="P:PenguinHelper.Patterns.GenericFactory.FactoryBase`1.Registry" /> already contains Key attempting to be
+              registered
+            </exception>
+        </member>
+        <member name="T:PenguinHelper.Patterns.GenericFactory.IFactory`1">
+            <summary>
+              Interface for generic factory.
+            </summary>
+            <typeparam name="T">
+              The type of object factory creates.
+            </typeparam>
+        </member>
+        <member name="M:PenguinHelper.Patterns.GenericFactory.IFactory`1.Create(System.String)">
+            <summary>
+              Create a new object, given by <paramref name="key" />.
+            </summary>
+            <param name="key">
+              The key given to create an object.
+            </param>
+            <returns>
+              Returns object of type <typeparamref name="T" />.
+            </returns>
+        </member>
+        <member name="M:PenguinHelper.Patterns.GenericFactory.IFactory`1.Register(System.String,System.Func{`0})">
+            <summary>
+              Registers a new object to the factory registry so that the factory can then create a new object that didn't
+              previously exist within the registry.
+            </summary>
+            <param name="key">
+              The key to be assigned to the registry.
+            </param>
+            <param name="valueFunc">
+              The <see cref="T:System.Func`1" /> to generate a new object for <paramref name="key" />.
+            </param>
+        </member>
+        <member name="T:PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor`1">
+            <summary>
+              Object used to implement the strategy pattern
+            </summary>
+            <typeparam name="T">
+              A class object that inherits from <see cref="T:PenguinHelper.Patterns.GenericStrategy.IStrategy" />.
+            </typeparam>
+        </member>
+        <member name="M:PenguinHelper.Patterns.GenericStrategy.GenericStrategyExecutor`1.Execute(`0,System.Object)">
+            <summary>
+              Executes a given strategy.
+            </summary>
+            <param name="strategy">
+              The strategy to use.
+            </param>
+            <param name="parameter">
+              The parameter to pass.
+            </param>
+        </member>
+        <member name="T:PenguinHelper.Patterns.GenericStrategy.IStrategy">
+            <summary>
+              Interface for a strategy
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Patterns.GenericStrategy.IStrategy.Execute(System.Object)">
+            <summary>
+              Executes the strategy
+            </summary>
+            <param name="parameter">
+              A passed parameter to the strategy.
+            </param>
+        </member>
+    </members>
+</doc>

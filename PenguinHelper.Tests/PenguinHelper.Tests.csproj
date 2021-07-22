@@ -6,6 +6,10 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Dropbox\My Stuff\C#\PenguinHelperLibrary\Project\PenguinHelper.Tests\PenguinHelper.Tests.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="AllOverIt.Fixture" Version="1.4.0" />
     <PackageReference Include="FluentAssertions" Version="5.10.3" />

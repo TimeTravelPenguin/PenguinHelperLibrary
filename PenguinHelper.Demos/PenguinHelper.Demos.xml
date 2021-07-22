@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PenguinHelper.Demos</name>
+    </assembly>
+    <members>
+        <member name="T:PenguinHelper.Demos.Factory.AnimalFactory">
+            <summary>
+              A demo factory containing two default objects in the Registry
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Demos.Factory.Animals">
+            <summary>
+              Default factory registry
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Demos.Factory.FactoryDemo">
+            <summary>
+              Demo showing how to use the generic factory, including how to register own objects to the factory.
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Demos.Factory.FactoryDemo.RunDemo">
+            <summary>
+              Create an IAnimal with a method called Sound() which performs a different action dependent on the class (dog, cat,
+              etc)
+            </summary>
+        </member>
+        <member name="T:PenguinHelper.Demos.Program">
+            <summary>
+              Main entry point for <see cref="!:PenguinHelperLibrary.Demos" />
+            </summary>
+        </member>
+        <member name="M:PenguinHelper.Demos.Program.Main">
+            <summary>
+              Main method launches the desired demo
+            </summary>
+        </member>
+    </members>
+</doc>
