@@ -3,20 +3,24 @@
 // Name: Phillip Smith
 // 
 // Solution: PenguinHelperLibrary
-// Project: PenguinHelperLibrary.Demos
+// Project: PenguinHelper.Demos
 // File Name: UpperEncoderStrategy.cs
 // 
 // Current Data:
-// 2019-12-30 11:14 PM
+// 2021-07-22 7:56 PM
 // 
 // Creation Date:
-// 2019-12-30 10:57 PM
+// 2020-04-25 1:30 PM
 
 #endregion
 
+#region usings
+
 using System;
 
-namespace PenguinHelperLibrary.Demos.Strategy.Strategies
+#endregion
+
+namespace PenguinHelper.Demos.Strategy.Strategies
 {
   internal class UpperEncoderStrategy : IEncoder
   {
@@ -30,7 +34,7 @@ namespace PenguinHelperLibrary.Demos.Strategy.Strategies
 
     public void Execute(object parameter)
     {
-      if (!(parameter is string message))
+      if (parameter is not string message)
       {
         throw new ArgumentException("Parameter is not a string", nameof(parameter));
       }

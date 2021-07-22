@@ -3,29 +3,35 @@
 // Name: Phillip Smith
 // 
 // Solution: PenguinHelperLibrary
-// Project: PenguinHelperLibrary.Demos
+// Project: PenguinHelper.Demos
 // File Name: AnimalFactory.cs
 // 
 // Current Data:
-// 2019-12-30 6:04 PM
+// 2021-07-22 7:54 PM
 // 
 // Creation Date:
-// 2019-12-30 5:38 PM
+// 2020-04-25 1:30 PM
 
 #endregion
 
+#region usings
+
 using System;
 using System.Collections.Generic;
-using PenguinHelperLibrary.Demos.Factory.Objects;
-using PenguinHelperLibrary.Generic_Factory;
+using PenguinHelper.Demos.Factory.Objects;
+using PenguinHelper.Patterns.GenericFactory;
 
-namespace PenguinHelperLibrary.Demos.Factory
+#endregion
+
+namespace PenguinHelper.Demos.Factory
 {
   /// <summary>
   ///   A demo factory containing two default objects in the Registry
   /// </summary>
   internal class AnimalFactory : FactoryBase<IAnimal>
   {
+    protected override IDictionary<string, Func<IAnimal>> Registry { get; }
+
     public AnimalFactory()
     {
       // Registers default items

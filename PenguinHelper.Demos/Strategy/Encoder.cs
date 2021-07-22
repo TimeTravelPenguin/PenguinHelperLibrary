@@ -3,28 +3,33 @@
 // Name: Phillip Smith
 // 
 // Solution: PenguinHelperLibrary
-// Project: PenguinHelperLibrary.Demos
+// Project: PenguinHelper.Demos
 // File Name: Encoder.cs
 // 
 // Current Data:
-// 2019-12-30 11:10 PM
+// 2021-07-22 7:56 PM
 // 
 // Creation Date:
-// 2019-12-30 11:02 PM
+// 2020-04-25 1:29 PM
 
 #endregion
 
-using PenguinHelperLibrary.Generic_Strategy;
+#region usings
 
-namespace PenguinHelperLibrary.Demos.Strategy
+
+#endregion
+
+using PenguinHelper.Patterns.GenericStrategy;
+
+namespace PenguinHelper.Demos.Strategy
 {
   internal class Encoder
   {
-    private readonly Strategizer<IEncoder> _strategizer;
+    private readonly GenericStrategyExecutor<IEncoder> _strategyExecutor;
 
     public Encoder()
     {
-      _strategizer = new Strategizer<IEncoder>();
+      _strategyExecutor = new GenericStrategyExecutor<IEncoder>();
     }
 
     public static string Encode(string message, IEncoder encoder)

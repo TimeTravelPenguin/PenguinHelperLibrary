@@ -3,21 +3,25 @@
 // Name: Phillip Smith
 // 
 // Solution: PenguinHelperLibrary
-// Project: PenguinHelperLibrary.Demos
+// Project: PenguinHelper.Demos
 // File Name: FactoryDemo.cs
 // 
 // Current Data:
-// 2019-12-30 7:15 PM
+// 2021-07-22 7:54 PM
 // 
 // Creation Date:
-// 2019-12-30 6:17 PM
+// 2020-04-25 1:31 PM
 
 #endregion
 
-using System;
-using PenguinHelperLibrary.Demos.Factory.Objects;
+#region usings
 
-namespace PenguinHelperLibrary.Demos.Factory
+using System;
+using PenguinHelper.Demos.Factory.Objects;
+
+#endregion
+
+namespace PenguinHelper.Demos.Factory
 {
   /// <summary>
   ///   Demo showing how to use the generic factory, including how to register own objects to the factory.

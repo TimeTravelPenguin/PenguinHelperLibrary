@@ -3,18 +3,18 @@
 // Name: Phillip Smith
 // 
 // Solution: PenguinHelperLibrary
-// Project: PenguinHelperLibrary.Demos
+// Project: PenguinHelper.Demos
 // File Name: Animals.cs
 // 
 // Current Data:
-// 2019-12-30 11:16 PM
+// 2021-07-22 7:54 PM
 // 
 // Creation Date:
-// 2019-12-30 6:17 PM
+// 2020-04-25 1:28 PM
 
 #endregion
 
-namespace PenguinHelperLibrary.Demos.Factory
+namespace PenguinHelper.Demos.Factory
 {
   /// <summary>
   ///   Default factory registry

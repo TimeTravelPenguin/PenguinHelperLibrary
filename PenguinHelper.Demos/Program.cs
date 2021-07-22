@@ -15,9 +15,9 @@
 #endregion
 
 using System;
-using PenguinHelperLibrary.Demos.Strategy;
+using PenguinHelper.Demos.Strategy;
 
-namespace PenguinHelperLibrary.Demos
+namespace PenguinHelper.Demos
 {
   /// <summary>
   ///   Main entry point for <see cref="PenguinHelperLibrary.Demos" />

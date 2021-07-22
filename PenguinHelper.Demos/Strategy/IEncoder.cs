@@ -3,20 +3,25 @@
 // Name: Phillip Smith
 // 
 // Solution: PenguinHelperLibrary
-// Project: PenguinHelperLibrary.Demos
+// Project: PenguinHelper.Demos
 // File Name: IEncoder.cs
 // 
 // Current Data:
-// 2019-12-30 11:09 PM
+// 2021-07-22 7:55 PM
 // 
 // Creation Date:
-// 2019-12-30 11:05 PM
+// 2020-04-25 1:28 PM
 
 #endregion
 
-using PenguinHelperLibrary.Generic_Strategy;
+#region usings
 
-namespace PenguinHelperLibrary.Demos.Strategy
+
+#endregion
+
+using PenguinHelper.Patterns.GenericStrategy;
+
+namespace PenguinHelper.Demos.Strategy
 {
   internal interface IEncoder : IStrategy
   {

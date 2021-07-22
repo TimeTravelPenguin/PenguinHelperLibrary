@@ -15,9 +15,9 @@
 #endregion
 
 using System;
-using PenguinHelperLibrary.Demos.Strategy.Strategies;
+using PenguinHelper.Demos.Strategy.Strategies;
 
-namespace PenguinHelperLibrary.Demos.Strategy
+namespace PenguinHelper.Demos.Strategy
 {
   internal static class StrategyDemo
   {

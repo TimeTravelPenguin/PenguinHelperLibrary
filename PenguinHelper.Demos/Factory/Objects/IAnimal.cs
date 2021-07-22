@@ -14,7 +14,7 @@
 
 #endregion
 
-namespace PenguinHelperLibrary.Demos.Factory.Objects
+namespace PenguinHelper.Demos.Factory.Objects
 {
   internal interface IAnimal
   {
