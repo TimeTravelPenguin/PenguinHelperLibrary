@@ -20,7 +20,7 @@ jobs:
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
-          PROJECT_FILE_PATH: PenguinHelper/PenguinHelper.csproj
+          PROJECT_FILE_PATH: PenguinHelper/PenguinHelper/PenguinHelper.csproj
           
           # NuGet package id, used for version detection & defaults to project name
           PACKAGE_NAME: PenguinHelper
@@ -54,7 +54,7 @@ jobs:
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
-          PROJECT_FILE_PATH: PenguinHelper.Patterns/PenguinHelper.Patterns.csproj
+          PROJECT_FILE_PATH: PenguinHelper/PenguinHelper.Patterns/PenguinHelper.Patterns.csproj
           
           # NuGet package id, used for version detection & defaults to project name
           PACKAGE_NAME: PenguinHelper.Patterns
@@ -88,7 +88,7 @@ jobs:
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
-          PROJECT_FILE_PATH: PenguinHelper.Newtonsoft/PenguinHelper.Newtonsoft.csproj
+          PROJECT_FILE_PATH: PenguinHelper/PenguinHelper.Newtonsoft/PenguinHelper.Newtonsoft.csproj
           
           # NuGet package id, used for version detection & defaults to project name
           PACKAGE_NAME: PenguinHelper.Newtonsoft
